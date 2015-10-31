@@ -1,0 +1,8 @@
+
+name=Who is the operator of licence X?
+orderNum=2
+sql=SELECT a.prlName, a.cmpLongName, a.prlOperDateValidFrom FROM licence_oper_hst a WHERE a.prlOperDateValidFrom IN (SELECT MAX(b.prlOperDateValidFrom) FROM licence_oper_hst b WHERE a.prlName = b.prlName) ORDER BY a.prlName
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?licence (?company AS ?operatingCompany) (?date AS ?operatorSince) WHERE { ?licenceURI a npdv:ProductionLicence ; npdv:name ?licence . [ ] a npdv:ProductionLicenceOperator ; npdv:dateOperatorValidFrom ?date ; npdv:licenceOperatorCompany [ npdv:name ?company ] ; npdv:operatorForLicence ?licenceURI . { SELECT ?licenceURI (max(?d) AS ?date) WHERE { [ ] a npdv:ProductionLicenceOperator; npdv:dateOperatorValidFrom ?d ; npdv:operatorForLicence ?licenceURI } GROUP BY ?licenceURI } } ORDER BY ?licence
+entityIdCols=
+entityIdVars=

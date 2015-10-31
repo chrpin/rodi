@@ -1,0 +1,8 @@
+
+name=When was the licence X granted and to when is it valid?
+orderNum=3
+sql=SELECT prlName, prlDateGranted, prlDateValidTo FROM licence ORDER BY prlName
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?licence ?dateGranted ?dateValidTo WHERE { [ ] a npdv:ProductionLicence ; npdv:name ?licence ; npdv:dateLicenceGranted ?dateGranted ; npdv:dateLicenceValidTo ?dateValidTo . } ORDER BY ?licence
+entityIdCols=
+entityIdVars=

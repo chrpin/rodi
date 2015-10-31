@@ -1,0 +1,9 @@
+
+name=What is the total production of field X?
+orderNum=16
+sql=SELECT field.fldName, SUM(prfPrdOeNetMillSm3), SUM(prfPrdOilNetMillSm3), SUM(prfPrdGasNetBillSm3), SUM(prfPrdNGLNetMillSm3), SUM(prfPrdCondensateNetMillSm3) FROM field_production_yearly, field WHERE prfNpdidInformationCarrier = fldNpdidField -- AND prfYear < 2013 -- exclude current, and incomplete, year GROUP BY prfInformationCarrier ORDER BY SUM(prfPrdOeNetMillSm3) DESC
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field (SUM(?OE) AS ?sumOE) (SUM(?oil) AS ?sumOil) (SUM(?gas) AS ?sumGas) (SUM(?NGL) AS ?sumNGL) (SUM(?con) AS ?sumCon) WHERE { [ ] a npdv:FieldYearlyProduction ; npdv:productionForField [ npdv:name ?field ] ; npdv:producedCondensate ?con ; npdv:producedGas ?gas ; npdv:producedNGL ?NGL ; npdv:producedOil ?oil ; npdv:producedOilEquivalents ?OE . } GROUP BY ?field ORDER BY DESC(?sumOE)
+entityIdCols=
+entityIdVars=
+disabled=invalid aggregation in SQL

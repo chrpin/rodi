@@ -1,0 +1,8 @@
+
+name=What kind of facility is used for field X?
+orderNum=8
+sql=SELECT fclBelongsToName as field, fclName as facility, fclKind as type FROM facility_fixed WHERE fclBelongsToKind = 'FIELD' ORDER BY field
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field ?facility ?facilitytype WHERE { [ ] a ?facilitytype ; npdv:name ?facility ; npdv:belongsTo [ a npdv:Field ; npdv:name ?field ] . ?facilitytype rdfs:subClassOf npdv:Facility . } ORDER BY ?field ?facility
+entityIdCols=
+entityIdVars=

@@ -1,0 +1,8 @@
+
+name=What are the wellbores with total core length greater than 30 m?
+orderNum=10
+sql=SELECT DISTINCT * FROM ( (SELECT wlbName, (wlbTotalCoreLength * 0.3048) AS lenghtM FROM wellbore_core WHERE wlbCoreIntervalUom = '[ft ]' AND (wlbTotalCoreLength * 0.3048) > 30 ) UNION (SELECT wlbName, wlbTotalCoreLength AS lenghtM FROM wellbore_core WHERE wlbCoreIntervalUom = '[m ]' AND wlbTotalCoreLength > 30 ) ) as t
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT DISTINCT ?wellbore ?lengthM WHERE { ?wc a npdv:WellboreCoreSample ; npdv:coreForWellbore [ npdv:name ?wellbore ] ; { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "m"^^xsd:string . BIND(?l AS ?lengthM) } UNION { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "ft"^^xsd:string . BIND((?l * 0.3048) AS ?lengthM) } FILTER(?lengthM > 30) } ORDER BY ?wellbore
+entityIdCols=
+entityIdVars=

@@ -1,0 +1,16 @@
+name=Q41 (Papers <-> Authors)
+orderNum=460
+
+sql=SELECT COUNT(*) \n\
+FROM "paper" \n\
+	JOIN "submit" ON "paper"."id" = "submit"."paper" \n\
+	JOIN "author" ON "submit"."author" = "author"."id" \n\
+	JOIN "person" ON "author"."id" = "person"."id"
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://sigkdd#> \n\
+SELECT (COUNT(*) AS ?cnt) \n\
+	WHERE {?paper rdf:type :Paper . \n\
+	?person rdf:type :Author; :submit ?paper}
+
+categories=link,path-X,path-3

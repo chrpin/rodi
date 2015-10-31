@@ -1,0 +1,17 @@
+name=Q45 (Reviewers <-> Reviews)
+orderNum=500
+
+sql=SELECT COUNT(*) \n\
+FROM "review" \n\
+	JOIN "conference_document" ON "review"."id" = "conference_document"."id" \n\
+	JOIN "contributes" ON "conference_document"."id" = "contributes"."conference_document" \n\
+	JOIN "person" ON "contributes"."person" = "person"."id" \n\
+	JOIN "reviewer" ON "person"."id" = "reviewer"."id"
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://conference#> \n\
+SELECT (COUNT(*) AS ?cnt) \n\
+	WHERE {?review rdf:type :Review . \n\
+	?reviewer rdf:type :Reviewer; :contributes ?review}
+	
+categories=link,path-X,path-4

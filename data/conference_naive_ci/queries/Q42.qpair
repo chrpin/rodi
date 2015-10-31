@@ -1,0 +1,22 @@
+name=Q42 (Papers <-> Co-Authors)
+orderNum=470
+
+sql=SELECT COUNT(*) \n\
+FROM "contributes" \n\
+	JOIN "person" ON "contributes"."person" = "person"."id" \n\
+	JOIN "contribution_co_author" ON "contribution_co_author"."id" = "person"."id" \n\
+	JOIN "conference_document" ON "contributes"."conference_document" = "conference_document"."id" \n\
+	JOIN "conference_contribution" ON "conference_document"."id" = "conference_contribution"."id" \n\
+	JOIN "written_contribution" ON "conference_contribution"."id" = "written_contribution"."id" \n\
+	JOIN "regular_contribution" ON "written_contribution"."id" = "regular_contribution"."id" \n\
+	JOIN "paper" ON "regular_contribution"."id" = "paper"."id"
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://conference#> \n\
+SELECT (COUNT(*) AS ?cnt) \n\
+	WHERE {?paper rdf:type :Paper . \n\
+	?person rdf:type :Contribution_co-author; :contributes ?paper}
+
+categories=link,path-X,path-7
+
+comment=Four joins could by saved by a free (non FK-supported) join contributes.Conference_document/Paper.ID

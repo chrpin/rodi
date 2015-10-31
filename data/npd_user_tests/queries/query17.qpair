@@ -1,0 +1,8 @@
+
+name=What was the total production of oil and gas in the period jan–jun 2010 for fields where Statoil was operator?
+orderNum=17
+sql=SELECT prfInformationCarrier , SUM(prfPrdOilNetMillSm3) AS sumOil, SUM(prfPrdGasNetBillSm3) AS sumGas FROM field_production_monthly AS prod, field WHERE prod.prfNpdidInformationCarrier = field.fldNpdidField AND prod.prfYear = 2010 AND prod.prfMonth >= 1 AND prod.prfMonth <= 6 AND field.cmpLongName = 'Statoil Petroleum AS' GROUP BY prfInformationCarrier ORDER BY prfInformationCarrier
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field (SUM(?g) AS ?gas) (SUM(?o) AS ?oil) WHERE { [ npdv:productionYear "2010"^^xsd:gYear ; npdv:productionMonth ?m ; npdv:producedGas ?g ; npdv:producedOil ?o ; npdv:productionForField [ rdf:type npdv:Field ; npdv:name ?field ; npdv:currentFieldOperator [ npdv:shortName "STATOIL PETROLEUM AS"^^xsd:string ] ] ] FILTER(?m >= "--01"^^xsd:gMonth && ?m <= "--06"^^xsd:gMonth) } GROUP BY ?field ORDER BY ?field
+entityIdCols=
+entityIdVars=

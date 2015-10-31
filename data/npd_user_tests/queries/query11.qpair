@@ -1,0 +1,8 @@
+
+name=What wellbores have cores in a specific set of stratigraphic units?
+orderNum=11
+sql=SELECT DISTINCT strat.lsuName, cores.wlbName AS wlbName FROM wellbore_core AS cores, strat_litho_wellbore AS strat WHERE cores.wlbNpdidWellbore = strat.wlbNpdidWellbore AND ( ( cores.wlbCoreIntervalUom = '[ft ]' AND (GREATEST(cores.wlbCoreIntervalTop * 0.3048, strat.lsuTopDepth) < LEAST(cores.wlbCoreIntervalBottom * 0.3048, strat.lsuBottomDepth)) ) OR ( cores.wlbCoreIntervalUom = '[m ]' AND (GREATEST(cores.wlbCoreIntervalTop, strat.lsuTopDepth) < LEAST(cores.wlbCoreIntervalBottom, strat.lsuBottomDepth) ) ) ) ORDER BY strat.lsuName, wlbName
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT DISTINCT ?unit ?well WHERE { [] npdv:wellboreStratumTopDepth ?stratTop ; npdv:wellboreStratumBottomDepth ?stratBottom ; npdv:stratumForWellbore ?wellboreURI ; npdv:inLithostratigraphicUnit [ npdv:name ?unit ] . ?wellboreURI npdv:name ?well . ?core a npdv:WellboreCoreSample ; npdv:coreForWellbore ?wellboreURI . { ?core npdv:coreIntervalUOM "m"^^xsd:string ; npdv:coreIntervalTop ?coreTopM ; npdv:coreIntervalBottom ?coreBottomM ; BIND(?coreTopM AS ?coreTop) BIND(?coreBottomM AS ?coreBottom) } UNION { ?core npdv:coreIntervalUOM "ft"^^xsd:string ; npdv:coreIntervalTop ?coreTopFT ; npdv:coreIntervalBottom ?coreBottomFT ; BIND((?coreTopFT * 0.3048) AS ?coreTop) BIND((?coreBottomFT * 0.3048) AS ?coreBottom) } BIND(IF(?coreTop > ?stratTop, ?coreTop, ?stratTop) AS ?max) BIND(IF(?coreBottom < ?stratBottom, ?coreBottom, ?stratBottom) AS ?min) FILTER(?max < ?min) } ORDER BY ?unit ?well
+entityIdCols=
+entityIdVars=

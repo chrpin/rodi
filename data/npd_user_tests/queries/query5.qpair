@@ -1,0 +1,8 @@
+
+name=What companies have been owners in licence X?
+orderNum=5
+sql=SELECT prlName, cmpLongName, prlLicenseeDateValidFrom as fromDate, prlLicenseeDateValidTo as toDate FROM licence_licensee_hst ORDER BY prlName, fromDate
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?licence ?company ?licenseeFrom WHERE { [ ] npdv:licenseeForLicence [ a npdv:ProductionLicence ; npdv:name ?licence ] ; npdv:licenceLicensee [ npdv:name ?company ] ; npdv:dateLicenseeValidFrom ?licenseeFrom . } ORDER BY ?licence ASC(?licenseeFrom)
+entityIdCols=
+entityIdVars=

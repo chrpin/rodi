@@ -1,0 +1,19 @@
+name=Q49 (Papers <-> Conferences)
+orderNum=540
+
+sql=SELECT COUNT(*) \n\
+ FROM "paper" \n\
+		JOIN "regular_contribution" ON "paper"."id" = "regular_contribution"."id" \n\
+		JOIN "written_contribution" ON "regular_contribution"."id" = "written_contribution"."id" \n\
+		JOIN "conference_contribution" ON "written_contribution"."id" = "conference_contribution"."id" \n\
+		JOIN "conference_volume" ON "conference_contribution"."is_submitted_at" \n\
+			= "conference_volume"."id"
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://conference#> \n\
+SELECT (COUNT(*) AS ?cnt) \n\
+	WHERE {?p rdf:type :Paper; \n\
+		:is_submitted_at ?cnf . \n\
+		?cnf rdf:type :Conference_volume }
+	
+categories=link,path-X,path-4

@@ -1,0 +1,9 @@
+name=Q1
+
+sql=SELECT a0 a1 a2 a3 ... FROM ... WHERE ...
+entityIdCols=1;3;(7,12);14
+
+sparql=SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE { ... }  
+entityIdVars=1;2;4
+
+mapping=(0,0);(1,1);(2,7);(3,2);(7,4)

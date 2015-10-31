@@ -1,0 +1,12 @@
+name=Q16 (Speakers)
+orderNum=180
+
+sql=SELECT COUNT(*) \n\
+FROM "speaker"
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://sigkdd#> \n\
+SELECT (COUNT(?participant) AS ?count) \n\
+WHERE {?participant rdf:type :Speaker}
+
+categories=class,1-1

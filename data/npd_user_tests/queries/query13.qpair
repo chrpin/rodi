@@ -1,0 +1,8 @@
+
+name=Show the wellbores completed before 2008 where Statoil as drilling operator sampled less than 10 m of core(s). NOTE: We interpret "before 2008" as before 2008-01-01.
+orderNum=13
+sql=SELECT DISTINCT cores.wlbName, cores.lenghtM, wellbore.wlbDrillingOperator, wellbore.wlbCompletionYear FROM ( (SELECT wlbName, wlbNpdidWellbore, (wlbTotalCoreLength * 0.3048) AS lenghtM FROM wellbore_core WHERE wlbCoreIntervalUom = '[ft ]' ) UNION (SELECT wlbName, wlbNpdidWellbore, wlbTotalCoreLength AS lenghtM FROM wellbore_core WHERE wlbCoreIntervalUom = '[m ]' ) ) as cores, ( (SELECT wlbNpdidWellbore, wlbDrillingOperator, wlbCompletionYear FROM wellbore_development_all ) UNION (SELECT wlbNpdidWellbore, wlbDrillingOperator, wlbCompletionYear FROM wellbore_exploration_all ) UNION (SELECT wlbNpdidWellbore, wlbDrillingOperator, wlbCompletionYear FROM wellbore_shallow_all ) ) as wellbore WHERE wellbore.wlbNpdidWellbore = cores.wlbNpdidWellbore AND wellbore.wlbDrillingOperator LIKE '%STATOIL%' AND wlbCompletionYear < 2008 AND lenghtM < 10 ORDER BY cores.wlbName
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT DISTINCT ?wellbore (?length AS ?lengthM) ?company ?year WHERE { ?wc rdf:type npdv:WellboreCoreSample ; npdv:coreForWellbore [ rdf:type npdv:Wellbore ; npdv:name ?wellbore ; npdv:wellboreCompletionYear ?year ; npdv:drillingOperatorCompany [ npdv:name ?company ] ] . { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "m"^^xsd:string . BIND(?l AS ?length) } UNION { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "ft"^^xsd:string . BIND((?l * 0.3048) AS ?length) } FILTER(?year < "2008"^^xsd:gYear && ?length < 10 && regex(?company, "^STATOIL", "i")) } ORDER BY ?wellbore
+entityIdCols=
+entityIdVars=

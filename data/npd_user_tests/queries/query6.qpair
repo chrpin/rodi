@@ -1,0 +1,9 @@
+
+name=In which block is field X located?
+orderNum=6
+sql=SELECT fldName, SUBSTRING_INDEX(wlbName, '-', 1) FROM field ORDER BY fldName
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field ?block WHERE { ?f a npdv:Field ; npdv:name ?field . OPTIONAL { ?f npdv:discoveryWellbore ?wellbore . ?block a npdv:Block ; npdv:containsWellbore ?wellbore . } } ORDER BY ?field
+entityIdCols=
+entityIdVars=
+disabled=SQL not compatible with PostgreSQL

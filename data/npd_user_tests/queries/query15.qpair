@@ -1,0 +1,9 @@
+
+name=What is the average yearly production of field X?
+orderNum=15
+sql=SELECT field.fldName, AVG(prfPrdOeNetMillSm3), AVG(prfPrdOilNetMillSm3), AVG(prfPrdGasNetBillSm3), AVG(prfPrdNGLNetMillSm3), AVG(prfPrdCondensateNetMillSm3) FROM field_production_yearly, field WHERE prfNpdidInformationCarrier = fldNpdidField AND prfYear < 2013 -- exclude current, and incomplete, year GROUP BY prfInformationCarrier ORDER BY AVG(prfPrdOeNetMillSm3) DESC
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field (AVG(?OE) AS ?avgOE) (AVG(?oil) AS ?avgOil) (AVG(?gas) AS ?avgGas) (AVG(?NGL) AS ?avgNGL) (AVG(?con) AS ?avgCon) WHERE { [ ] a npdv:FieldYearlyProduction ; npdv:productionForField [ npdv:name ?field ] ; npdv:producedCondensate ?con ; npdv:producedGas ?gas ; npdv:producedNGL ?NGL ; npdv:producedOil ?oil ; npdv:producedOilEquivalents ?OE ; npdv:productionYear ?year . FILTER (?year < "2013"^^xsd:gYear) ## exclude current (incomplete) year } GROUP BY ?field ORDER BY DESC(?avgOE)
+entityIdCols=
+entityIdVars=
+disabled=invalid aggregation in SQL

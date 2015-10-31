@@ -1,0 +1,8 @@
+
+name=What is the estimated reserves for field X and how much oil, gas and condensate does the reserves consist of?
+orderNum=7
+sql=SELECT fldName, fldRemainingOE, fldRemainingOil, fldRemainingGas, fldRemainingCondensate FROM field_reserves ORDER BY fldRemainingOE DESC
+sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
+SELECT ?field ?OE ?oil ?gas ?NGL ?con WHERE { [ ] a npdv:Field ; npdv:name ?field ; npdv:remainingCondensate ?con ; npdv:remainingGas ?gas ; npdv:remainingNGL ?NGL ; npdv:remainingOil ?oil ; npdv:remainingOilEquivalents ?OE . } ORDER BY DESC(?OE)
+entityIdCols=
+entityIdVars=

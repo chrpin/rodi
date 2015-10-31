@@ -1,0 +1,15 @@
+name=Q42 (Papers <-> Co-Authors)
+orderNum=470
+
+sql=SELECT COUNT(*) \n\
+FROM papers \n\
+	JOIN co_write_paper ON papers.id = co_write_paper.paper \n\
+	JOIN persons ON co_write_paper.co_author = persons.id
+
+sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
+prefix : <http://conference#> \n\
+SELECT (COUNT(*) AS ?cnt) \n\
+	WHERE {?paper rdf:type :Paper . \n\
+	?person rdf:type :Contribution_co-author; :contributes ?paper}
+
+categories=link,path-X,path-2
