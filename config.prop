@@ -1,0 +1,50 @@
+# Host name of the PostgreSQL server. Default: localhost
+dbHost=localhost
+
+# Port number of the PostgreSQL server. Default: 5432
+dbPort=5432
+
+# PostgreSQL database name to connect to. Default: postgres
+postgresDb=postgres
+
+# user name for connecting to PostgreSQL. Default: postgres
+dbUser=postgres
+
+# Password for connecting to PostgreSQL. Default: postgres
+dbPassword=postgres
+
+# Path to the PostgreSQL command line utility psql. Default: /usr/bin/psql
+dbCmd=/usr/bin/psql
+
+# To replace PostgreSQL with MySQL, set selectDbms to "mysql"
+# (all above DB parameters then apply to MySQL, except for postgresDb,
+# which has no correspondence in MySQL as databases coincide with
+# schemata in MySQL). Note, that only dedicated _mysql scenarios
+# will work in such a setup:
+#selectDbms=
+
+# Names/identifiers of scenarios to run (automatic/batch mode, only).
+# Default: default scenarios
+scenario=cmt_renamed,conference_renamed,sigkdd_renamed,cmt_structured,conference_structured,sigkdd_structured,cmt_denormalized,conference_nofks,sigkdd_mixed
+
+# The location of R2RML mappings, relative to the current working
+# directory. If the location is an existing directory rather than a file,
+# the framework will use any files residing in that directory. To turn off
+# managed R2RML execution, set to empty string. In this case, the tested
+# tool would need to apply its mappings autonomously and load
+# triples to the evaluation target directory (e.g., using --import).
+# Default: ./r2rml/
+r2rmlPath=./r2rml/
+
+# Or: empty string to avoid using mappings and use pre-loaded data
+# instead (data import must be triggered manually):
+#r2rmlPath=
+
+# Reasoning mode during evaluation. Could be one of "none", "simplified"
+# (simplified rule based reasoning that effectively covers all needs of
+# default scenarios, much faster), "owllink" (full reasoning using an
+# OWLLink reasoning server; tested with Konclude, HermiT, FaCT++).
+# Full reasoners, except for the built-in "simplified", must
+# be made available as an OWLLink Server on localhost:8080.
+# Default: simplified
+reasoning=none

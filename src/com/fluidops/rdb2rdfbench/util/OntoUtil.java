@@ -6,7 +6,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.coode.owlapi.turtle.TurtleOntologyFormat;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.io.IRIDocumentSource;
 import org.semanticweb.owlapi.io.OWLOntologyDocumentSource;
