@@ -1,0 +1,22 @@
+RODI benchmark distribution, version 2.0 (pre)
+==============================================
+
+1.5 (SWJ paper version)
+-----------------------
++ added cross-matching scenarios (conference domain, only)
++ added "atomic test" coverage scenario for NPD fact sheets (oil & gas domain)
++ added full Mondial scenario (geographical data)
++ improved scoring and score reporting
++ improved reporting format (highlighting scores, adding more drill-down details)
++ incremental evaluation capabilities
++ scenario for incremental multi-source walk-through 
+
+1.0 (first public release)
+--------------------------
++ improved CLI control
++ query fixes
++ added documentation
+
+0.9 (ESWC paper version)
+------------------------
++ initial implementation

@@ -1,6 +1,12 @@
+RODI is licensed for open use.
+The following license applies for the benchmark framework, and for all other
+parts unless explicitly stated otherwise. Note, that some of the data in the
+benchmark scenarios apply separate license terms.  
+
+===
 The MIT License (MIT)
 
-Copyright (c) 2015 chrpin
+Copyright (c) 2015 Christoph Pinkel, fluid Operations AG
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
