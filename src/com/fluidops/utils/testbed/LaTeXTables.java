@@ -1,4 +1,4 @@
-package com.fluidops.rdb2rdfbench.util;
+package com.fluidops.utils.testbed;
 
 import java.io.BufferedReader;
 import java.io.File;

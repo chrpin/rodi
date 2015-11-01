@@ -1,4 +1,4 @@
-package com.fluidops.rdb2rdfbench.db.rel;
+package com.fluidops.utils.testbed;
 
 import java.util.List;
 

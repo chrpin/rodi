@@ -1,4 +1,4 @@
-package com.fluidops.rdb2rdfbench.db.rel;
+package com.fluidops.utils.testbed;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,8 +11,6 @@ import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
-
-import com.fluidops.rdb2rdfbench.util.OntoUtil;
 
 /**
  * Implements a quick DDL scanner extracting the relevant aspects for building a
@@ -64,7 +62,6 @@ public class DdlReader {
 		
 		BufferedReader reader = new BufferedReader(new FileReader(path));
 		DdlScanMode mode = DdlScanMode.SCAN; // basic parser state
-		String param = ""; // parser state parameter
 		boolean resetMode = false;
 		SQLTable table = null; // currently active table
 		LinkedList<String> tokens = new LinkedList<String>(); // current tokens

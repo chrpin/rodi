@@ -1,10 +1,8 @@
-package com.fluidops.rdb2rdfbench.db.rel;
+package com.fluidops.utils.testbed;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -82,10 +80,9 @@ public class SQLTable {
 			listRef = fkByTableMap.get(table);
 		else
 			listRef = new LinkedList<>();
-		RelationalReference ref;
 //		if(this.name.equals("hasConflictOfInterest"))
 //			System.out.println();
-		listRef.add(ref = new RelationalReference(this, table, 
+		listRef.add(new RelationalReference(this, table, 
 				new LinkedList<>(referencingAttributes), 
 				new LinkedList<>(referredAttributes)));
 		
@@ -351,7 +348,6 @@ public class SQLTable {
 			return null;
 
 		StringBuilder sb = new StringBuilder();
-		int c = 0;
 		for (String attr : pkAttributes)
 			sb.append("-{\"" + attr + "\"}");
 		sb.deleteCharAt(0);

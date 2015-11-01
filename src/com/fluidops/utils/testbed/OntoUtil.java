@@ -1,4 +1,4 @@
-package com.fluidops.rdb2rdfbench.util;
+package com.fluidops.utils.testbed;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,14 +26,12 @@ import org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 import org.semanticweb.owlapi.model.UnknownOWLOntologyException;
-import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
 import org.semanticweb.owlapi.util.SimpleIRIShortFormProvider;
 import org.semanticweb.owlapi.vocab.OWLRDFVocabulary;
 import org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat;
 
 public class OntoUtil {
 	
-	private static OWLReasonerFactory reasonerFactory;
 	private static OWLDataFactory dataFactory = OWLManager.getOWLDataFactory();
 	private static LinkedList<OWLOntologyManager> managers = new LinkedList<>();
 	private static OWLAnnotationProperty rdfsLabel = 
