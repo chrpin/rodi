@@ -61,18 +61,15 @@ public class Evaluator {
 		/**
 		 * All evaluation steps at once.
 		 */
-		ALL,
-		/**
-		 * Execution of R2RML mappings (i.e., fill A-Box).
-		 */
-		R2RML_ONLY,
-		/**
-		 * Perform reasoning on A-Box.
-		 */
-		REASONING_ONLY,
-		/**
-		 * Run query tests (main evaluation step)
-		 */
+		ALL, /**
+				 * Execution of R2RML mappings (i.e., fill A-Box).
+				 */
+		R2RML_ONLY, /**
+					 * Perform reasoning on A-Box.
+					 */
+		REASONING_ONLY, /**
+						 * Run query tests (main evaluation step)
+						 */
 		QUERIES_ONLY
 	}
 
@@ -92,8 +89,7 @@ public class Evaluator {
 		return ret;
 	}
 
-	private static void applyR2Rml(List<String> mappingFiles, String scenario)
-			throws Exception {
+	private static void applyR2Rml(List<String> mappingFiles, String scenario) throws Exception {
 		SesameAdapter eval = SesameAdapter.getInstance(RepoType.EVALUATION);
 
 		// execute mappings (db2triples):
@@ -105,47 +101,40 @@ public class Evaluator {
 				SesameDataSet ds;
 				if (Config.getInstance().getSelectDbms().equals("mysql")) {
 					jdbc.createStatement().execute("USE " + scenario);
-					ds = R2RMLProcessor.convertDatabase(jdbc, r2rmlFile,
-							"urn:base-uri-", DriverType.MysqlDriver);
+					ds = R2RMLProcessor.convertDatabase(jdbc, r2rmlFile, "urn:base-uri-", DriverType.MysqlDriver);
 				} else {
 					jdbc.createStatement().execute("SET SEARCH_PATH TO " + scenario);
-					ds = R2RMLProcessor.convertDatabase(jdbc, r2rmlFile,
-							"urn:base-uri-", DriverType.PostgreSQL);
+					ds = R2RMLProcessor.convertDatabase(jdbc, r2rmlFile, "urn:base-uri-", DriverType.PostgreSQL);
 				}
 
 				eval.add(ds.tuplePattern(null, null, null));
 
 			}
 		} catch (Exception e) {
-			throw new RuntimeException("Error while executing R2RML mappings: "
-					+ e);
+			throw new RuntimeException("Error while executing R2RML mappings: " + e);
 		} finally {
 			jdbc.close();
 		}
 	}
 
-	private static QueryResultChecker evaluateQueryMapping(QueryPair query,
-			SqlResultSet reference) throws RepositoryException,
-			MalformedQueryException, QueryEvaluationException {
+	private static QueryResultChecker evaluateQueryMapping(QueryPair query, SqlResultSet reference)
+			throws RepositoryException, MalformedQueryException, QueryEvaluationException {
 
 		// execute SPARQL query
 		SesameAdapter ses = SesameAdapter.getInstance(RepoType.EVALUATION);
 		SparqlResultSet result = ses.query(query);
 
 		// evaluate results:
-		QueryResultChecker eval = new QueryResultChecker(query.getName(),
-				result, reference, query.getQueryMapping(),
+		QueryResultChecker eval = new QueryResultChecker(query.getName(), result, reference, query.getQueryMapping(),
 				query.getCategories());
 
-		System.out.println("Evaluated query '" + query.getName()
-				+ "', precision = " + eval.getPrecision() + ", recall = "
-				+ eval.getRecall());
+		System.out.println("Evaluated query '" + query.getName() + "', precision = " + eval.getPrecision()
+				+ ", recall = " + eval.getRecall());
 
 		return eval;
 	}
 
-	private static SqlResultSet runSql(String scenario, QueryPair query)
-			throws SQLException {
+	private static SqlResultSet runSql(String scenario, QueryPair query) throws SQLException {
 		Connection conn = RdbmsUtil.getConnection();
 
 		if (Config.getInstance().getSelectDbms().equals("mysql")) {
@@ -156,8 +145,7 @@ public class Evaluator {
 
 		PreparedStatement prep = conn.prepareStatement(query.getSqlQuery());
 		ResultSet res = prep.executeQuery();
-		SqlResultSet ret = new SqlResultSet(res, query.getName(),
-				query.getSqlEntityIdColumns());
+		SqlResultSet ret = new SqlResultSet(res, query.getName(), query.getSqlEntityIdColumns());
 		res.close();
 		prep.close();
 		conn.close();
@@ -182,13 +170,11 @@ public class Evaluator {
 			try {
 				applyR2Rml(fetchR2RmlMappingFiles(), scenario);
 			} catch (Exception e) {
-				throw new RuntimeException(
-						"Failed to execute R2RML mappings for evaluation: " + e);
+				throw new RuntimeException("Failed to execute R2RML mappings for evaluation: " + e);
 			}
 	}
 
-	private static void addInferredAxioms(OWLOntologyManager mgr,
-			OWLOntology o, OWLReasoner reasoner) {
+	private static void addInferredAxioms(OWLOntologyManager mgr, OWLOntology o, OWLReasoner reasoner) {
 		List<InferredAxiomGenerator<? extends OWLAxiom>> inferredAxioms = new ArrayList<InferredAxiomGenerator<? extends OWLAxiom>>();
 
 		inferredAxioms.add(new InferredSubClassAxiomGenerator());
@@ -199,22 +185,18 @@ public class Evaluator {
 		inferredAxioms.add(new InferredPropertyAssertionGenerator());
 
 		// Not supported by konclude
-		inferredAxioms
-				.add(new InferredEquivalentDataPropertiesAxiomGenerator());
-		inferredAxioms
-				.add(new InferredEquivalentObjectPropertyAxiomGenerator());
+		inferredAxioms.add(new InferredEquivalentDataPropertiesAxiomGenerator());
+		inferredAxioms.add(new InferredEquivalentObjectPropertyAxiomGenerator());
 		inferredAxioms.add(new InferredSubDataPropertyAxiomGenerator());
 		inferredAxioms.add(new InferredSubObjectPropertyAxiomGenerator());
 
 		inferredAxioms.add(new InferredInverseObjectPropertiesAxiomGenerator());
 
-		InferredOntologyGenerator ontoGen = new InferredOntologyGenerator(
-				reasoner, inferredAxioms);
+		InferredOntologyGenerator ontoGen = new InferredOntologyGenerator(reasoner, inferredAxioms);
 		ontoGen.fillOntology(mgr, o);
 	}
 
-	private static void filterDatatypesInPropertyAssertions(
-			OWLOntologyManager mgr, OWLOntology o) {
+	private static void filterDatatypesInPropertyAssertions(OWLOntologyManager mgr, OWLOntology o) {
 
 		// Avoid types in dataproperty assertions... (at some point property
 		// assertions are created with "wrong" types)
@@ -223,11 +205,9 @@ public class Evaluator {
 
 		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)) {
 
-			for (OWLDataPropertyAssertionAxiom ax : o
-					.getDataPropertyAssertionAxioms(ind)) {
-				toAdd.add(mgr.getOWLDataFactory()
-						.getOWLDataPropertyAssertionAxiom(ax.getProperty(),
-								ind, ax.getObject()));
+			for (OWLDataPropertyAssertionAxiom ax : o.getDataPropertyAssertionAxioms(ind)) {
+				toAdd.add(mgr.getOWLDataFactory().getOWLDataPropertyAssertionAxiom(ax.getProperty(), ind,
+						ax.getObject()));
 
 				toDel.add(ax);
 			}
@@ -238,8 +218,7 @@ public class Evaluator {
 	}
 
 	private static void runFullReasoning(ReasonerManager.REASONER reasonerID)
-			throws RepositoryException, MalformedQueryException,
-			QueryEvaluationException, RDFHandlerException,
+			throws RepositoryException, MalformedQueryException, QueryEvaluationException, RDFHandlerException,
 			OWLOntologyCreationException, OWLOntologyStorageException {
 		System.out.println("Pushing data to reasoner...");
 
@@ -268,9 +247,8 @@ public class Evaluator {
 		eval.loadFromOwl(o);
 	}
 
-	private static void runSimplifiedReasoning() throws RepositoryException,
-			MalformedQueryException, QueryEvaluationException,
-			UpdateExecutionException {
+	private static void runSimplifiedReasoning()
+			throws RepositoryException, MalformedQueryException, QueryEvaluationException, UpdateExecutionException {
 
 		System.out.println("Starting simplified reasoning...");
 
@@ -284,34 +262,22 @@ public class Evaluator {
 		System.out.println("Adding types...");
 
 		// equivalent classes
-		System.out.println("Step 1/4...");
+		System.out.println("Step 1/3...");
 		String equivs = prefixes + "INSERT {" + "?inst a ?c2" + "} WHERE {"
-				+ "?inst a ?c1 . ?c1 owl:equivalentClass ?c2 }";
+				+ "?inst a ?c1 . ?c1 (owl:equivalentClass)+ ?c2 }";
 
 		eval.plainSparqlUpdate(equivs);
-		eval.plainSparqlUpdate(equivs); // equiv of equiv
 
 		// hierarchies
-		System.out.println("Step 2/4...");
-		String superClassQueryA = prefixes + "INSERT {" + "?inst a ?c2"
-				+ "} WHERE {" + "?inst a ?c1 . ?c1 rdfs:subClassOf ?bridge . "
-				+ " {?bridge rdfs:subClassOf ?c2} "
-				+ "UNION {?bridge rdfs:subClassOf ?b2 . "
-				+ "?b2 rdfs:subClassOf ?b3 ." + "?b3 rdfs:subClassOf ?c2} "
-				+ "}";
+		System.out.println("Step 2/3...");
+		String superClassQuery = prefixes + "INSERT { ?inst a ?c2 } "
+				+ " WHERE { ?inst a ?c1 . ?c1 (rdfs:subClassOf)+ ?c2 }";
 
-		eval.plainSparqlUpdate(superClassQueryA);
+		eval.plainSparqlUpdate(superClassQuery);
 
-		System.out.println("Step 3/4...");
-		String superClassQueryB = prefixes + "INSERT {" + "?inst a ?c2"
-				+ "} WHERE {" + "?inst a ?c1 . ?c1 rdfs:subClassOf ?c2 }";
+		// equivalent entities once more (for equivalents of super classes)
+		System.out.println("Step 3/3...");
 
-		eval.plainSparqlUpdate(superClassQueryB);
-
-		// equivalent classes once more (for equivalents of super classes)
-		System.out.println("Step 1/4...");
-
-		eval.plainSparqlUpdate(equivs);
 		eval.plainSparqlUpdate(equivs);
 
 		// mirroring inverse object properties
@@ -338,10 +304,8 @@ public class Evaluator {
 	 * @throws UpdateExecutionException
 	 * 
 	 */
-	public static void runReasoning() throws RepositoryException,
-			OWLOntologyStorageException, MalformedQueryException,
-			QueryEvaluationException, RDFHandlerException,
-			OWLOntologyCreationException, UpdateExecutionException {
+	public static void runReasoning() throws RepositoryException, OWLOntologyStorageException, MalformedQueryException,
+			QueryEvaluationException, RDFHandlerException, OWLOntologyCreationException, UpdateExecutionException {
 
 		Config cfg = Config.getInstance();
 
@@ -366,8 +330,7 @@ public class Evaluator {
 		} else if (cfg.getReasoning().equals("none")) {
 			System.out.println("Reasoning disabled.");
 		} else {
-			throw new RuntimeException("Configuration error: "
-					+ "reasoner must be one of none, simplified, hermit.");
+			throw new RuntimeException("Configuration error: " + "reasoner must be one of none, simplified, hermit.");
 		}
 
 	}
@@ -400,32 +363,28 @@ public class Evaluator {
 		for (QueryPair query : queries) {
 
 			if (query.isDisabled()) {
-				System.err.println("Warning: query \"" + query.getName()
-						+ "\" has been disabled and won't be executed.");
+				System.err
+						.println("Warning: query \"" + query.getName() + "\" has been disabled and won't be executed.");
 				disabledCnt++;
 				continue;
 			}
 
-			System.out.println("Running query " + query.getFileNameBase()
-					+ " \"" + query.getName() + "\"...");
+			System.out.println("Running query " + query.getFileNameBase() + " \"" + query.getName() + "\"...");
 
 			SqlResultSet reference;
 			try {
 				reference = runSql(scenario, query);
 			} catch (SQLException e) {
-				throw new RuntimeException("Failed to execute SQL query '"
-						+ query.sqlQuery + "': " + e);
+				throw new RuntimeException("Failed to execute SQL query '" + query.sqlQuery + "': " + e);
 			}
 
 			QueryResultChecker qrc;
 
 			try {
 				qrc = evaluateQueryMapping(query, reference);
-			} catch (RepositoryException | MalformedQueryException
-					| QueryEvaluationException e) {
+			} catch (RepositoryException | MalformedQueryException | QueryEvaluationException e) {
 				throw new RuntimeException(
-						"Failed to execute SPARQL query or error "
-								+ "comparing query results: " + e);
+						"Failed to execute SPARQL query or error " + "comparing query results: " + e);
 			}
 
 			ret.add(qrc.getReport());
@@ -436,8 +395,7 @@ public class Evaluator {
 		}
 
 		if (disabledCnt > 0)
-			System.err.println("Warning: " + disabledCnt
-					+ " queries were skipped.");
+			System.err.println("Warning: " + disabledCnt + " queries were skipped.");
 
 		// add aggregated reports
 		System.out.println("Calculating aggregates...");
@@ -482,8 +440,7 @@ public class Evaluator {
 			readyWriter.close();
 
 			System.out.println("BENCHMARK: scenario ready: " + scenario);
-			System.out.println("BENCHMARK: now waiting for "
-					+ "R2RML to be submitted...");
+			System.out.println("BENCHMARK: now waiting for " + "R2RML to be submitted...");
 
 			// wait for R2RML
 			if (path.isDirectory()) {
@@ -496,8 +453,7 @@ public class Evaluator {
 
 			Thread.sleep(1000); // wait for a second
 
-			System.out.println("BENCHMARK: R2RML received, "
-					+ "starting evaluation.");
+			System.out.println("BENCHMARK: R2RML received, " + "starting evaluation.");
 
 			// evaluate
 			List<EvaluationReport> reps = evaluate(scenario, false);
