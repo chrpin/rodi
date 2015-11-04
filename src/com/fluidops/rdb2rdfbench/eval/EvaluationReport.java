@@ -99,11 +99,11 @@ public class EvaluationReport {
 
 	@Override
 	public String toString() {
-		return "[ Evaluation report '" + title + "': precision = " + precision
-				+ ", recall = " + recall + ", f-measure = " + f + "]";
+		return "[ Evaluation report '" + title + "': score = " + f
+				+ "; precision = " + precision + ", recall = " + recall + "]";
 	}
 
 	public String toTabularString() {
-		return title + "|" + precision + "|" + recall + "|" + f;
+		return title + f + "|" + precision + "|" + recall;
 	}
 }
