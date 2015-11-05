@@ -146,6 +146,9 @@ public class QueryResultChecker {
 		for (Integer col : qm.keySet()) {
 			Integer matchVar = qm.get(col);
 
+			if (tuple1[col] != null && tuple2[matchVar] == null)
+				return false;
+
 			if (tuple1[col] != null
 					&& !(tuple1[col] instanceof BNode)
 					&& !tuple1[col].stringValue().equals(
