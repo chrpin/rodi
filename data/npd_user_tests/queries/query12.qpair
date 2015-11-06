@@ -6,3 +6,4 @@ sparql=prefix npdv: <http://sws.ifi.uio.no/vocab/npd-v2> \n\
 SELECT DISTINCT ?wellbore (?length AS ?lenghtM) ?company ?year WHERE { ?wc rdf:type npdv:WellboreCoreSample ; npdv:coreForWellbore [ rdf:type npdv:Wellbore ; npdv:name ?wellbore ; npdv:wellboreCompletionYear ?year ; npdv:drillingOperatorCompany [ npdv:name ?company ] ] . { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "m"^^xsd:string . BIND(?l AS ?length) } UNION { ?wc npdv:coreTotalLength ?l ; npdv:coreIntervalUOM "ft"^^xsd:string . BIND((?l * 0.3048) AS ?length) } FILTER(?year >= "2008"^^xsd:gYear && ?length > 50 && regex(?company, "^STATOIL", "i")) } ORDER BY ?wellbore
 entityIdCols=
 entityIdVars=
+disabled=empty reference results
