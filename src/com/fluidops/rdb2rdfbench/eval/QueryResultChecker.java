@@ -26,8 +26,8 @@ public class QueryResultChecker {
 	private QueryResultSet reference;
 	private QueryMapping qm;
 	private Map<Integer, Integer> establishedMatches;
-	private float precision;
-	private float recall;
+	private double precision;
+	private double recall;
 	private Set<String> categories;
 
 	/**
@@ -67,14 +67,14 @@ public class QueryResultChecker {
 		if (result.size() == 0)
 			precision = 0;
 		else
-			precision = (float) establishedMatches.size()
-					/ (float) result.size();
+			precision = (double) establishedMatches.size()
+					/ (double) result.size();
 
 		if (reference.size() == 0)
 			recall = 1;
 		else
-			recall = (float) establishedMatches.size()
-					/ (float) reference.size();
+			recall = (double) establishedMatches.size()
+					/ (double) reference.size();
 	}
 
 	/**
@@ -237,7 +237,7 @@ public class QueryResultChecker {
 	 * 
 	 * @return Precision.
 	 */
-	public float getPrecision() {
+	public double getPrecision() {
 		return precision;
 	}
 
@@ -247,7 +247,7 @@ public class QueryResultChecker {
 	 * 
 	 * @return Recall.
 	 */
-	public float getRecall() {
+	public double getRecall() {
 		return recall;
 	}
 
@@ -257,7 +257,7 @@ public class QueryResultChecker {
 	 * 
 	 * @return F measure.
 	 */
-	public float getFMeasure() {
+	public double getFMeasure() {
 		return 2 * (precision * recall) / (precision + recall);
 	}
 
@@ -268,8 +268,8 @@ public class QueryResultChecker {
 	 * @return Evaluation report.
 	 */
 	public EvaluationReport getReport() {
-		return new EvaluationReport(title, precision, recall, getFMeasure(),
-				categories);
+		return new EvaluationReport(title, (float) precision, (float) recall,
+				(float) getFMeasure(), categories);
 	}
 
 	/**
