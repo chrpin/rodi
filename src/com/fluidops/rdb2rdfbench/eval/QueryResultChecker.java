@@ -329,13 +329,13 @@ public class QueryResultChecker {
 		return ret;
 	}
 
-	private List<Float> getLocalPrecisionRecall(boolean isPrecision) {
+	private List<Double> getLocalPrecisionRecall(boolean isPrecision) {
 		if (result.size() == 0)
 			throw new RuntimeException(
 					"Cannot calculate local precision/recall values "
 							+ "on empty result set.");
 
-		List<Float> ret = new ArrayList<Float>();
+		List<Double> ret = new ArrayList<Double>();
 
 		for (int i = 0; i < result.get(0).length; i++) {
 			if (qm.values().contains(i)) {
@@ -359,10 +359,10 @@ public class QueryResultChecker {
 				Map<Integer, Integer> localMatches = equivalenceTests(localQm);
 
 				if (isPrecision)
-					ret.add((float) localMatches.size() / (float) result.size());
+					ret.add((double) localMatches.size() / (double) result.size());
 				else
-					ret.add((float) localMatches.size()
-							/ (float) reference.size());
+					ret.add((double) localMatches.size()
+							/ (double) reference.size());
 			}
 		}
 
@@ -378,7 +378,7 @@ public class QueryResultChecker {
 	 * 
 	 * @return List of local precisions.
 	 */
-	public List<Float> getLocalPrecisions() {
+	public List<Double> getLocalPrecisions() {
 
 		return getLocalPrecisionRecall(true);
 	}
@@ -392,7 +392,7 @@ public class QueryResultChecker {
 	 * 
 	 * @return List of local recall values.
 	 */
-	public List<Float> getLocalRecalls() {
+	public List<Double> getLocalRecalls() {
 		return getLocalPrecisionRecall(false);
 	}
 }
