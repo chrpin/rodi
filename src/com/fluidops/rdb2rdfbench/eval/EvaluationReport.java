@@ -12,9 +12,9 @@ import java.util.Set;
 public class EvaluationReport {
 
 	private String title;
-	private float precision;
-	private float recall;
-	private float f;
+	private double precision;
+	private double recall;
+	private double f;
 	private Set<String> categories;
 
 	/**
@@ -31,8 +31,8 @@ public class EvaluationReport {
 	 * @param categories
 	 *            List of category IDs where this report fits in.
 	 */
-	public EvaluationReport(String title, float precision, float recall,
-			float f, Set<String> categories) {
+	public EvaluationReport(String title, double precision, double recall,
+			double f, Set<String> categories) {
 		this.title = title;
 		this.precision = precision;
 		this.recall = recall;
@@ -54,7 +54,7 @@ public class EvaluationReport {
 	 * 
 	 * @return Measured precision.
 	 */
-	public float getPrecision() {
+	public double getPrecision() {
 		return precision;
 	}
 
@@ -63,7 +63,7 @@ public class EvaluationReport {
 	 * 
 	 * @return Measured recall.
 	 */
-	public float getRecall() {
+	public double getRecall() {
 		return recall;
 	}
 
@@ -72,7 +72,7 @@ public class EvaluationReport {
 	 * 
 	 * @return Reported F1 measure.
 	 */
-	public float getFMeasure() {
+	public double getFMeasure() {
 		return f;
 	}
 
