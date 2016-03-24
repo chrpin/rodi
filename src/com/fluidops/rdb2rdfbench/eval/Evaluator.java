@@ -22,13 +22,24 @@ import org.openrdf.query.UpdateExecutionException;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.rio.RDFHandlerException;
 import org.semanticweb.owlapi.apibinding.OWLManager;
+import org.semanticweb.owlapi.io.RDFXMLOntologyFormat;
+import org.semanticweb.owlapi.model.AddAxiom;
+import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLDataPropertyAssertionAxiom;
+import org.semanticweb.owlapi.model.OWLDataPropertyExpression;
+import org.semanticweb.owlapi.model.OWLEquivalentDataPropertiesAxiom;
+import org.semanticweb.owlapi.model.OWLEquivalentObjectPropertiesAxiom;
+import org.semanticweb.owlapi.model.OWLInverseObjectPropertiesAxiom;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
+import org.semanticweb.owlapi.model.OWLObjectPropertyAssertionAxiom;
+import org.semanticweb.owlapi.model.OWLObjectPropertyExpression;
 import org.semanticweb.owlapi.model.OWLOntology;
+import org.semanticweb.owlapi.model.OWLOntologyChange;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
+import org.semanticweb.owlapi.model.RemoveAxiom;
 import org.semanticweb.owlapi.reasoner.OWLReasoner;
 import org.semanticweb.owlapi.util.InferredAxiomGenerator;
 import org.semanticweb.owlapi.util.InferredClassAssertionAxiomGenerator;
@@ -175,16 +186,14 @@ public class Evaluator {
 	}
 
 	private static void addInferredAxioms(OWLOntologyManager mgr, OWLOntology o, OWLReasoner reasoner) {
+		
 		List<InferredAxiomGenerator<? extends OWLAxiom>> inferredAxioms = new ArrayList<InferredAxiomGenerator<? extends OWLAxiom>>();
 
 		inferredAxioms.add(new InferredSubClassAxiomGenerator());
 		inferredAxioms.add(new InferredEquivalentClassAxiomGenerator());
 
 		inferredAxioms.add(new InferredClassAssertionAxiomGenerator());
-
-		inferredAxioms.add(new InferredPropertyAssertionGenerator());
-
-		// Not supported by konclude
+				
 		inferredAxioms.add(new InferredEquivalentDataPropertiesAxiomGenerator());
 		inferredAxioms.add(new InferredEquivalentObjectPropertyAxiomGenerator());
 		inferredAxioms.add(new InferredSubDataPropertyAxiomGenerator());
@@ -192,30 +201,151 @@ public class Evaluator {
 
 		inferredAxioms.add(new InferredInverseObjectPropertiesAxiomGenerator());
 
+		inferredAxioms.add(new InferredPropertyAssertionGenerator());
+		
 		InferredOntologyGenerator ontoGen = new InferredOntologyGenerator(reasoner, inferredAxioms);
 		ontoGen.fillOntology(mgr, o);
+		
+		// Avoid types in dataproperty assertions... 
+		// (at some point property assertions are created with "wrong" types)
+		filterDatatypesInPropertyAssertions(mgr, o); 
+				
+		//Necessary to consider equivalence mappings (e.g. obtained in the alignment)
+		materializeSomeAdditionalInferences(mgr, o);
+				
+		
 	}
 
-	private static void filterDatatypesInPropertyAssertions(OWLOntologyManager mgr, OWLOntology o) {
+	private static void filterDatatypesInPropertyAssertions(
+			OWLOntologyManager mgr, OWLOntology o) {
 
 		// Avoid types in dataproperty assertions... (at some point property
 		// assertions are created with "wrong" types)
-		Set<OWLAxiom> toAdd = new HashSet<OWLAxiom>();
-		Set<OWLAxiom> toDel = new HashSet<OWLAxiom>();
-
+		List<OWLOntologyChange> changes2Add = new ArrayList<OWLOntologyChange>();
+		List<OWLOntologyChange> changes2Del = new ArrayList<OWLOntologyChange>();
+		
+		OWLAxiom new_ax=null;
+		
+		boolean avoid_decimal;
+		
 		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)) {
 
 			for (OWLDataPropertyAssertionAxiom ax : o.getDataPropertyAssertionAxioms(ind)) {
-				toAdd.add(mgr.getOWLDataFactory().getOWLDataPropertyAssertionAxiom(ax.getProperty(), ind,
-						ax.getObject()));
-
-				toDel.add(ax);
+				
+				if (ax.getObject().toString().toLowerCase().contains("e-") && ax.getObject().toString().contains("decimal")){
+					System.out.println("Removing: " + ax  +"\n" + ax.getObject().toString());
+					changes2Del.add(new RemoveAxiom(o, ax));
+				}
+				
+				/*avoid_decimal=false;
+				for (OWLDataRange range : ax.getProperty().getRanges(o)){					
+					
+					//System.out.println(ax.getProperty() + " " + range.getDataRangeType().getName());					
+					if (range.isDatatype()){
+						if (range.asOWLDatatype().getIRI().toString().contains("decimal")){
+							System.out.println(ax.getProperty() + " " + range.asOWLDatatype().getIRI().toString());
+							avoid_decimal=true;
+						}
+					}
+				}
+				if (!avoid_decimal){
+					new_ax = mgr.getOWLDataFactory()
+							.getOWLDataPropertyAssertionAxiom(ax.getProperty(),
+									ind, ax.getObject());
+					
+					changes2Add.add(new AddAxiom(o, new_ax));
+				}*/				
+		
 			}
 		}
-		mgr.addAxioms(o, toAdd);
-		mgr.removeAxioms(o, toDel);
-
+		
+		mgr.applyChanges(changes2Del);
+		//mgr.applyChanges(changes2Add);
+		
+		
+		
+		
 	}
+	
+	private static void materializeSomeAdditionalInferences(OWLOntologyManager mgr, OWLOntology o) {
+		
+		List<OWLOntologyChange> changes2Add = new ArrayList<OWLOntologyChange>();
+		OWLAxiom new_ax=null;
+		
+		boolean avoid_decimal;
+		
+		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)){
+			
+			for (OWLDataPropertyAssertionAxiom ax : o.getDataPropertyAssertionAxioms(ind)){
+				
+				if (!ax.getProperty().isAnonymous()){
+					for (OWLEquivalentDataPropertiesAxiom equiv_prop_ax : o.getEquivalentDataPropertiesAxioms(ax.getProperty().asOWLDataProperty())){
+						for (OWLDataPropertyExpression equiv_data_prop : equiv_prop_ax.getProperties()){
+							if (!equiv_data_prop.isAnonymous() && !equiv_data_prop.equals(ax.getProperty())){
+								
+								//avoid_decimal=false;
+								//for (OWLDataRange range : equiv_data_prop.getRanges(o)){
+								//	if (range.getDataRangeType().getName().contains("decimal"))
+								//		avoid_decimal=true;
+								//}
+								//if (!avoid_decimal){
+								if (!ax.getObject().toString().toLowerCase().contains("e-") || !ax.getObject().toString().contains("decimal")){
+									new_ax = mgr.getOWLDataFactory().getOWLDataPropertyAssertionAxiom(equiv_data_prop, ind, ax.getObject());
+									changes2Add.add(new AddAxiom(o, new_ax));
+								}
+								//}
+							}
+						}
+					}
+				}
+									
+			}
+		}
+		//System.out.println("Axioms 2 add new data assertions: " +changes2Add.size());
+		mgr.applyChanges(changes2Add);
+		//System.out.println("Axioms after adding new data assertions: " +o.getAxiomCount());
+		
+		changes2Add.clear();
+		
+		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)){				
+			for (OWLObjectPropertyAssertionAxiom ax : o.getObjectPropertyAssertionAxioms(ind)){
+				
+				if (!ax.getProperty().isAnonymous()){
+					
+					//Equivalent object properties
+					for (OWLEquivalentObjectPropertiesAxiom equiv_prop_ax : o.getEquivalentObjectPropertiesAxioms(ax.getProperty().asOWLObjectProperty())){
+						for (OWLObjectPropertyExpression equiv_object_prop : equiv_prop_ax.getProperties()){
+							if (!equiv_object_prop.isAnonymous() && !equiv_object_prop.equals(ax.getProperty())){
+								
+								new_ax = mgr.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(equiv_object_prop, ind, ax.getObject());
+								changes2Add.add(new AddAxiom(o, new_ax));
+								
+							}
+						}
+					}
+					
+					//Inverse object properties
+					for (OWLInverseObjectPropertiesAxiom inv_prop_ax : o.getInverseObjectPropertyAxioms(ax.getProperty().asOWLObjectProperty())){
+						for (OWLObjectPropertyExpression inv_object_prop : inv_prop_ax.getProperties()){
+							if (!inv_object_prop.isAnonymous() && !inv_object_prop.equals(ax.getProperty())){
+								
+								//We add inverse
+								new_ax = mgr.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(inv_object_prop, ax.getObject(), ind);
+								changes2Add.add(new AddAxiom(o, new_ax));
+								
+							}
+						}
+					}
+					
+				}
+									
+			}
+		}
+	
+		mgr.applyChanges(changes2Add);
+	}
+		
+	
 
 	private static void runFullReasoning(ReasonerManager.REASONER reasonerID)
 			throws RepositoryException, MalformedQueryException, QueryEvaluationException, RDFHandlerException,
@@ -237,11 +367,7 @@ public class Evaluator {
 		addInferredAxioms(OWLManager.createOWLOntologyManager(), o, reasoner);
 
 		reasoner.dispose();
-
-		// Avoid types in dataproperty assertions... (at some point property
-		// assertions are created with "wrong" types)
-		filterDatatypesInPropertyAssertions(mgr, o);
-
+		
 		// write back to database
 		System.out.println("Writing back to database...");
 		eval.loadFromOwl(o);
@@ -309,21 +435,12 @@ public class Evaluator {
 
 		Config cfg = Config.getInstance();
 
-		if (cfg.getReasoning().equals("hermit")) {
-			System.out.println("Reasoner set to 'hermit'.");
-			runFullReasoning(ReasonerManager.REASONER.HERMIT);
-		} else if (cfg.getReasoning().equals("factpp")) {
-			System.out.println("Reasoner set to 'factpp'.");
-			runFullReasoning(ReasonerManager.REASONER.FACTpp);
-		} else if (cfg.getReasoning().equals("factpp_owllink")) {
-			System.out.println("Reasoner set to 'factpp (owl link)'.");
-			runFullReasoning(ReasonerManager.REASONER.FACTppOWLlink);
-		} else if (cfg.getReasoning().equals("konclude")) {
-			System.out.println("Reasoner set to 'konclude'.");
-			runFullReasoning(ReasonerManager.REASONER.KONCLUDE);
-		} else if (cfg.getReasoning().equals("pellet")) {
-			System.out.println("Reasoner set to 'pellet'.");
-			runFullReasoning(ReasonerManager.REASONER.PELLET);
+		if (cfg.getReasoning().equals("owllink")) {
+			System.out.println("Reasoner set to 'owllink'.");
+			runFullReasoning(ReasonerManager.REASONER.OWLLINK);
+		} else if (cfg.getReasoning().equals("structural")) {
+			System.out.println("Reasoner set to 'structural.");
+			runFullReasoning(ReasonerManager.REASONER.STRUCTURAL);
 		} else if (cfg.getReasoning().equals("simplified")) {
 			System.out.println("Reasoner set to 'simplified'.");
 			runSimplifiedReasoning();
@@ -422,7 +539,7 @@ public class Evaluator {
 			System.out.println("BENCHMARK: preparing scenario " + scenario);
 
 			// setup
-			SetupUtil.setupScenario(scenario);
+			SetupUtil.setupScenario(scenario, false);
 
 			// sweep old R2RML
 			File path = new File(cfg.getR2RmlPath());

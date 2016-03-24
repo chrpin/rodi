@@ -39,6 +39,7 @@ public class Main {
 		String[] scenarios = cfg.getScenarios();
 
 		// read command line arguments
+		boolean useGivenOntology = false; //required  for alignment
 		int manualActions = 0;
 		boolean doSetup = false;
 		boolean doEval = false;
@@ -54,6 +55,10 @@ public class Main {
 			if (args[i].equals("--setup")) {
 				manualActions++;
 				doSetup = true;
+			} else if (args[i].equals("--setup-ontology")) {
+					manualActions++;
+					doSetup = true;
+					useGivenOntology = true;
 			} else if (args[i].equals("--eval")) {
 				manualActions++;
 				doEval = true;
@@ -228,7 +233,7 @@ public class Main {
 			System.out.println("Scenario set to " + scenarios[0] + ".");
 
 			if (doSetup)
-				SetupUtil.setupScenario(scenarios[0]);
+				SetupUtil.setupScenario(scenarios[0], useGivenOntology);
 
 			if (doEval) {
 
@@ -254,8 +259,9 @@ public class Main {
 
 					ReportWriter.materializeTextualReports(scenarios[0],
 							runTitle, reps);
-					ReportWriter.materializeTabularReports(scenarios[0],
-							runTitle, reps);
+					//Only to generate tables
+					//ReportWriter.materializeTabularReports(scenarios[0],
+					//		runTitle, reps);
 				}
 			}
 

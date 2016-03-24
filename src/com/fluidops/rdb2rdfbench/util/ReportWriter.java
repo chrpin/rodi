@@ -30,7 +30,7 @@ public class ReportWriter {
 		}
 
 		String fn = "./reports/" + prefix + (prefix.isEmpty() ? "" : "_")
-				+ scenario + "_" + cfg.getReasoning() + ".txt";
+				+ scenario + "_reasoning_" + cfg.getReasoning() + ".txt";
 
 		BufferedWriter writer = new BufferedWriter(new FileWriter(fn));
 		writer.write(fullReport);
@@ -50,7 +50,7 @@ public class ReportWriter {
 		}
 
 		String fn = "./reports/tabular_" + prefix
-				+ (prefix.isEmpty() ? "" : "_") + scenario + "_"
+				+ (prefix.isEmpty() ? "" : "_") + scenario + "_reasoning_"
 				+ cfg.getReasoning() + ".txt";
 
 		BufferedWriter writer = new BufferedWriter(new FileWriter(fn));

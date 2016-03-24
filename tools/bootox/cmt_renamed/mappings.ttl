@@ -1,0 +1,2575 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+
+_:node1a4d09j56x5967 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5587 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924228/users> a rr:TriplesMap .
+
+_:node1a4d09j56x5966 a rr:TermMap , rr:ObjectMap .
+
+_:node1a4d09j56x5967 rr:objectMap _:node1a4d09j56x5966 .
+
+_:node1a4d09j56x5588 rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924228/users> rr:predicateObjectMap _:node1a4d09j56x5967 .
+
+_:node1a4d09j56x5588 a rr:SubjectMap .
+
+_:node1a4d09j56x5967 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/persons/id> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924228/users> rr:logicalTable _:node1a4d09j56x5587 .
+
+_:node1a4d09j56x5587 rr:tableName "cmt_renamed.users" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924228/users> rr:subjectMap _:node1a4d09j56x5588 .
+
+_:node1a4d09j56x5966 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5588 a rr:TermMap ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/users> .
+
+_:node1a4d09j56x5966 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192387/co_authors> rr:predicateObjectMap _:node1a4d09j56x5829 .
+
+_:node1a4d09j56x5829 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5828 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5829 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/authors/id> .
+
+_:node1a4d09j56x5525 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/co_authors> .
+
+_:node1a4d09j56x5828 a rr:TermMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5524 a rr:BaseTableOrView ;
+	rr:tableName "cmt_renamed.co_authors" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192387/co_authors> a rr:TriplesMap .
+
+_:node1a4d09j56x5828 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192387/co_authors> rr:subjectMap _:node1a4d09j56x5525 .
+
+_:node1a4d09j56x5525 a rr:SubjectMap ;
+	rr:termType rr:IRI ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5829 rr:objectMap _:node1a4d09j56x5828 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192387/co_authors> rr:logicalTable _:node1a4d09j56x5524 .
+
+_:node1a4d09j56x5606 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924331/co_author_paper> rr:predicateObjectMap _:node1a4d09j56x5607 .
+
+_:node1a4d09j56x5607 rr:objectMap _:node1a4d09j56x5606 ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/co_author_paper/co_authors_has_papers> .
+
+_:node1a4d09j56x5603 a rr:SubjectMap .
+
+_:node1a4d09j56x5602 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5607 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5603 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{cid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924331/co_author_paper> rr:logicalTable _:node1a4d09j56x5602 ;
+	rr:subjectMap _:node1a4d09j56x5603 .
+
+_:node1a4d09j56x5606 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924331/co_author_paper> a rr:TriplesMap .
+
+_:node1a4d09j56x5603 a rr:TermMap .
+
+_:node1a4d09j56x5602 rr:tableName "cmt_renamed.co_author_paper" .
+
+_:node1a4d09j56x5603 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/co_authors> .
+
+_:node1a4d09j56x5606 a rr:ObjectMap .
+
+_:node1a4d09j56x5603 rr:termType rr:IRI .
+
+_:node1a4d09j56x5726 a rr:TermMap .
+
+_:node1a4d09j56x5723 rr:termType rr:IRI .
+
+_:node1a4d09j56x5727 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/person_document/documents_has_persons> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924551/person_document> rr:logicalTable _:node1a4d09j56x5722 ;
+	rr:predicateObjectMap _:node1a4d09j56x5727 .
+
+_:node1a4d09j56x5722 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5726 rr:termType rr:IRI .
+
+_:node1a4d09j56x5722 rr:tableName "cmt_renamed.person_document" .
+
+_:node1a4d09j56x5723 a rr:SubjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{did}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924551/person_document> a rr:TriplesMap .
+
+_:node1a4d09j56x5726 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{pid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924551/person_document> rr:subjectMap _:node1a4d09j56x5723 .
+
+_:node1a4d09j56x5727 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5723 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents> .
+
+_:node1a4d09j56x5726 a rr:ObjectMap .
+
+_:node1a4d09j56x5727 rr:objectMap _:node1a4d09j56x5726 .
+
+_:node1a4d09j56x5723 a rr:TermMap .
+
+_:node1a4d09j56x5657 a rr:TermMap .
+
+_:node1a4d09j56x5660 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5656 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5657 a rr:SubjectMap .
+
+_:node1a4d09j56x5661 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924440/finalize_paper_assignment> rr:predicateObjectMap _:node1a4d09j56x5661 .
+
+_:node1a4d09j56x5661 rr:objectMap _:node1a4d09j56x5660 ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/finalize_paper_assignment/conferences_has_administrators> .
+
+_:node1a4d09j56x5657 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5660 a rr:ObjectMap .
+
+_:node1a4d09j56x5656 rr:tableName "cmt_renamed.finalize_paper_assignment" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924440/finalize_paper_assignment> rr:logicalTable _:node1a4d09j56x5656 .
+
+_:node1a4d09j56x5657 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924440/finalize_paper_assignment> rr:subjectMap _:node1a4d09j56x5657 .
+
+_:node1a4d09j56x5660 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924440/finalize_paper_assignment> a rr:TriplesMap .
+
+_:node1a4d09j56x5657 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5763 rr:objectMap _:node1a4d09j56x5762 .
+
+_:node1a4d09j56x5762 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924657/reviewer_administrator> a rr:TriplesMap .
+
+_:node1a4d09j56x5763 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924657/reviewer_administrator> rr:subjectMap _:node1a4d09j56x5759 .
+
+_:node1a4d09j56x5759 a rr:TermMap .
+
+_:node1a4d09j56x5758 rr:tableName "cmt_renamed.reviewer_administrator" .
+
+_:node1a4d09j56x5759 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+_:node1a4d09j56x5758 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924657/reviewer_administrator> rr:predicateObjectMap _:node1a4d09j56x5763 .
+
+_:node1a4d09j56x5763 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewer_administrator/administrators_has_reviewers> .
+
+_:node1a4d09j56x5762 a rr:TermMap .
+
+_:node1a4d09j56x5759 rr:termType rr:IRI .
+
+_:node1a4d09j56x5762 a rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924657/reviewer_administrator> rr:logicalTable _:node1a4d09j56x5758 .
+
+_:node1a4d09j56x5759 a rr:SubjectMap .
+
+_:node1a4d09j56x5621 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5625 rr:objectMap _:node1a4d09j56x5624 .
+
+_:node1a4d09j56x5624 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5621 a rr:SubjectMap .
+
+_:node1a4d09j56x5624 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924334/conference_administrator> rr:logicalTable _:node1a4d09j56x5620 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5621 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5624 rr:termType rr:IRI .
+
+_:node1a4d09j56x5620 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924334/conference_administrator> rr:predicateObjectMap _:node1a4d09j56x5625 .
+
+_:node1a4d09j56x5624 a rr:ObjectMap .
+
+_:node1a4d09j56x5621 a rr:TermMap .
+
+_:node1a4d09j56x5620 rr:tableName "cmt_renamed.conference_administrator" .
+
+_:node1a4d09j56x5625 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conference_administrator/conferences_has_administrators> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924334/conference_administrator> rr:subjectMap _:node1a4d09j56x5621 .
+
+_:node1a4d09j56x5631 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/details_entered/administrators_has_conferences> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924335/details_entered> rr:subjectMap _:node1a4d09j56x5627 .
+
+_:node1a4d09j56x5630 rr:termType rr:IRI ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5627 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924335/details_entered> rr:logicalTable _:node1a4d09j56x5626 .
+
+_:node1a4d09j56x5630 a rr:ObjectMap .
+
+_:node1a4d09j56x5626 rr:tableName "cmt_renamed.details_entered" .
+
+_:node1a4d09j56x5630 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5626 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5627 a rr:TermMap .
+
+_:node1a4d09j56x5631 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924335/details_entered> a rr:TriplesMap .
+
+_:node1a4d09j56x5627 rr:termType rr:IRI .
+
+_:node1a4d09j56x5631 rr:objectMap _:node1a4d09j56x5630 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924335/details_entered> rr:predicateObjectMap _:node1a4d09j56x5631 .
+
+_:node1a4d09j56x5627 a rr:SubjectMap .
+
+_:node1a4d09j56x5942 rr:termType rr:IRI .
+
+_:node1a4d09j56x5576 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/rejections> ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5943 rr:objectMap _:node1a4d09j56x5942 .
+
+_:node1a4d09j56x5942 a rr:ObjectMap .
+
+_:node1a4d09j56x5576 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924124/rejections> rr:subjectMap _:node1a4d09j56x5576 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5575 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5576 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{id}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5943 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5942 a rr:TermMap .
+
+_:node1a4d09j56x5575 rr:tableName "cmt_renamed.rejections" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924124/rejections> rr:predicateObjectMap _:node1a4d09j56x5943 .
+
+_:node1a4d09j56x5943 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/decisions/id> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924124/rejections> rr:logicalTable _:node1a4d09j56x5575 .
+
+_:node1a4d09j56x5942 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924439/finalize_paper_assignment> rr:logicalTable _:node1a4d09j56x5650 .
+
+_:node1a4d09j56x5651 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5654 a rr:TermMap .
+
+_:node1a4d09j56x5650 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5654 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924439/finalize_paper_assignment> rr:subjectMap _:node1a4d09j56x5651 .
+
+_:node1a4d09j56x5651 rr:termType rr:IRI .
+
+_:node1a4d09j56x5655 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/finalize_paper_assignment/administrators_has_conferences> ;
+	a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5654 .
+
+_:node1a4d09j56x5651 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+_:node1a4d09j56x5654 a rr:ObjectMap .
+
+_:node1a4d09j56x5651 a rr:SubjectMap .
+
+_:node1a4d09j56x5654 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5650 rr:tableName "cmt_renamed.finalize_paper_assignment" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924439/finalize_paper_assignment> a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5655 .
+
+_:node1a4d09j56x5693 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924546/paper_author> rr:subjectMap _:node1a4d09j56x5693 .
+
+_:node1a4d09j56x5692 rr:tableName "cmt_renamed.paper_author" ;
+	a rr:BaseTableOrView .
+
+_:node1a4d09j56x5697 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5693 a rr:SubjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924546/paper_author> rr:predicateObjectMap _:node1a4d09j56x5697 .
+
+_:node1a4d09j56x5697 rr:objectMap _:node1a4d09j56x5696 .
+
+_:node1a4d09j56x5696 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5693 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+_:node1a4d09j56x5696 rr:termType rr:IRI ;
+	a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924546/paper_author> a rr:TriplesMap .
+
+_:node1a4d09j56x5693 a rr:TermMap .
+
+_:node1a4d09j56x5697 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_author/papers_has_authors> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924546/paper_author> rr:logicalTable _:node1a4d09j56x5692 .
+
+_:node1a4d09j56x5515 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5813 a rr:ObjectMap .
+
+_:node1a4d09j56x5814 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5811 rr:objectMap _:node1a4d09j56x5810 .
+
+_:node1a4d09j56x5814 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/users/id> .
+
+_:node1a4d09j56x5515 rr:tableName "cmt_renamed.authors" .
+
+_:node1a4d09j56x5810 a rr:TermMap .
+
+_:node1a4d09j56x5516 rr:termType rr:IRI ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5810 rr:termType rr:IRI .
+
+_:node1a4d09j56x5516 a rr:TermMap .
+
+_:node1a4d09j56x5811 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/conf_members/id> .
+
+_:node1a4d09j56x5813 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5810 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192374/authors> rr:predicateObjectMap _:node1a4d09j56x5811 ;
+	rr:logicalTable _:node1a4d09j56x5515 .
+
+_:node1a4d09j56x5516 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5814 rr:objectMap _:node1a4d09j56x5813 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192374/authors> a rr:TriplesMap .
+
+_:node1a4d09j56x5813 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192374/authors> rr:subjectMap _:node1a4d09j56x5516 .
+
+_:node1a4d09j56x5516 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/authors> .
+
+_:node1a4d09j56x5813 a rr:TermMap .
+
+_:node1a4d09j56x5810 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192374/authors> rr:predicateObjectMap _:node1a4d09j56x5814 .
+
+_:node1a4d09j56x5584 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5585 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/subject_areas/{id}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/subject_areas> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924227/subject_areas> rr:subjectMap _:node1a4d09j56x5585 .
+
+_:node1a4d09j56x5964 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5584 rr:tableName "cmt_renamed.subject_areas" .
+
+_:node1a4d09j56x5963 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924227/subject_areas> rr:predicateObjectMap _:node1a4d09j56x5964 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5964 rr:objectMap _:node1a4d09j56x5963 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924227/subject_areas> rr:logicalTable _:node1a4d09j56x5584 .
+
+_:node1a4d09j56x5585 a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5963 a rr:TermMap .
+
+_:node1a4d09j56x5585 a rr:TermMap .
+
+_:node1a4d09j56x5963 a rr:ObjectMap ;
+	rr:column "id" .
+
+_:node1a4d09j56x5964 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5963 rr:termType rr:Literal .
+
+_:node1a4d09j56x5573 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committees/{id}" .
+
+_:node1a4d09j56x5939 a rr:ObjectMap .
+
+_:node1a4d09j56x5936 a rr:ObjectMap .
+
+_:node1a4d09j56x5939 a rr:TermMap .
+
+_:node1a4d09j56x5572 rr:tableName "cmt_renamed.program_committees" .
+
+_:node1a4d09j56x5940 rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> .
+
+_:node1a4d09j56x5936 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5933 rr:termType rr:Literal ;
+	a rr:ObjectMap .
+
+_:node1a4d09j56x5936 rr:column "label" .
+
+_:node1a4d09j56x5573 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committees> .
+
+_:node1a4d09j56x5937 rr:objectMap _:node1a4d09j56x5936 .
+
+_:node1a4d09j56x5939 rr:termType rr:Literal .
+
+_:node1a4d09j56x5573 rr:termType rr:IRI ;
+	a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924123/program_committees> a rr:TriplesMap .
+
+_:node1a4d09j56x5933 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5937 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committees/label> .
+
+_:node1a4d09j56x5934 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5933 rr:column "id" .
+
+_:node1a4d09j56x5936 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924123/program_committees> rr:logicalTable _:node1a4d09j56x5572 .
+
+_:node1a4d09j56x5572 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5934 rr:objectMap _:node1a4d09j56x5933 ;
+	a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5940 rr:objectMap _:node1a4d09j56x5939 .
+
+_:node1a4d09j56x5939 rr:column "label" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924123/program_committees> rr:subjectMap _:node1a4d09j56x5573 .
+
+_:node1a4d09j56x5937 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924123/program_committees> rr:predicateObjectMap _:node1a4d09j56x5940 .
+
+_:node1a4d09j56x5933 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924123/program_committees> rr:predicateObjectMap _:node1a4d09j56x5934 , _:node1a4d09j56x5937 .
+
+_:node1a4d09j56x5936 rr:termType rr:Literal .
+
+_:node1a4d09j56x5940 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5573 a rr:SubjectMap .
+
+_:node1a4d09j56x5643 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/enable_virtual_meeting/administrators_has_conferences> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924337/enable_virtual_meeting> rr:subjectMap _:node1a4d09j56x5639 .
+
+_:node1a4d09j56x5638 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5639 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5642 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924337/enable_virtual_meeting> rr:logicalTable _:node1a4d09j56x5638 .
+
+_:node1a4d09j56x5642 a rr:ObjectMap .
+
+_:node1a4d09j56x5639 a rr:SubjectMap .
+
+_:node1a4d09j56x5643 rr:objectMap _:node1a4d09j56x5642 .
+
+_:node1a4d09j56x5639 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924337/enable_virtual_meeting> a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5643 .
+
+_:node1a4d09j56x5638 rr:tableName "cmt_renamed.enable_virtual_meeting" .
+
+_:node1a4d09j56x5642 rr:termType rr:IRI ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5639 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5649 rr:objectMap _:node1a4d09j56x5648 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924338/enable_virtual_meeting> a rr:TriplesMap .
+
+_:node1a4d09j56x5645 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5649 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5648 a rr:TermMap , rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924338/enable_virtual_meeting> rr:logicalTable _:node1a4d09j56x5644 .
+
+_:node1a4d09j56x5645 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5649 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/enable_virtual_meeting/conferences_has_administrators> .
+
+_:node1a4d09j56x5644 rr:tableName "cmt_renamed.enable_virtual_meeting" .
+
+_:node1a4d09j56x5645 rr:termType rr:IRI .
+
+_:node1a4d09j56x5648 rr:termType rr:IRI .
+
+_:node1a4d09j56x5644 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5645 a rr:SubjectMap , rr:TermMap .
+
+_:node1a4d09j56x5648 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924338/enable_virtual_meeting> rr:subjectMap _:node1a4d09j56x5645 ;
+	rr:predicateObjectMap _:node1a4d09j56x5649 .
+
+_:node1a4d09j56x5961 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5957 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> rr:predicateObjectMap _:node1a4d09j56x5952 .
+
+_:node1a4d09j56x5954 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> rr:predicateObjectMap _:node1a4d09j56x5955 , _:node1a4d09j56x5958 .
+
+_:node1a4d09j56x5957 rr:termType rr:Literal .
+
+_:node1a4d09j56x5951 a rr:TermMap .
+
+_:node1a4d09j56x5954 a rr:TermMap .
+
+_:node1a4d09j56x5960 a rr:TermMap .
+
+_:node1a4d09j56x5582 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5951 a rr:ObjectMap .
+
+_:node1a4d09j56x5957 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> rr:subjectMap _:node1a4d09j56x5582 .
+
+_:node1a4d09j56x5952 rr:objectMap _:node1a4d09j56x5951 .
+
+_:node1a4d09j56x5960 rr:column "comment" .
+
+_:node1a4d09j56x5582 rr:termType rr:IRI .
+
+_:node1a4d09j56x5955 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5951 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> a rr:TriplesMap .
+
+_:node1a4d09j56x5952 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/documents/id> .
+
+_:node1a4d09j56x5958 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviews/comment> .
+
+_:node1a4d09j56x5582 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviews> .
+
+_:node1a4d09j56x5954 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{written}" .
+
+_:node1a4d09j56x5958 rr:objectMap _:node1a4d09j56x5957 .
+
+_:node1a4d09j56x5581 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> rr:logicalTable _:node1a4d09j56x5581 .
+
+_:node1a4d09j56x5961 rr:objectMap _:node1a4d09j56x5960 .
+
+_:node1a4d09j56x5960 rr:termType rr:Literal .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924126/reviews> rr:predicateObjectMap _:node1a4d09j56x5961 .
+
+_:node1a4d09j56x5954 a rr:ObjectMap .
+
+_:node1a4d09j56x5957 rr:datatype <http://www.w3.org/2001/XMLSchema#string> ;
+	rr:column "comment" .
+
+_:node1a4d09j56x5955 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviews/written> .
+
+_:node1a4d09j56x5582 a rr:TermMap .
+
+_:node1a4d09j56x5581 rr:tableName "cmt_renamed.reviews" .
+
+_:node1a4d09j56x5952 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5960 a rr:ObjectMap .
+
+_:node1a4d09j56x5951 rr:termType rr:IRI .
+
+_:node1a4d09j56x5961 rr:predicate <http://www.w3.org/2000/01/rdf-schema#comment> .
+
+_:node1a4d09j56x5955 rr:objectMap _:node1a4d09j56x5954 .
+
+_:node1a4d09j56x5582 a rr:SubjectMap .
+
+_:node1a4d09j56x5931 rr:objectMap _:node1a4d09j56x5930 .
+
+_:node1a4d09j56x5927 rr:termType rr:IRI .
+
+_:node1a4d09j56x5930 rr:termType rr:IRI .
+
+_:node1a4d09j56x5570 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_chairs> .
+
+_:node1a4d09j56x5930 a rr:TermMap .
+
+_:node1a4d09j56x5928 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924122/program_committee_chairs> rr:subjectMap _:node1a4d09j56x5570 .
+
+_:node1a4d09j56x5930 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924122/program_committee_chairs> rr:predicateObjectMap _:node1a4d09j56x5931 .
+
+_:node1a4d09j56x5569 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5931 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_chairs/id> .
+
+_:node1a4d09j56x5569 rr:tableName "cmt_renamed.program_committee_chairs" .
+
+_:node1a4d09j56x5927 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924122/program_committee_chairs> rr:logicalTable _:node1a4d09j56x5569 .
+
+_:node1a4d09j56x5570 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5927 a rr:TermMap .
+
+_:node1a4d09j56x5570 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924122/program_committee_chairs> rr:predicateObjectMap _:node1a4d09j56x5928 .
+
+_:node1a4d09j56x5570 a rr:SubjectMap .
+
+_:node1a4d09j56x5931 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5928 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/chairmans/id> ;
+	rr:objectMap _:node1a4d09j56x5927 .
+
+_:node1a4d09j56x5927 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924122/program_committee_chairs> a rr:TriplesMap .
+
+_:node1a4d09j56x5930 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> rr:logicalTable _:node1a4d09j56x5560 .
+
+_:node1a4d09j56x5561 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5906 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{added}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> rr:subjectMap _:node1a4d09j56x5561 .
+
+_:node1a4d09j56x5906 a rr:TermMap , rr:ObjectMap .
+
+_:node1a4d09j56x5560 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5561 a rr:SubjectMap .
+
+_:node1a4d09j56x5913 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5561 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/pc_members> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> rr:predicateObjectMap _:node1a4d09j56x5913 .
+
+_:node1a4d09j56x5909 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5912 rr:column "max_papers" .
+
+_:node1a4d09j56x5560 rr:tableName "cmt_renamed.pc_members" .
+
+_:node1a4d09j56x5912 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> rr:predicateObjectMap _:node1a4d09j56x5910 .
+
+_:node1a4d09j56x5910 rr:objectMap _:node1a4d09j56x5909 .
+
+_:node1a4d09j56x5561 a rr:TermMap .
+
+_:node1a4d09j56x5913 rr:objectMap _:node1a4d09j56x5912 .
+
+_:node1a4d09j56x5912 rr:termType rr:Literal .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> a rr:TriplesMap .
+
+_:node1a4d09j56x5912 a rr:ObjectMap .
+
+_:node1a4d09j56x5909 a rr:TermMap .
+
+_:node1a4d09j56x5906 rr:termType rr:IRI .
+
+_:node1a4d09j56x5910 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/conf_members/id> .
+
+_:node1a4d09j56x5909 a rr:ObjectMap .
+
+_:node1a4d09j56x5907 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/pc_members/added> .
+
+_:node1a4d09j56x5912 a rr:TermMap .
+
+_:node1a4d09j56x5913 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/pc_members/max_papers> .
+
+_:node1a4d09j56x5910 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5561 rr:termType rr:IRI .
+
+_:node1a4d09j56x5907 a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5906 .
+
+_:node1a4d09j56x5909 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924019/pc_members> rr:predicateObjectMap _:node1a4d09j56x5907 .
+
+_:node1a4d09j56x5591 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+_:node1a4d09j56x5590 rr:tableName "cmt_renamed.administrator_conference" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924229/administrator_conference> rr:predicateObjectMap _:node1a4d09j56x5595 .
+
+_:node1a4d09j56x5590 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5595 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrator_conference/administrators_has_conferences> .
+
+_:node1a4d09j56x5594 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924229/administrator_conference> rr:subjectMap _:node1a4d09j56x5591 .
+
+_:node1a4d09j56x5595 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5591 rr:termType rr:IRI ;
+	a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924229/administrator_conference> a rr:TriplesMap .
+
+_:node1a4d09j56x5591 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924229/administrator_conference> rr:logicalTable _:node1a4d09j56x5590 .
+
+_:node1a4d09j56x5595 rr:objectMap _:node1a4d09j56x5594 .
+
+_:node1a4d09j56x5594 a rr:ObjectMap , rr:TermMap .
+
+_:node1a4d09j56x5591 a rr:SubjectMap .
+
+_:node1a4d09j56x5594 rr:termType rr:IRI .
+
+_:node1a4d09j56x5709 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5704 rr:tableName "cmt_renamed.paper_reviewer" .
+
+_:node1a4d09j56x5708 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924548/paper_reviewer> rr:logicalTable _:node1a4d09j56x5704 .
+
+_:node1a4d09j56x5705 a rr:SubjectMap .
+
+_:node1a4d09j56x5709 rr:objectMap _:node1a4d09j56x5708 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924548/paper_reviewer> rr:predicateObjectMap _:node1a4d09j56x5709 .
+
+_:node1a4d09j56x5705 a rr:TermMap .
+
+_:node1a4d09j56x5708 rr:termType rr:IRI .
+
+_:node1a4d09j56x5705 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewers> .
+
+_:node1a4d09j56x5704 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5709 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_reviewer/reviewers_has_papers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924548/paper_reviewer> a rr:TriplesMap .
+
+_:node1a4d09j56x5705 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+_:node1a4d09j56x5708 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924548/paper_reviewer> rr:subjectMap _:node1a4d09j56x5705 .
+
+_:node1a4d09j56x5705 rr:termType rr:IRI .
+
+_:node1a4d09j56x5708 a rr:ObjectMap .
+
+_:node1a4d09j56x5885 a rr:TermMap .
+
+_:node1a4d09j56x5882 a rr:TermMap .
+
+_:node1a4d09j56x5894 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{read_by_meta_reviewer}" .
+
+_:node1a4d09j56x5886 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/author> .
+
+_:node1a4d09j56x5891 a rr:TermMap .
+
+_:node1a4d09j56x5882 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{accepted}" .
+
+_:node1a4d09j56x5903 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5901 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5897 rr:termType rr:IRI .
+
+_:node1a4d09j56x5557 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5898 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/rejected> ;
+	rr:objectMap _:node1a4d09j56x5897 .
+
+_:node1a4d09j56x5895 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/read_by_meta_reviewer> .
+
+_:node1a4d09j56x5558 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+_:node1a4d09j56x5900 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5901 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5901 rr:objectMap _:node1a4d09j56x5900 .
+
+_:node1a4d09j56x5904 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5904 .
+
+_:node1a4d09j56x5900 rr:column "paper_id" .
+
+_:node1a4d09j56x5904 rr:objectMap _:node1a4d09j56x5903 .
+
+_:node1a4d09j56x5898 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5883 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/accepted> ;
+	rr:objectMap _:node1a4d09j56x5882 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5883 .
+
+_:node1a4d09j56x5892 rr:objectMap _:node1a4d09j56x5891 .
+
+_:node1a4d09j56x5882 a rr:ObjectMap .
+
+_:node1a4d09j56x5888 a rr:TermMap .
+
+_:node1a4d09j56x5894 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:subjectMap _:node1a4d09j56x5558 .
+
+_:node1a4d09j56x5901 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/paper_id> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5886 .
+
+_:node1a4d09j56x5894 rr:termType rr:IRI .
+
+_:node1a4d09j56x5895 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5897 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5889 .
+
+_:node1a4d09j56x5891 a rr:ObjectMap .
+
+_:node1a4d09j56x5897 a rr:TermMap .
+
+_:node1a4d09j56x5888 rr:termType rr:IRI .
+
+_:node1a4d09j56x5894 a rr:TermMap .
+
+_:node1a4d09j56x5558 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5885 a rr:ObjectMap .
+
+_:node1a4d09j56x5903 rr:termType rr:Literal .
+
+_:node1a4d09j56x5900 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5883 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5888 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{decision}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5898 .
+
+_:node1a4d09j56x5900 a rr:TermMap .
+
+_:node1a4d09j56x5892 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5558 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5895 .
+
+_:node1a4d09j56x5557 rr:tableName "cmt_renamed.papers" .
+
+_:node1a4d09j56x5889 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:predicateObjectMap _:node1a4d09j56x5892 .
+
+_:node1a4d09j56x5900 rr:termType rr:Literal .
+
+_:node1a4d09j56x5892 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/documents/id> .
+
+_:node1a4d09j56x5558 rr:termType rr:IRI .
+
+_:node1a4d09j56x5903 rr:column "title" .
+
+_:node1a4d09j56x5889 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/decision> .
+
+_:node1a4d09j56x5895 rr:objectMap _:node1a4d09j56x5894 .
+
+_:node1a4d09j56x5882 rr:termType rr:IRI .
+
+_:node1a4d09j56x5891 rr:termType rr:IRI .
+
+_:node1a4d09j56x5886 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5888 a rr:ObjectMap .
+
+_:node1a4d09j56x5886 rr:objectMap _:node1a4d09j56x5885 .
+
+_:node1a4d09j56x5903 a rr:ObjectMap .
+
+_:node1a4d09j56x5558 a rr:SubjectMap .
+
+_:node1a4d09j56x5885 rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{author}" .
+
+_:node1a4d09j56x5897 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rejected}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924018/papers> rr:logicalTable _:node1a4d09j56x5557 .
+
+_:node1a4d09j56x5889 rr:objectMap _:node1a4d09j56x5888 .
+
+_:node1a4d09j56x5903 a rr:TermMap .
+
+_:node1a4d09j56x5891 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5904 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers/title> .
+
+_:node1a4d09j56x5823 rr:objectMap _:node1a4d09j56x5822 .
+
+_:node1a4d09j56x5819 a rr:TermMap .
+
+_:node1a4d09j56x5823 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5816 a rr:ObjectMap .
+
+_:node1a4d09j56x5519 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/bids> .
+
+_:node1a4d09j56x5820 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/bids/bid> .
+
+_:node1a4d09j56x5822 a rr:ObjectMap .
+
+_:node1a4d09j56x5819 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> a rr:TriplesMap .
+
+_:node1a4d09j56x5519 a rr:SubjectMap .
+
+_:node1a4d09j56x5816 rr:termType rr:IRI .
+
+_:node1a4d09j56x5819 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> rr:logicalTable _:node1a4d09j56x5518 .
+
+_:node1a4d09j56x5819 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{bid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> rr:predicateObjectMap _:node1a4d09j56x5817 .
+
+_:node1a4d09j56x5822 rr:termType rr:Literal .
+
+_:node1a4d09j56x5816 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{adjusted}" .
+
+_:node1a4d09j56x5823 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5817 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/bids/adjusted> ;
+	a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5822 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5518 rr:tableName "cmt_renamed.bids" .
+
+_:node1a4d09j56x5822 rr:column "id" .
+
+_:node1a4d09j56x5817 rr:objectMap _:node1a4d09j56x5816 .
+
+_:node1a4d09j56x5518 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5820 rr:objectMap _:node1a4d09j56x5819 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> rr:subjectMap _:node1a4d09j56x5519 .
+
+_:node1a4d09j56x5519 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> rr:predicateObjectMap _:node1a4d09j56x5823 .
+
+_:node1a4d09j56x5822 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192375/bids> rr:predicateObjectMap _:node1a4d09j56x5820 .
+
+_:node1a4d09j56x5820 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5519 a rr:TermMap .
+
+_:node1a4d09j56x5816 a rr:TermMap .
+
+_:node1a4d09j56x5519 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/bids/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192370/acceptances> rr:logicalTable _:node1a4d09j56x5503 .
+
+_:node1a4d09j56x5795 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{id}" .
+
+_:node1a4d09j56x5504 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{id}" .
+
+_:node1a4d09j56x5795 rr:termType rr:IRI .
+
+_:node1a4d09j56x5504 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/acceptances> .
+
+_:node1a4d09j56x5795 a rr:TermMap .
+
+_:node1a4d09j56x5503 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192370/acceptances> rr:subjectMap _:node1a4d09j56x5504 .
+
+_:node1a4d09j56x5504 a rr:SubjectMap .
+
+_:node1a4d09j56x5796 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/decisions/id> .
+
+_:node1a4d09j56x5504 rr:termType rr:IRI .
+
+_:node1a4d09j56x5796 rr:objectMap _:node1a4d09j56x5795 .
+
+_:node1a4d09j56x5503 rr:tableName "cmt_renamed.acceptances" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192370/acceptances> a rr:TriplesMap .
+
+_:node1a4d09j56x5796 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5795 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192370/acceptances> rr:predicateObjectMap _:node1a4d09j56x5796 .
+
+_:node1a4d09j56x5781 rr:objectMap _:node1a4d09j56x5780 .
+
+_:node1a4d09j56x5777 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+_:node1a4d09j56x5776 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5781 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/mark_conflict_interests> ;
+	a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5780 rr:column "conference_member" .
+
+_:node1a4d09j56x5777 a rr:SubjectMap , rr:TermMap .
+
+_:node1a4d09j56x5780 rr:termType rr:Literal ;
+	a rr:ObjectMap ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5776 rr:tableName "cmt_renamed.mark_conflict_interests" .
+
+_:node1a4d09j56x5777 rr:termType rr:IRI .
+
+_:node1a4d09j56x5780 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924760/mark_conflict_interests> rr:logicalTable _:node1a4d09j56x5776 .
+
+_:node1a4d09j56x5777 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{paper}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924760/mark_conflict_interests> rr:subjectMap _:node1a4d09j56x5777 ;
+	rr:predicateObjectMap _:node1a4d09j56x5781 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5859 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> ;
+	a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5858 rr:termType rr:Literal .
+
+_:node1a4d09j56x5537 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923811/decisions> rr:predicateObjectMap _:node1a4d09j56x5859 .
+
+_:node1a4d09j56x5858 rr:column "id" .
+
+_:node1a4d09j56x5537 a rr:SubjectMap .
+
+_:node1a4d09j56x5858 a rr:ObjectMap .
+
+_:node1a4d09j56x5859 rr:objectMap _:node1a4d09j56x5858 .
+
+_:node1a4d09j56x5858 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> ;
+	a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923811/decisions> rr:logicalTable _:node1a4d09j56x5536 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5537 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions> ;
+	rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/decisions/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923811/decisions> rr:subjectMap _:node1a4d09j56x5537 .
+
+_:node1a4d09j56x5536 a rr:BaseTableOrView ;
+	rr:tableName "cmt_renamed.decisions" .
+
+_:node1a4d09j56x5548 rr:tableName "cmt_renamed.meta_reviews" .
+
+_:node1a4d09j56x5549 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/meta_reviews> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923915/meta_reviews> a rr:TriplesMap .
+
+_:node1a4d09j56x5874 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5873 rr:termType rr:IRI .
+
+_:node1a4d09j56x5549 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923915/meta_reviews> rr:predicateObjectMap _:node1a4d09j56x5874 .
+
+_:node1a4d09j56x5548 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5873 a rr:ObjectMap .
+
+_:node1a4d09j56x5549 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923915/meta_reviews> rr:logicalTable _:node1a4d09j56x5548 .
+
+_:node1a4d09j56x5874 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/meta_reviews/id> .
+
+_:node1a4d09j56x5873 a rr:TermMap .
+
+_:node1a4d09j56x5874 rr:objectMap _:node1a4d09j56x5873 .
+
+_:node1a4d09j56x5549 a rr:TermMap .
+
+_:node1a4d09j56x5873 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923915/meta_reviews> rr:subjectMap _:node1a4d09j56x5549 .
+
+_:node1a4d09j56x5549 a rr:SubjectMap .
+
+_:node1a4d09j56x5711 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+_:node1a4d09j56x5715 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5710 rr:tableName "cmt_renamed.paper_subject_area" .
+
+_:node1a4d09j56x5711 a rr:SubjectMap .
+
+_:node1a4d09j56x5715 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_subject_area/papers_has_subject_areas> .
+
+_:node1a4d09j56x5710 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5715 rr:objectMap _:node1a4d09j56x5714 .
+
+_:node1a4d09j56x5714 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924549/paper_subject_area> rr:subjectMap _:node1a4d09j56x5711 .
+
+_:node1a4d09j56x5711 a rr:TermMap .
+
+_:node1a4d09j56x5714 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924549/paper_subject_area> a rr:TriplesMap .
+
+_:node1a4d09j56x5711 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924549/paper_subject_area> rr:predicateObjectMap _:node1a4d09j56x5715 ;
+	rr:logicalTable _:node1a4d09j56x5710 .
+
+_:node1a4d09j56x5714 a rr:ObjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/subject_areas/{sid}" .
+
+_:node1a4d09j56x5711 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+_:node1a4d09j56x5613 rr:objectMap _:node1a4d09j56x5612 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924332/co_author_paper> rr:logicalTable _:node1a4d09j56x5608 ;
+	rr:predicateObjectMap _:node1a4d09j56x5613 .
+
+_:node1a4d09j56x5612 a rr:TermMap .
+
+_:node1a4d09j56x5609 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+_:node1a4d09j56x5608 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5612 rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{cid}" .
+
+_:node1a4d09j56x5609 a rr:TermMap .
+
+_:node1a4d09j56x5613 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/co_author_paper/papers_has_co_authors> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924332/co_author_paper> a rr:TriplesMap .
+
+_:node1a4d09j56x5609 rr:termType rr:IRI .
+
+_:node1a4d09j56x5613 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5608 rr:tableName "cmt_renamed.co_author_paper" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924332/co_author_paper> rr:subjectMap _:node1a4d09j56x5609 .
+
+_:node1a4d09j56x5612 a rr:ObjectMap .
+
+_:node1a4d09j56x5609 a rr:SubjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+_:node1a4d09j56x5775 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conference_members> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924759/conference_members> rr:logicalTable _:node1a4d09j56x5770 .
+
+_:node1a4d09j56x5775 rr:objectMap _:node1a4d09j56x5774 .
+
+_:node1a4d09j56x5774 rr:termType rr:Literal .
+
+_:node1a4d09j56x5770 rr:tableName "cmt_renamed.conference_members" .
+
+_:node1a4d09j56x5774 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5771 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{conference}" .
+
+_:node1a4d09j56x5774 rr:column "conference_member" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924759/conference_members> a rr:TriplesMap .
+
+_:node1a4d09j56x5771 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5770 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5771 a rr:TermMap .
+
+_:node1a4d09j56x5774 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924759/conference_members> rr:subjectMap _:node1a4d09j56x5771 .
+
+_:node1a4d09j56x5774 a rr:ObjectMap .
+
+_:node1a4d09j56x5771 a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5775 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924759/conference_members> rr:predicateObjectMap _:node1a4d09j56x5775 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924444/paper_assignment_tools_run> rr:logicalTable _:node1a4d09j56x5680 .
+
+_:node1a4d09j56x5681 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5685 rr:objectMap _:node1a4d09j56x5684 .
+
+_:node1a4d09j56x5684 a rr:ObjectMap .
+
+_:node1a4d09j56x5680 rr:tableName "cmt_renamed.paper_assignment_tools_run" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924444/paper_assignment_tools_run> rr:subjectMap _:node1a4d09j56x5681 .
+
+_:node1a4d09j56x5684 a rr:TermMap .
+
+_:node1a4d09j56x5680 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924444/paper_assignment_tools_run> rr:predicateObjectMap _:node1a4d09j56x5685 .
+
+_:node1a4d09j56x5685 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5681 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5685 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_assignment_tools_run/conferences_has_administrators> .
+
+_:node1a4d09j56x5681 a rr:TermMap ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924444/paper_assignment_tools_run> a rr:TriplesMap .
+
+_:node1a4d09j56x5684 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924655/read_by_reviewer> rr:subjectMap _:node1a4d09j56x5747 ;
+	rr:predicateObjectMap _:node1a4d09j56x5751 .
+
+_:node1a4d09j56x5747 a rr:SubjectMap .
+
+_:node1a4d09j56x5751 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/read_by_reviewer/papers_has_reviewers> .
+
+_:node1a4d09j56x5750 a rr:TermMap .
+
+_:node1a4d09j56x5747 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924655/read_by_reviewer> rr:logicalTable _:node1a4d09j56x5746 .
+
+_:node1a4d09j56x5746 rr:tableName "cmt_renamed.read_by_reviewer" ;
+	a rr:BaseTableOrView .
+
+_:node1a4d09j56x5750 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+_:node1a4d09j56x5751 rr:objectMap _:node1a4d09j56x5750 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924655/read_by_reviewer> a rr:TriplesMap .
+
+_:node1a4d09j56x5750 rr:termType rr:IRI .
+
+_:node1a4d09j56x5751 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5747 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5750 a rr:ObjectMap .
+
+_:node1a4d09j56x5601 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5600 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5596 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5597 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5596 rr:tableName "cmt_renamed.administrator_conference" .
+
+_:node1a4d09j56x5597 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924230/administrator_conference> rr:predicateObjectMap _:node1a4d09j56x5601 ;
+	rr:subjectMap _:node1a4d09j56x5597 .
+
+_:node1a4d09j56x5600 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924230/administrator_conference> a rr:TriplesMap ;
+	rr:logicalTable _:node1a4d09j56x5596 .
+
+_:node1a4d09j56x5601 rr:objectMap _:node1a4d09j56x5600 .
+
+_:node1a4d09j56x5600 a rr:TermMap .
+
+_:node1a4d09j56x5597 a rr:SubjectMap .
+
+_:node1a4d09j56x5600 rr:termType rr:IRI .
+
+_:node1a4d09j56x5597 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5601 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrator_conference/conferences_has_administrators> .
+
+_:node1a4d09j56x5543 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5868 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5864 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{assigned_by_reviewer}" .
+
+_:node1a4d09j56x5867 a rr:ObjectMap .
+
+_:node1a4d09j56x5865 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5864 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923913/external_reviewers> a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5868 .
+
+_:node1a4d09j56x5864 a rr:ObjectMap .
+
+_:node1a4d09j56x5542 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5543 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923913/external_reviewers> rr:subjectMap _:node1a4d09j56x5543 .
+
+_:node1a4d09j56x5868 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/persons/id> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923913/external_reviewers> rr:predicateObjectMap _:node1a4d09j56x5865 .
+
+_:node1a4d09j56x5867 rr:termType rr:IRI .
+
+_:node1a4d09j56x5543 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/external_reviewers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923913/external_reviewers> rr:logicalTable _:node1a4d09j56x5542 .
+
+_:node1a4d09j56x5867 a rr:TermMap .
+
+_:node1a4d09j56x5868 rr:objectMap _:node1a4d09j56x5867 .
+
+_:node1a4d09j56x5865 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/external_reviewers/assigned_by_reviewer> ;
+	rr:objectMap _:node1a4d09j56x5864 .
+
+_:node1a4d09j56x5864 rr:termType rr:IRI .
+
+_:node1a4d09j56x5542 rr:tableName "cmt_renamed.external_reviewers" .
+
+_:node1a4d09j56x5543 a rr:SubjectMap , rr:TermMap .
+
+_:node1a4d09j56x5867 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5841 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5849 a rr:ObjectMap .
+
+_:node1a4d09j56x5533 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5856 rr:objectMap _:node1a4d09j56x5855 .
+
+_:node1a4d09j56x5840 rr:column "site_url" .
+
+_:node1a4d09j56x5852 a rr:ObjectMap .
+
+_:node1a4d09j56x5534 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5846 a rr:TermMap .
+
+_:node1a4d09j56x5853 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/string/name> .
+
+_:node1a4d09j56x5847 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/logo_url> .
+
+_:node1a4d09j56x5838 rr:objectMap _:node1a4d09j56x5837 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5838 .
+
+_:node1a4d09j56x5843 rr:column "accepts_hardcopy_submissions" ;
+	rr:termType rr:Literal .
+
+_:node1a4d09j56x5837 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5855 a rr:TermMap .
+
+_:node1a4d09j56x5846 rr:termType rr:Literal .
+
+_:node1a4d09j56x5849 rr:column "date" .
+
+_:node1a4d09j56x5838 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5844 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5843 a rr:TermMap .
+
+_:node1a4d09j56x5838 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5840 a rr:TermMap , rr:ObjectMap .
+
+_:node1a4d09j56x5850 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5844 .
+
+_:node1a4d09j56x5844 rr:objectMap _:node1a4d09j56x5843 .
+
+_:node1a4d09j56x5855 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5847 .
+
+_:node1a4d09j56x5534 a rr:TermMap .
+
+_:node1a4d09j56x5849 rr:termType rr:Literal .
+
+_:node1a4d09j56x5852 rr:termType rr:Literal .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5841 .
+
+_:node1a4d09j56x5837 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:logicalTable _:node1a4d09j56x5533 .
+
+_:node1a4d09j56x5843 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5850 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/date> ;
+	rr:objectMap _:node1a4d09j56x5849 .
+
+_:node1a4d09j56x5840 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5844 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/accepts_hardcopy_submissions> .
+
+_:node1a4d09j56x5852 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5847 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5846 rr:column "logo_url" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5853 .
+
+_:node1a4d09j56x5534 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5856 .
+
+_:node1a4d09j56x5856 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:predicateObjectMap _:node1a4d09j56x5850 .
+
+_:node1a4d09j56x5840 rr:termType rr:Literal .
+
+_:node1a4d09j56x5534 a rr:SubjectMap .
+
+_:node1a4d09j56x5853 rr:objectMap _:node1a4d09j56x5852 .
+
+_:node1a4d09j56x5841 rr:objectMap _:node1a4d09j56x5840 .
+
+_:node1a4d09j56x5846 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5849 a rr:TermMap .
+
+_:node1a4d09j56x5843 a rr:ObjectMap .
+
+_:node1a4d09j56x5852 rr:column "name" .
+
+_:node1a4d09j56x5534 rr:termType rr:IRI .
+
+_:node1a4d09j56x5855 rr:column "reviews_per_paper" .
+
+_:node1a4d09j56x5852 a rr:TermMap .
+
+_:node1a4d09j56x5847 rr:objectMap _:node1a4d09j56x5846 .
+
+_:node1a4d09j56x5837 a rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+_:node1a4d09j56x5846 a rr:ObjectMap .
+
+_:node1a4d09j56x5855 rr:termType rr:Literal .
+
+_:node1a4d09j56x5856 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/reviews_per_paper> .
+
+_:node1a4d09j56x5853 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5855 a rr:ObjectMap .
+
+_:node1a4d09j56x5841 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/site_url> .
+
+_:node1a4d09j56x5533 rr:tableName "cmt_renamed.conferences" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923810/conferences> rr:subjectMap _:node1a4d09j56x5534 .
+
+_:node1a4d09j56x5837 rr:column "id" .
+
+_:node1a4d09j56x5554 rr:tableName "cmt_renamed.paper_full_versions" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924017/paper_full_versions> rr:subjectMap _:node1a4d09j56x5555 ;
+	rr:predicateObjectMap _:node1a4d09j56x5880 .
+
+_:node1a4d09j56x5880 rr:objectMap _:node1a4d09j56x5879 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924017/paper_full_versions> a rr:TriplesMap .
+
+_:node1a4d09j56x5880 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/papers/id> .
+
+_:node1a4d09j56x5555 rr:termType rr:IRI .
+
+_:node1a4d09j56x5554 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5880 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5879 rr:termType rr:IRI .
+
+_:node1a4d09j56x5555 a rr:SubjectMap ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_full_versions> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924017/paper_full_versions> rr:logicalTable _:node1a4d09j56x5554 .
+
+_:node1a4d09j56x5879 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5555 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5879 a rr:TermMap .
+
+_:node1a4d09j56x5555 a rr:TermMap .
+
+_:node1a4d09j56x5879 a rr:ObjectMap .
+
+_:node1a4d09j56x5826 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5825 a rr:ObjectMap .
+
+_:node1a4d09j56x5826 rr:objectMap _:node1a4d09j56x5825 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192376/chairmans> a rr:TriplesMap .
+
+_:node1a4d09j56x5521 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5825 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192376/chairmans> rr:logicalTable _:node1a4d09j56x5521 .
+
+_:node1a4d09j56x5522 a rr:TermMap ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/chairmans> .
+
+_:node1a4d09j56x5521 rr:tableName "cmt_renamed.chairmans" .
+
+_:node1a4d09j56x5522 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5825 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192376/chairmans> rr:subjectMap _:node1a4d09j56x5522 .
+
+_:node1a4d09j56x5825 a rr:TermMap .
+
+_:node1a4d09j56x5522 rr:termType rr:IRI .
+
+_:node1a4d09j56x5826 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/conf_members/id> .
+
+_:node1a4d09j56x5522 a rr:SubjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192376/chairmans> rr:predicateObjectMap _:node1a4d09j56x5826 .
+
+_:node1a4d09j56x5678 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5674 rr:tableName "cmt_renamed.paper_assignment_tools_run" .
+
+_:node1a4d09j56x5678 rr:termType rr:IRI .
+
+_:node1a4d09j56x5679 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5675 a rr:SubjectMap ;
+	rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5679 rr:objectMap _:node1a4d09j56x5678 .
+
+_:node1a4d09j56x5674 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924443/paper_assignment_tools_run> a rr:TriplesMap ;
+	rr:logicalTable _:node1a4d09j56x5674 .
+
+_:node1a4d09j56x5675 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+_:node1a4d09j56x5679 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_assignment_tools_run/administrators_has_conferences> .
+
+_:node1a4d09j56x5678 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924443/paper_assignment_tools_run> rr:predicateObjectMap _:node1a4d09j56x5679 .
+
+_:node1a4d09j56x5678 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924443/paper_assignment_tools_run> rr:subjectMap _:node1a4d09j56x5675 .
+
+_:node1a4d09j56x5675 a rr:TermMap .
+
+_:node1a4d09j56x5702 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924547/paper_reviewer> rr:predicateObjectMap _:node1a4d09j56x5703 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5698 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5699 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" ;
+	a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5703 a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5702 .
+
+_:node1a4d09j56x5702 a rr:ObjectMap .
+
+_:node1a4d09j56x5698 rr:tableName "cmt_renamed.paper_reviewer" .
+
+_:node1a4d09j56x5702 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924547/paper_reviewer> rr:logicalTable _:node1a4d09j56x5698 .
+
+_:node1a4d09j56x5702 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924547/paper_reviewer> rr:subjectMap _:node1a4d09j56x5699 .
+
+_:node1a4d09j56x5703 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_reviewer/papers_has_reviewers> .
+
+_:node1a4d09j56x5699 a rr:TermMap ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/papers> .
+
+_:node1a4d09j56x5765 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924658/reviewer_administrator> a rr:TriplesMap .
+
+_:node1a4d09j56x5765 a rr:SubjectMap .
+
+_:node1a4d09j56x5768 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5765 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924658/reviewer_administrator> rr:logicalTable _:node1a4d09j56x5764 .
+
+_:node1a4d09j56x5769 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5765 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewers> .
+
+_:node1a4d09j56x5768 a rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5765 a rr:TermMap .
+
+_:node1a4d09j56x5764 a rr:BaseTableOrView ;
+	rr:tableName "cmt_renamed.reviewer_administrator" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924658/reviewer_administrator> rr:predicateObjectMap _:node1a4d09j56x5769 .
+
+_:node1a4d09j56x5769 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewer_administrator/reviewers_has_administrators> ;
+	rr:objectMap _:node1a4d09j56x5768 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924658/reviewer_administrator> rr:subjectMap _:node1a4d09j56x5765 .
+
+_:node1a4d09j56x5729 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924552/person_document> rr:predicateObjectMap _:node1a4d09j56x5733 ;
+	rr:subjectMap _:node1a4d09j56x5729 .
+
+_:node1a4d09j56x5729 a rr:SubjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924552/person_document> a rr:TriplesMap .
+
+_:node1a4d09j56x5733 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/person_document/persons_has_documents> .
+
+_:node1a4d09j56x5728 rr:tableName "cmt_renamed.person_document" .
+
+_:node1a4d09j56x5732 rr:termType rr:IRI .
+
+_:node1a4d09j56x5729 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{pid}" .
+
+_:node1a4d09j56x5732 a rr:ObjectMap .
+
+_:node1a4d09j56x5728 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5732 a rr:TermMap .
+
+_:node1a4d09j56x5733 a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5732 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924552/person_document> rr:logicalTable _:node1a4d09j56x5728 .
+
+_:node1a4d09j56x5729 rr:termType rr:IRI .
+
+_:node1a4d09j56x5732 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{did}" .
+
+_:node1a4d09j56x5735 a rr:SubjectMap .
+
+_:node1a4d09j56x5739 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5738 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924653/program_committee_chair_review> rr:logicalTable _:node1a4d09j56x5734 .
+
+_:node1a4d09j56x5735 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924653/program_committee_chair_review> rr:predicateObjectMap _:node1a4d09j56x5739 .
+
+_:node1a4d09j56x5735 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{pid}" .
+
+_:node1a4d09j56x5739 rr:objectMap _:node1a4d09j56x5738 .
+
+_:node1a4d09j56x5734 rr:tableName "cmt_renamed.program_committee_chair_review" .
+
+_:node1a4d09j56x5738 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{rid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924653/program_committee_chair_review> rr:subjectMap _:node1a4d09j56x5735 .
+
+_:node1a4d09j56x5738 a rr:ObjectMap .
+
+_:node1a4d09j56x5734 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5739 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_chair_review/program_committee_chairs_has_reviews> .
+
+_:node1a4d09j56x5738 rr:termType rr:IRI .
+
+_:node1a4d09j56x5735 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924653/program_committee_chair_review> a rr:TriplesMap .
+
+_:node1a4d09j56x5735 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_chairs> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924442/hardcopy_mailing_manifests_p> rr:logicalTable _:node1a4d09j56x5668 ;
+	rr:predicateObjectMap _:node1a4d09j56x5673 .
+
+_:node1a4d09j56x5673 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924442/hardcopy_mailing_manifests_p> a rr:TriplesMap .
+
+_:node1a4d09j56x5669 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+_:node1a4d09j56x5673 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/hardcopy_mailing_manifests_p/conferences_has_administrators> .
+
+_:node1a4d09j56x5668 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5669 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924442/hardcopy_mailing_manifests_p> rr:subjectMap _:node1a4d09j56x5669 .
+
+_:node1a4d09j56x5669 a rr:SubjectMap .
+
+_:node1a4d09j56x5672 a rr:ObjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5669 rr:termType rr:IRI .
+
+_:node1a4d09j56x5672 a rr:TermMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5669 a rr:TermMap .
+
+_:node1a4d09j56x5673 rr:objectMap _:node1a4d09j56x5672 .
+
+_:node1a4d09j56x5668 rr:tableName "cmt_renamed.hardcopy_mailing_manifests_p" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924761/program_committee_members> a rr:TriplesMap .
+
+_:node1a4d09j56x5783 a rr:SubjectMap .
+
+_:node1a4d09j56x5787 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_members> ;
+	rr:objectMap _:node1a4d09j56x5786 .
+
+_:node1a4d09j56x5782 rr:tableName "cmt_renamed.program_committee_members" .
+
+_:node1a4d09j56x5787 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924761/program_committee_members> rr:predicateObjectMap _:node1a4d09j56x5787 ;
+	rr:subjectMap _:node1a4d09j56x5783 .
+
+_:node1a4d09j56x5786 rr:termType rr:Literal .
+
+_:node1a4d09j56x5782 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924761/program_committee_members> rr:logicalTable _:node1a4d09j56x5782 .
+
+_:node1a4d09j56x5783 a rr:TermMap .
+
+_:node1a4d09j56x5786 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5783 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committees/{program_committee}" .
+
+_:node1a4d09j56x5786 a rr:ObjectMap ;
+	rr:column "program_committee_member" .
+
+_:node1a4d09j56x5783 rr:termType rr:IRI ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committees> .
+
+_:node1a4d09j56x5786 a rr:TermMap .
+
+_:node1a4d09j56x5662 rr:tableName "cmt_renamed.hardcopy_mailing_manifests_p" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924441/hardcopy_mailing_manifests_p> rr:logicalTable _:node1a4d09j56x5662 .
+
+_:node1a4d09j56x5663 a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5667 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5663 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5666 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5662 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5666 a rr:TermMap .
+
+_:node1a4d09j56x5663 a rr:TermMap .
+
+_:node1a4d09j56x5667 rr:objectMap _:node1a4d09j56x5666 .
+
+_:node1a4d09j56x5666 a rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5663 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924441/hardcopy_mailing_manifests_p> rr:subjectMap _:node1a4d09j56x5663 ;
+	rr:predicateObjectMap _:node1a4d09j56x5667 .
+
+_:node1a4d09j56x5667 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/hardcopy_mailing_manifests_p/administrators_has_conferences> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924441/hardcopy_mailing_manifests_p> a rr:TriplesMap .
+
+_:node1a4d09j56x5566 rr:tableName "cmt_renamed.preferences" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924121/preferences> rr:predicateObjectMap _:node1a4d09j56x5925 .
+
+_:node1a4d09j56x5925 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5567 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/preferences> .
+
+_:node1a4d09j56x5924 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5566 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5925 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924121/preferences> rr:subjectMap _:node1a4d09j56x5567 .
+
+_:node1a4d09j56x5567 rr:termType rr:IRI ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/preferences/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924121/preferences> rr:logicalTable _:node1a4d09j56x5566 .
+
+_:node1a4d09j56x5924 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924121/preferences> a rr:TriplesMap .
+
+_:node1a4d09j56x5925 rr:objectMap _:node1a4d09j56x5924 .
+
+_:node1a4d09j56x5924 a rr:TermMap .
+
+_:node1a4d09j56x5567 a rr:TermMap .
+
+_:node1a4d09j56x5924 rr:termType rr:Literal .
+
+_:node1a4d09j56x5567 a rr:SubjectMap .
+
+_:node1a4d09j56x5924 rr:column "id" .
+
+_:node1a4d09j56x5545 rr:tableName "cmt_renamed.meta_reviewers" .
+
+_:node1a4d09j56x5871 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/meta_reviewers/id> .
+
+_:node1a4d09j56x5870 rr:termType rr:IRI .
+
+_:node1a4d09j56x5871 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923914/meta_reviewers> rr:logicalTable _:node1a4d09j56x5545 .
+
+_:node1a4d09j56x5545 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923914/meta_reviewers> a rr:TriplesMap .
+
+_:node1a4d09j56x5546 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923914/meta_reviewers> rr:predicateObjectMap _:node1a4d09j56x5871 .
+
+_:node1a4d09j56x5871 rr:objectMap _:node1a4d09j56x5870 .
+
+_:node1a4d09j56x5870 a rr:TermMap .
+
+_:node1a4d09j56x5546 a rr:SubjectMap .
+
+_:node1a4d09j56x5870 a rr:ObjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5546 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/meta_reviewers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923914/meta_reviewers> rr:subjectMap _:node1a4d09j56x5546 .
+
+_:node1a4d09j56x5546 a rr:TermMap .
+
+_:node1a4d09j56x5804 rr:termType rr:IRI .
+
+_:node1a4d09j56x5805 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5510 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/associated_chairs> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192372/associated_chairs> a rr:TriplesMap .
+
+_:node1a4d09j56x5509 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5510 a rr:TermMap .
+
+_:node1a4d09j56x5509 rr:tableName "cmt_renamed.associated_chairs" .
+
+_:node1a4d09j56x5510 rr:termType rr:IRI .
+
+_:node1a4d09j56x5804 a rr:ObjectMap , rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192372/associated_chairs> rr:subjectMap _:node1a4d09j56x5510 ;
+	rr:predicateObjectMap _:node1a4d09j56x5805 .
+
+_:node1a4d09j56x5805 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/chairmans/id> .
+
+_:node1a4d09j56x5804 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5805 rr:objectMap _:node1a4d09j56x5804 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192372/associated_chairs> rr:logicalTable _:node1a4d09j56x5509 .
+
+_:node1a4d09j56x5510 a rr:SubjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5691 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924545/paper_author> rr:logicalTable _:node1a4d09j56x5686 ;
+	rr:subjectMap _:node1a4d09j56x5687 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5691 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_author/authors_has_papers> .
+
+_:node1a4d09j56x5686 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5687 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5686 rr:tableName "cmt_renamed.paper_author" .
+
+_:node1a4d09j56x5690 rr:termType rr:IRI ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5691 rr:objectMap _:node1a4d09j56x5690 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924545/paper_author> rr:predicateObjectMap _:node1a4d09j56x5691 .
+
+_:node1a4d09j56x5687 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/authors> .
+
+_:node1a4d09j56x5690 a rr:ObjectMap .
+
+_:node1a4d09j56x5687 a rr:SubjectMap , rr:TermMap .
+
+_:node1a4d09j56x5690 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+_:node1a4d09j56x5876 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923916/paper_abstracts> rr:subjectMap _:node1a4d09j56x5552 .
+
+_:node1a4d09j56x5552 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_abstracts> ;
+	a rr:SubjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923916/paper_abstracts> rr:logicalTable _:node1a4d09j56x5551 .
+
+_:node1a4d09j56x5552 rr:termType rr:IRI .
+
+_:node1a4d09j56x5876 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5552 a rr:TermMap .
+
+_:node1a4d09j56x5877 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/papers/id> .
+
+_:node1a4d09j56x5551 rr:tableName "cmt_renamed.paper_abstracts" .
+
+_:node1a4d09j56x5552 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5551 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5877 a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5876 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923916/paper_abstracts> rr:predicateObjectMap _:node1a4d09j56x5877 ;
+	a rr:TriplesMap .
+
+_:node1a4d09j56x5512 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5808 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5807 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192373/author_not_reviewers> rr:subjectMap _:node1a4d09j56x5513 .
+
+_:node1a4d09j56x5807 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5808 rr:objectMap _:node1a4d09j56x5807 .
+
+_:node1a4d09j56x5513 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/author_not_reviewers> ;
+	a rr:TermMap , rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5808 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/authors/id> .
+
+_:node1a4d09j56x5512 rr:tableName "cmt_renamed.author_not_reviewers" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192373/author_not_reviewers> a rr:TriplesMap .
+
+_:node1a4d09j56x5513 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192373/author_not_reviewers> rr:predicateObjectMap _:node1a4d09j56x5808 ;
+	rr:logicalTable _:node1a4d09j56x5512 .
+
+_:node1a4d09j56x5807 rr:termType rr:IRI ;
+	a rr:ObjectMap .
+
+_:node1a4d09j56x5615 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924333/conference_administrator> rr:subjectMap _:node1a4d09j56x5615 .
+
+_:node1a4d09j56x5619 rr:objectMap _:node1a4d09j56x5618 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924333/conference_administrator> rr:predicateObjectMap _:node1a4d09j56x5619 .
+
+_:node1a4d09j56x5615 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5618 a rr:ObjectMap .
+
+_:node1a4d09j56x5614 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5619 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conference_administrator/administrators_has_conferences> .
+
+_:node1a4d09j56x5618 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" .
+
+_:node1a4d09j56x5615 rr:termType rr:IRI .
+
+_:node1a4d09j56x5614 rr:tableName "cmt_renamed.conference_administrator" .
+
+_:node1a4d09j56x5618 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924333/conference_administrator> a rr:TriplesMap ;
+	rr:logicalTable _:node1a4d09j56x5614 .
+
+_:node1a4d09j56x5615 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5862 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5861 rr:column "id" ;
+	rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923812/documents> a rr:TriplesMap .
+
+_:node1a4d09j56x5862 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> ;
+	rr:objectMap _:node1a4d09j56x5861 .
+
+_:node1a4d09j56x5861 rr:termType rr:Literal ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5540 a rr:TermMap .
+
+_:node1a4d09j56x5539 rr:tableName "cmt_renamed.documents" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923812/documents> rr:logicalTable _:node1a4d09j56x5539 .
+
+_:node1a4d09j56x5540 a rr:SubjectMap ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents> .
+
+_:node1a4d09j56x5539 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5540 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071923812/documents> rr:predicateObjectMap _:node1a4d09j56x5862 ;
+	rr:subjectMap _:node1a4d09j56x5540 .
+
+_:node1a4d09j56x5861 a rr:ObjectMap .
+
+_:node1a4d09j56x5540 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{id}" .
+
+_:node1a4d09j56x5636 a rr:TermMap .
+
+_:node1a4d09j56x5637 rr:objectMap _:node1a4d09j56x5636 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924336/details_entered> rr:predicateObjectMap _:node1a4d09j56x5637 .
+
+_:node1a4d09j56x5636 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924336/details_entered> a rr:TriplesMap .
+
+_:node1a4d09j56x5636 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{aid}" .
+
+_:node1a4d09j56x5632 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5636 a rr:ObjectMap .
+
+_:node1a4d09j56x5633 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924336/details_entered> rr:logicalTable _:node1a4d09j56x5632 .
+
+_:node1a4d09j56x5633 a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5637 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5633 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences/{cid}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conferences> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924336/details_entered> rr:subjectMap _:node1a4d09j56x5633 .
+
+_:node1a4d09j56x5637 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/details_entered/conferences_has_administrators> .
+
+_:node1a4d09j56x5632 rr:tableName "cmt_renamed.details_entered" .
+
+_:node1a4d09j56x5717 a rr:SubjectMap .
+
+_:node1a4d09j56x5721 rr:objectMap _:node1a4d09j56x5720 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924550/paper_subject_area> rr:logicalTable _:node1a4d09j56x5716 ;
+	rr:predicateObjectMap _:node1a4d09j56x5721 .
+
+_:node1a4d09j56x5721 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/paper_subject_area/subject_areas_has_papers> .
+
+_:node1a4d09j56x5717 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924550/paper_subject_area> a rr:TriplesMap .
+
+_:node1a4d09j56x5716 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5717 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/subject_areas/{sid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924550/paper_subject_area> rr:subjectMap _:node1a4d09j56x5717 .
+
+_:node1a4d09j56x5717 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/subject_areas> .
+
+_:node1a4d09j56x5720 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5716 rr:tableName "cmt_renamed.paper_subject_area" .
+
+_:node1a4d09j56x5720 a rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5717 rr:termType rr:IRI .
+
+_:node1a4d09j56x5579 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5946 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5579 a rr:TermMap .
+
+_:node1a4d09j56x5949 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924125/reviewers> rr:logicalTable _:node1a4d09j56x5578 .
+
+_:node1a4d09j56x5945 rr:termType rr:IRI .
+
+_:node1a4d09j56x5579 a rr:SubjectMap .
+
+_:node1a4d09j56x5945 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924125/reviewers> rr:subjectMap _:node1a4d09j56x5579 .
+
+_:node1a4d09j56x5948 a rr:TermMap .
+
+_:node1a4d09j56x5949 rr:objectMap _:node1a4d09j56x5948 .
+
+_:node1a4d09j56x5948 a rr:ObjectMap .
+
+_:node1a4d09j56x5946 rr:objectMap _:node1a4d09j56x5945 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924125/reviewers> rr:predicateObjectMap _:node1a4d09j56x5946 ;
+	a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5949 .
+
+_:node1a4d09j56x5578 rr:tableName "cmt_renamed.reviewers" .
+
+_:node1a4d09j56x5579 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewers> .
+
+_:node1a4d09j56x5949 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/users/id> .
+
+_:node1a4d09j56x5579 rr:termType rr:IRI .
+
+_:node1a4d09j56x5948 rr:termType rr:IRI .
+
+_:node1a4d09j56x5946 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/conf_members/id> .
+
+_:node1a4d09j56x5945 a rr:ObjectMap , rr:TermMap .
+
+_:node1a4d09j56x5948 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5578 a rr:BaseTableOrView .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> rr:predicateObjectMap _:node1a4d09j56x5916 .
+
+_:node1a4d09j56x5915 a rr:ObjectMap .
+
+_:node1a4d09j56x5922 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5919 a rr:PredicateObjectMap ;
+	rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/string/name> .
+
+_:node1a4d09j56x5915 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+_:node1a4d09j56x5918 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5919 rr:objectMap _:node1a4d09j56x5918 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> a rr:TriplesMap .
+
+_:node1a4d09j56x5921 a rr:ObjectMap .
+
+_:node1a4d09j56x5916 rr:objectMap _:node1a4d09j56x5915 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> rr:logicalTable _:node1a4d09j56x5563 .
+
+_:node1a4d09j56x5921 rr:termType rr:Literal .
+
+_:node1a4d09j56x5564 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons> .
+
+_:node1a4d09j56x5915 rr:termType rr:Literal ;
+	a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> rr:predicateObjectMap _:node1a4d09j56x5919 .
+
+_:node1a4d09j56x5921 rr:column "email" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> rr:predicateObjectMap _:node1a4d09j56x5922 .
+
+_:node1a4d09j56x5916 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_dProp/integer/id> .
+
+_:node1a4d09j56x5918 a rr:TermMap , rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+_:node1a4d09j56x5563 rr:tableName "cmt_renamed.persons" .
+
+_:node1a4d09j56x5916 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924020/persons> rr:subjectMap _:node1a4d09j56x5564 .
+
+_:node1a4d09j56x5922 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/email> .
+
+_:node1a4d09j56x5921 a rr:TermMap .
+
+_:node1a4d09j56x5564 rr:termType rr:IRI .
+
+_:node1a4d09j56x5563 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5921 rr:datatype <http://www.w3.org/2001/XMLSchema#string> .
+
+_:node1a4d09j56x5918 rr:column "name" .
+
+_:node1a4d09j56x5922 rr:objectMap _:node1a4d09j56x5921 .
+
+_:node1a4d09j56x5564 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5915 rr:column "id" .
+
+_:node1a4d09j56x5564 a rr:TermMap .
+
+_:node1a4d09j56x5793 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/set_max_papers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924762/set_max_papers> rr:logicalTable _:node1a4d09j56x5788 .
+
+_:node1a4d09j56x5792 rr:termType rr:Literal .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924762/set_max_papers> a rr:TriplesMap .
+
+_:node1a4d09j56x5789 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{administrator}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924762/set_max_papers> rr:subjectMap _:node1a4d09j56x5789 .
+
+_:node1a4d09j56x5793 a rr:PredicateObjectMap ;
+	rr:objectMap _:node1a4d09j56x5792 .
+
+_:node1a4d09j56x5788 rr:tableName "cmt_renamed.set_max_papers" .
+
+_:node1a4d09j56x5792 a rr:TermMap .
+
+_:node1a4d09j56x5789 a rr:TermMap .
+
+_:node1a4d09j56x5792 rr:column "program_committee_member" .
+
+_:node1a4d09j56x5788 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5789 a rr:SubjectMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5792 rr:datatype <http://www.w3.org/2001/XMLSchema#integer> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924762/set_max_papers> rr:predicateObjectMap _:node1a4d09j56x5793 .
+
+_:node1a4d09j56x5792 a rr:ObjectMap .
+
+_:node1a4d09j56x5789 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> .
+
+_:node1a4d09j56x5832 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5528 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conf_members> ;
+	rr:termType rr:IRI ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5831 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192388/conf_members> a rr:TriplesMap ;
+	rr:subjectMap _:node1a4d09j56x5528 .
+
+_:node1a4d09j56x5527 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5528 a rr:SubjectMap .
+
+_:node1a4d09j56x5832 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/persons/id> .
+
+_:node1a4d09j56x5831 a rr:TermMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5832 rr:objectMap _:node1a4d09j56x5831 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192388/conf_members> rr:logicalTable _:node1a4d09j56x5527 .
+
+_:node1a4d09j56x5528 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192388/conf_members> rr:predicateObjectMap _:node1a4d09j56x5832 .
+
+_:node1a4d09j56x5831 rr:termType rr:IRI .
+
+_:node1a4d09j56x5527 rr:tableName "cmt_renamed.conf_members" .
+
+_:node1a4d09j56x5744 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{pid}" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924654/program_committee_chair_review> a rr:TriplesMap .
+
+_:node1a4d09j56x5740 rr:tableName "cmt_renamed.program_committee_chair_review" .
+
+_:node1a4d09j56x5745 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924654/program_committee_chair_review> rr:logicalTable _:node1a4d09j56x5740 ;
+	rr:predicateObjectMap _:node1a4d09j56x5745 .
+
+_:node1a4d09j56x5741 rr:termType rr:IRI .
+
+_:node1a4d09j56x5745 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/program_committee_chair_review/reviews_has_program_committee_chairs> .
+
+_:node1a4d09j56x5744 a rr:ObjectMap .
+
+_:node1a4d09j56x5741 a rr:TermMap .
+
+_:node1a4d09j56x5740 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5744 a rr:TermMap ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5741 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviews> ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{rid}" .
+
+_:node1a4d09j56x5745 rr:objectMap _:node1a4d09j56x5744 .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924654/program_committee_chair_review> rr:subjectMap _:node1a4d09j56x5741 .
+
+_:node1a4d09j56x5741 a rr:SubjectMap .
+
+_:node1a4d09j56x5507 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators> ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	a rr:TermMap .
+
+_:node1a4d09j56x5506 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5798 rr:termType rr:IRI .
+
+_:node1a4d09j56x5799 rr:objectMap _:node1a4d09j56x5798 .
+
+_:node1a4d09j56x5801 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192371/administrators> rr:logicalTable _:node1a4d09j56x5506 .
+
+_:node1a4d09j56x5507 rr:termType rr:IRI ;
+	a rr:SubjectMap .
+
+_:node1a4d09j56x5506 rr:tableName "cmt_renamed.administrators" .
+
+_:node1a4d09j56x5798 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{accept_paper}" .
+
+_:node1a4d09j56x5802 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192371/administrators> rr:predicateObjectMap _:node1a4d09j56x5799 .
+
+_:node1a4d09j56x5801 rr:termType rr:IRI .
+
+_:node1a4d09j56x5799 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/administrators/accept_paper> .
+
+_:node1a4d09j56x5802 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/users/id> .
+
+_:node1a4d09j56x5799 a rr:PredicateObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192371/administrators> a rr:TriplesMap ;
+	rr:predicateObjectMap _:node1a4d09j56x5802 .
+
+_:node1a4d09j56x5801 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5798 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192371/administrators> rr:subjectMap _:node1a4d09j56x5507 .
+
+_:node1a4d09j56x5798 a rr:ObjectMap .
+
+_:node1a4d09j56x5802 rr:objectMap _:node1a4d09j56x5801 .
+
+_:node1a4d09j56x5801 a rr:ObjectMap .
+
+_:node1a4d09j56x5835 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/merged_oProp/chairmans/id> .
+
+_:node1a4d09j56x5834 a rr:ObjectMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192389/conference_chairs> rr:subjectMap _:node1a4d09j56x5531 .
+
+_:node1a4d09j56x5835 rr:objectMap _:node1a4d09j56x5834 .
+
+_:node1a4d09j56x5834 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" .
+
+_:node1a4d09j56x5835 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5834 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192389/conference_chairs> rr:predicateObjectMap _:node1a4d09j56x5835 .
+
+_:node1a4d09j56x5531 rr:termType rr:IRI .
+
+_:node1a4d09j56x5530 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5531 a rr:SubjectMap ;
+	rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{id}" ;
+	rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/conference_chairs> .
+
+_:node1a4d09j56x5834 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192389/conference_chairs> rr:logicalTable _:node1a4d09j56x5530 .
+
+_:node1a4d09j56x5531 a rr:TermMap .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_14478407192389/conference_chairs> a rr:TriplesMap .
+
+_:node1a4d09j56x5530 rr:tableName "cmt_renamed.conference_chairs" .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924656/read_by_reviewer> a rr:TriplesMap .
+
+_:node1a4d09j56x5753 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/persons/{rid}" .
+
+_:node1a4d09j56x5757 a rr:PredicateObjectMap .
+
+_:node1a4d09j56x5756 a rr:TermMap .
+
+_:node1a4d09j56x5753 a rr:TermMap .
+
+_:node1a4d09j56x5752 a rr:BaseTableOrView .
+
+_:node1a4d09j56x5756 rr:termType rr:IRI .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924656/read_by_reviewer> rr:predicateObjectMap _:node1a4d09j56x5757 ;
+	rr:logicalTable _:node1a4d09j56x5752 .
+
+_:node1a4d09j56x5753 rr:class <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/reviewers> ;
+	rr:termType rr:IRI .
+
+_:node1a4d09j56x5757 rr:objectMap _:node1a4d09j56x5756 .
+
+_:node1a4d09j56x5756 rr:template "http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/documents/{pid}" .
+
+_:node1a4d09j56x5757 rr:predicate <http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/read_by_reviewer/reviewers_has_papers> .
+
+<http://www.optique-project.eu/resource/cmt_renamed/cmt_renamed/TermMapBoots_144784071924656/read_by_reviewer> rr:subjectMap _:node1a4d09j56x5753 .
+
+_:node1a4d09j56x5756 a rr:ObjectMap .
+
+_:node1a4d09j56x5752 rr:tableName "cmt_renamed.read_by_reviewer" .
+
+_:node1a4d09j56x5753 a rr:SubjectMap .

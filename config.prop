@@ -49,4 +49,4 @@ r2rmlPath=./r2rml/
 # Full reasoners using OWLLink must be made available as an OWLLink Server 
 # on localhost:8080.
 # Default: simplified
-reasoning=none
+reasoning=structural

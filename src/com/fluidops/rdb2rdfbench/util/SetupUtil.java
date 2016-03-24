@@ -19,7 +19,7 @@ public class SetupUtil {
 	 * @param scenario
 	 *            Scenario ID.
 	 */
-	public static void setupScenario(String scenario) throws IOException,
+	public static void setupScenario(String scenario, boolean useGivenOntology) throws IOException,
 			InterruptedException, RepositoryException {
 		// wiping mappings from previous setup
 		System.out.println("Cleaning possible mappings from previous scenarios...");
@@ -45,19 +45,30 @@ public class SetupUtil {
 
 		File f;
 
-		f = new File("./data/" + scenario + "/ontology.n3");
-		if (f.exists())
-			SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
-					"./data/" + scenario + "/ontology.n3");
-		else {
-			f = new File("./data/" + scenario + "/ontology.ttl");
-
+		//Given ontology: when performing alignment
+		if (useGivenOntology) {
+			f = new File("./ontology/ontology.owl");
 			if (f.exists())
 				SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
-						"./data/" + scenario + "/ontology.ttl");
+						"./ontology/ontology.owl");
 			else
 				SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
 						"./ontology/ontology.rdf");
+		} else {		
+			f = new File("./data/" + scenario + "/ontology.n3");
+			if (f.exists())
+				SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
+						"./data/" + scenario + "/ontology.n3");
+			else {
+				f = new File("./data/" + scenario + "/ontology.ttl");
+	
+				if (f.exists())
+					SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
+							"./data/" + scenario + "/ontology.ttl");
+				else
+					SesameAdapter.getInstance(RepoType.MAIN).loadFromFile(
+							"./ontology/ontology.rdf");
+			}
 		}
 
 		// copy data from main repository

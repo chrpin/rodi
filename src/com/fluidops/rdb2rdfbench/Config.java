@@ -223,9 +223,10 @@ public class Config {
 	/**
 	 * Returns the reasoning mode, which could be one of "none", "simplified"
 	 * (simplified rule based reasoning that effectively covers all needs of
-	 * default scenarios, much faster), "hermit" (full reasoning with HermiT),
-	 * "factpp" (full reasoning with FaCT++) or "konclude" (full reasoning with
-	 * Konclude). Default: simplified
+	 * default scenarios, much faster), "structural" (structural reasoner, 
+	 * as the simplified reasoner, it cover most of the needs of the default
+	 * scenarios ), "owllink" (full reasoning using an OWLLink reasoning server; 
+	 * tested with Konclude, HermiT, FaCT++). Default: simplified
 	 * 
 	 * @return Reasoning mode.
 	 */
