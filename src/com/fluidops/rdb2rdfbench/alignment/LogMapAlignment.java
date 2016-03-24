@@ -234,7 +234,7 @@ public class LogMapAlignment {
 			aligner.performAlignment(
 					source, 
 					target,
-					"htt://com.fluidops.rdb2rdfbench.alignment/aligned_ontology"+ scenario+"_"+bootstrapper);
+					"http://rodi.fluidops.com/aligned_ontology_"+ scenario+"_"+bootstrapper);
 			
 			System.out.println("\tAlignments extracted with LogMap: " + aligner.getMappingsAsSet().size());
 			
