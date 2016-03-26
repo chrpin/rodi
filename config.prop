@@ -49,4 +49,8 @@ r2rmlPath=./r2rml/
 # Full reasoners using OWLLink must be made available as an OWLLink Server 
 # on localhost:8080.
 # Default: simplified
+#for systems requiring ontology alignment between bootstrapped/putative ontology and target ontology (e.g. bootox, d2rq)
 reasoning=structural
+#for systems producing r2rml mapped directly to the target ontology (e.g. incmap)
+#reasoning=none
+

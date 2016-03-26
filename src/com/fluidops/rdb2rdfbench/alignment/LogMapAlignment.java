@@ -137,8 +137,8 @@ public class LogMapAlignment {
 		//manager.addAxioms(aligned_ontology, target.getAxioms());		
 		manager.addAxioms(aligned_ontology, target.getTBoxAxioms(true));
 		manager.addAxioms(aligned_ontology, target.getRBoxAxioms(true)); 
-		//TODO add abox in case it is given the materialised ontology
-		//ignore abox (morph ontology also contains abox)
+		//TODO Add Abox in case it is given the materialised ontology
+		manager.addAxioms(aligned_ontology, target.getABoxAxioms(true));
 		
 		manager.addAxioms(aligned_ontology, mappings_ont.getAxioms());		
 		

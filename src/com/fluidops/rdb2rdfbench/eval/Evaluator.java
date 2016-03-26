@@ -447,7 +447,7 @@ public class Evaluator {
 		} else if (cfg.getReasoning().equals("none")) {
 			System.out.println("Reasoning disabled.");
 		} else {
-			throw new RuntimeException("Configuration error: " + "reasoner must be one of none, simplified, hermit.");
+			throw new RuntimeException("Configuration error: " + "reasoner must be one of: none, simplified, structural, owllink.");
 		}
 
 	}
