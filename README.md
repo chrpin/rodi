@@ -6,12 +6,14 @@ For an overview and previous results, please see [<a href="#rodi1">1</a>]. When 
 
 ## Installation Requirements
 RODI is implemented in Java and requires JRE 1.8 or later. To compile and run the workspace, a corresponding JDK is needed.  
-The project also relies on a number of publicly available JAR libraries that are not included with the distribution for licensing restrictions. Please refer to manual.pdf for a full list including download instructions for those libraries.
+The project also relies on a number of publicly available JAR libraries that are not included with the distribution for licensing restrictions. Please refer to ([manual.pdf](https://github.com/chrpin/rodi/raw/master/manual.pdf)) for a full list including download instructions for those libraries. As an alternative, you may use the included maven to automatically download dependencies (see below).
 
 ## Usage
 RODI can be run as an Eclipse project, or from the command line using the [latest release](http://www.cs.ox.ac.uk/isg/tools/RODI/).
 When starting from Eclipse, the Main type to execute is com.fluidops.rdb2rdfbench.Main.
-Try --help for command line options.  
+Try --help for command line options.
+Note, that you will have to manually add a number of libraries for this kind of setup.
+Alternatively, you may use maven to build a RODI JAR file. To do so, run: mvn package
 
 For further usage documentation, please refer to the user's manual ([manual.pdf](https://github.com/chrpin/rodi/raw/master/manual.pdf)) included with the release distribution.
 
