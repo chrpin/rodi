@@ -1,5 +1,8 @@
 
 SCENARIOS_ID[0]=cmt_renamed
+
+#Requires cmt_mixed scenario database
+#java -jar RODI_benchmark.jar --scenario=cmt_mixed --setup
 SCENARIOS_ID[1]=cmt2sigkdd
 
 BOOTSTRAPPER_ID=bootox
