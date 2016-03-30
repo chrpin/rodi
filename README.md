@@ -9,7 +9,7 @@ RODI is implemented in Java and requires JRE 1.8 or later. To compile and run th
 The project also relies on a number of publicly available JAR libraries that are not included with the distribution for licensing restrictions. Please refer to manual.pdf for a full list including download instructions for those libraries.
 
 ## Usage
-RODI can be run as an Eclipse project, or from the command line using the latest release.
+RODI can be run as an Eclipse project, or from the command line using the [latest release](http://www.cs.ox.ac.uk/isg/tools/RODI/).
 When starting from Eclipse, the Main type to execute is com.fluidops.rdb2rdfbench.Main.
 Try --help for command line options.  
 
