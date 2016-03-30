@@ -9,7 +9,7 @@ RODI is implemented in Java and requires JRE 1.8 or later.
 
 For developers, to compile and run the workspace, a corresponding JDK is needed. Eclipse is recommended for development and an Eclipse project is pre-configured. RODI also relies on a number of publicly available JAR libraries that are not included with in the repository (see below).
 
-## Installation
+## Download and Installation
 For use by non-developers, there is a complete pre-packaged distribution of the latest RODI release available from the [University of Oxford](http://www.cs.ox.ac.uk/isg/tools/RODI/). It runs directly from the command line.
 
 Development requires a clone of this git repository. You may either use the pre-configured Eclipse project, in which case several external libraries need to be added manually. 
