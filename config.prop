@@ -43,7 +43,7 @@ r2rmlPath=./r2rml/
 # Reasoning mode during evaluation. Could be one of "none", "simplified"
 # (simplified rule based reasoning that effectively covers all needs of
 # default scenarios, much faster), "structural" (structural reasoner, 
-# as the simplified reasoner, it cover most of the needs of the default
+# as the simplified reasoner, it covers most of the needs of the default
 # scenarios ), "owllink" (full reasoning using an OWLLink reasoning server; 
 # tested with Konclude, HermiT, FaCT++).
 # Full reasoners using OWLLink must be made available as an OWLLink Server 
