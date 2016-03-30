@@ -1,7 +1,13 @@
-RODI benchmark distribution, version 2.0 (pre)
+RODI benchmark distribution, version 2.0
 ==============================================
+2.0 (SWJ paper version, 2nd round)
++ integrated ontology alignment in evaluation flow
++ fixed minor issues related to reasoning
++ fixed minor errors in scenarios
++ added generated ontology and/or mappings for BootOX, D2RQ and IncMap
++ added example evaluation scripts for Unix and Windows
 
-1.5 (SWJ paper version)
+1.5 (SWJ paper version, submission)
 -----------------------
 + added cross-matching scenarios (conference domain, only)
 + added "atomic test" coverage scenario for NPD fact sheets (oil & gas domain)
