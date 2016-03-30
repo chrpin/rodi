@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/commons-io-2.1.jar"/>
-	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="lib/db2triples-1.0.2.jar"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.34-bin.jar"/>
-	<classpathentry kind="lib" path="lib/openrdf-sesame-2.7.13-onejar.jar"/>
-	<classpathentry kind="lib" path="lib/postgresql-9.3-1100.jdbc41.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-api-1.7.4.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.4.jar"/>
 	<classpathentry kind="lib" path="lib/owllink-bin.jar"/>
-	<classpathentry kind="lib" path="lib/logmap2_nolibs_2016.jar"/>
-	<classpathentry kind="lib" path="lib/org.mortbay.jmx.jar"/>
-	<classpathentry kind="lib" path="lib/org.mortbay.jetty.jar"/>
-	<classpathentry kind="lib" path="lib/javax.servlet.jar"/>
-	<classpathentry kind="lib" path="lib/junit.jar"/>
-	<classpathentry kind="lib" path="lib/org.semanticweb.HermiT.jar"/>
-	<classpathentry kind="lib" path="lib/owlapi-distribution-3.4.8.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="lib/logmap2_oaei2014.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
