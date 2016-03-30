@@ -16,6 +16,9 @@ dbPassword=postgres
 # Path to the PostgreSQL command line utility psql. Default: /usr/bin/psql
 dbCmd=/usr/bin/psql
 
+#For windows one should add something like that depending on the PostgreSQL version:
+#dbCmd="C:/Program Files/PostgreSQL/9.5/bin/psql"
+
 # To replace PostgreSQL with MySQL, set selectDbms to "mysql"
 # (all above DB parameters then apply to MySQL, except for postgresDb,
 # which has no correspondence in MySQL as databases coincide with
