@@ -8,10 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-
 import net.antidot.semantic.rdf.model.impl.sesame.SesameDataSet;
 import net.antidot.semantic.rdf.rdb2rdf.r2rml.core.R2RMLProcessor;
 import net.antidot.sql.model.core.DriverType;
@@ -22,9 +19,7 @@ import org.openrdf.query.UpdateExecutionException;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.rio.RDFHandlerException;
 import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.io.RDFXMLOntologyFormat;
 import org.semanticweb.owlapi.model.AddAxiom;
-import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLDataPropertyAssertionAxiom;
 import org.semanticweb.owlapi.model.OWLDataPropertyExpression;
@@ -221,12 +216,12 @@ public class Evaluator {
 
 		// Avoid types in dataproperty assertions... (at some point property
 		// assertions are created with "wrong" types)
-		List<OWLOntologyChange> changes2Add = new ArrayList<OWLOntologyChange>();
+		//List<OWLOntologyChange> changes2Add = new ArrayList<OWLOntologyChange>();
 		List<OWLOntologyChange> changes2Del = new ArrayList<OWLOntologyChange>();
 		
-		OWLAxiom new_ax=null;
+		//OWLAxiom new_ax=null;
 		
-		boolean avoid_decimal;
+		//boolean avoid_decimal;
 		
 		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)) {
 
@@ -272,7 +267,7 @@ public class Evaluator {
 		List<OWLOntologyChange> changes2Add = new ArrayList<OWLOntologyChange>();
 		OWLAxiom new_ax=null;
 		
-		boolean avoid_decimal;
+		//boolean avoid_decimal;
 		
 		for (OWLNamedIndividual ind : o.getIndividualsInSignature(true)){
 			
@@ -356,7 +351,7 @@ public class Evaluator {
 
 		// OWLAPI
 		OWLOntology o = eval.exportToOwl();
-		OWLOntologyManager mgr = OWLManager.createOWLOntologyManager();
+		//OWLOntologyManager mgr = OWLManager.createOWLOntologyManager();
 
 		// Reasoner
 		System.out.println("Initializing reasoner...");
