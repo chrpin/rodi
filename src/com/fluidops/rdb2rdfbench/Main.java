@@ -12,6 +12,7 @@ import org.openrdf.rio.RDFHandlerException;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
+import com.fluidops.rdb2rdfbench.alignment.LogMapAlignment;
 import com.fluidops.rdb2rdfbench.db.rdf.SesameAdapter;
 import com.fluidops.rdb2rdfbench.db.rdf.SesameAdapter.RepoType;
 import com.fluidops.rdb2rdfbench.eval.EvaluationReport;
@@ -74,8 +75,12 @@ public class Main {
 				manualActions++;
 				doEval = true;
 				evalStep = EvalStep.QUERIES_ONLY;
+			
 			} else if (args[i].equals("--debug-queries")) {
 				debugQueries = true;
+			} else if (args[i].equals("--alignment")) {
+				LogMapAlignment.main(args);
+				return;					
 			} else if (args[i].equals("--wipe-reports")) {
 				wipeReports = true;
 			} else if (args[i].equals("--import-base")) {
@@ -91,6 +96,7 @@ public class Main {
 				manualActions++;
 				exportEvalData = true;
 			} else if (args[i].equals("--help")) {
+				System.out.println("RODI Benchmark 2.0 (April 2016)");
 				System.out.println("Parameters:");
 				System.out.println("===========");
 
@@ -106,6 +112,12 @@ public class Main {
 				System.out.println("--setup");
 				System.out.println("\tPrepares the configured scenario, "
 						+ "cleaning repositories and loading data.");
+				
+				System.out.println("--setup-ontology");
+				System.out.println("\tUses a given ontology (e.g. placed in './ontology' folder) as scenario ontology. The given \n" +
+						"\tontology may be the result of a prior ontology alignment step. \n" +
+						"\tPrepares the configured scenario, "
+						+ "cleaning repositories and loading data, as the regular 'setup'.");
 
 				System.out.println("--eval");
 				System.out.println("\tPerforms a complete input evaluation.\n"
@@ -124,6 +136,12 @@ public class Main {
 				System.out.println("--eval-queries");
 				System.out.println("\tEvaluates all test queries "
 						+ "on loaded data.");
+				
+				System.out.println("--alignment");
+				System.out.println("\tPerforms ontology alignment between the target ontology and the bootstrapped/putative ontology \n" +
+						"\tprovided by a system. It requries the scenario and bootstrapper IDs as additional input, \n" +
+						"\te.g. --scenario=SCENARIO_ID --bootstrapper=BOOTSTRAPPER_ID.");
+					
 
 				System.out.println("--debug-queries");
 				System.out.println("\tLog detailed explanations and "
@@ -161,7 +179,7 @@ public class Main {
 				System.out.println("--export-temp");
 				System.out.println("\tExports temporary working data in "
 						+ "its current state into the working directory\n"
-						+ "\t(as RDF/XML). Working data is based on the\n"
+						+ "\t(as RDF/XML). Working data is based on the"
 						+ "imported base data but may additionally \n"
 						+ "\tcontain results from executed mappings or "
 						+ "reasoning artifacts, depending on the current\n"

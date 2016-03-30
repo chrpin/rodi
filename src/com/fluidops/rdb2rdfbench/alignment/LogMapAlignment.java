@@ -25,7 +25,12 @@ public class LogMapAlignment {
 	
 	
 	
-	public void performAlignment(OWLOntology source, OWLOntology target, String logical_uri) throws Exception{
+	
+	
+	
+	
+	
+	protected void performAlignment(OWLOntology source, OWLOntology target, String logical_uri) throws Exception{
 		
 		
 		//Call logmap
@@ -147,6 +152,10 @@ public class LogMapAlignment {
 	
 	
 	
+	
+	
+	
+	
 
 
 
@@ -169,13 +178,13 @@ public class LogMapAlignment {
 				bootstrapper = args[i].substring(15);
 			}
 			else if (args[i].equals("--help")) {
-				System.out.println("Two parameters required: --scenario=SCENARIO_ID --bootstrapper=BOOTSTRAPPER_NAME");
+				System.out.println("Two additional parameters required: --alignment --scenario=SCENARIO_ID --bootstrapper=BOOTSTRAPPER_NAME");
 				return;
 			}
 		}
 		
 		if (scenario.equals("") || bootstrapper.equals("")){
-			System.out.println("Two parameters required: --scenario=SCENARIO_ID --bootstrapper=BOOTSTRAPPER_NAME");
+			System.out.println("Two additional parameters required: --alignment --scenario=SCENARIO_ID --bootstrapper=BOOTSTRAPPER_NAME");
 			return;
 		}
 		
