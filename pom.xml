@@ -42,6 +42,16 @@
     <version>2.7.13</version>
   </dependency>
   <dependency>
+    <groupId>org.openrdf.sesame</groupId>
+    <artifactId>sesame-rio-api</artifactId>
+    <version>2.7.13</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openrdf.sesame</groupId>
+    <artifactId>sesame-rio-rdfxml</artifactId>
+    <version>2.7.13</version>
+  </dependency>
+  <dependency>
 	<groupId>net.antidot</groupId>
 	<artifactId>db2triples</artifactId>
 	<version>1.0.2</version>
