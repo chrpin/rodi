@@ -25,4 +25,5 @@ For further usage documentation, please refer to the user's manual ([manual.pdf]
 
 ## Related Publications
 <a name="rodi1">[1]</a> C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
+
 [2] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
