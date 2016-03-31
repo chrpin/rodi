@@ -67,6 +67,11 @@
 	<version>9.3-1100-jdbc41</version>
   </dependency>
   <dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.34</version>
+  </dependency>  
+  <dependency>
 	<groupId>net.sourceforge.owlapi</groupId>
 	<artifactId>owlapi-api</artifactId>
 	<version>3.4.8</version>
@@ -81,7 +86,7 @@
     <artifactId>logmap</artifactId>
     <version>2.3</version>
     <scope>system</scope>
-    <systemPath>${basedir}/lib/logmap2_oaei2014.jar</systemPath>
+    <systemPath>${basedir}/lib/logmap2.4.1.jar</systemPath>
   </dependency>
   <dependency>
     <groupId>OWLLINK</groupId>

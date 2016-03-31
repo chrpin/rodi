@@ -6,9 +6,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.34-bin.jar"/>
 	<classpathentry kind="lib" path="lib/owllink-bin.jar"/>
-	<classpathentry kind="lib" path="lib/logmap2_oaei2014.jar"/>
+	<classpathentry kind="lib" path="lib/logmap2.4.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
