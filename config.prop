@@ -44,16 +44,16 @@ r2rmlPath=./r2rml/
 #r2rmlPath=
 
 # Reasoning mode during evaluation. Could be one of "none", "simplified"
-# (simplified rule based reasoning that effectively covers all needs of
-# default scenarios, much faster), "structural" (structural reasoner, 
-# as the simplified reasoner, it covers most of the needs of the default
-# scenarios ), "owllink" (full reasoning using an OWLLink reasoning server; 
+# (simplified rule based reasoning), "structural" (structural reasoner
+# that covers most of the needs of the default scenarios ), 
+# "owllink" (full reasoning using an OWLLink reasoning server; 
 # tested with Konclude, HermiT, FaCT++).
 # Full reasoners using OWLLink must be made available as an OWLLink Server 
-# on localhost:8080.
+# on localhost:8181.
 # Default: simplified
-#for systems requiring ontology alignment between bootstrapped/putative ontology and target ontology (e.g. bootox, d2rq)
+# for systems requiring ontology alignment between bootstrapped/putative ontology and target ontology (e.g. bootox, d2rq)
 reasoning=structural
-#for systems producing r2rml mapped directly to the target ontology (e.g. incmap)
+# for systems producing r2rml mapped directly to the target ontology (e.g. incmap)
 #reasoning=none
+
 

@@ -71,7 +71,7 @@ public class ReasonerManager {
 			
 			
 			// configure the server end-point
-			URL url = new URL("http://localhost:8080");
+			URL url = new URL("http://localhost:8181");
 			OWLlinkReasonerConfiguration reasonerConfiguration =
 				new OWLlinkReasonerConfiguration(url);
 			
