@@ -6,7 +6,7 @@ FROM "contributes" \n\
 	JOIN "person" ON "contributes"."person" = "person"."id" \n\
 	JOIN "conference_document" ON "contributes"."conference_document" = "conference_document"."id" \n\
 	JOIN "paper" ON "conference_document"."id" = "paper"."id" \n\
-WHERE "person"."is_contribution_co-author" = true
+WHERE "person"."is_contribution_co_author" = true
 
 sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
 prefix : <http://conference#> \n\
