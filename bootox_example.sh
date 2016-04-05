@@ -49,6 +49,10 @@ echo "...done"
 
 date
 
+echo "Results for '"$BOOTSTRAPPER_ID"' in scenario '"$SCENARIO_ID"' available in reports folder." 
+echo "Log files available in './"$TOOLS_FOLDER"/"$BOOTSTRAPPER_ID"/"$SCENARIO_ID"/' folder."
+
+
 
 #Remove ontology
 rm ./ontology/ontology.rdf

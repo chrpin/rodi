@@ -1,3 +1,4 @@
+@echo off
 
 SET SCENARIO_ID=cmt_renamed
 ::Requires cmt_mixed scenario database
@@ -27,6 +28,9 @@ echo "Performing the evaluation..."
 %java% -Xms2G -Xmx15G -DentityExpansionLimit=100000000 -jar RODI_benchmark.jar --scenario=%SCENARIO_ID% --title=%BOOTSTRAPPER_ID% --eval > .\%TOOLS_FOLDER%\%BOOTSTRAPPER_ID%\%SCENARIO_ID%\out_eval_%SCENARIO_ID%"_"%BOOTSTRAPPER_ID% 2> .\%TOOLS_FOLDER%\%BOOTSTRAPPER_ID%\%SCENARIO_ID%\err_eval_%SCENARIO_ID%"_"%BOOTSTRAPPER_ID%
 
 echo "...done"
+
+echo Results for '%BOOTSTRAPPER_ID%' in scenario '%SCENARIO_ID%' available in reports folder.
+echo Log files available in '.\%TOOLS_FOLDER%\%BOOTSTRAPPER_ID%\%SCENARIO_ID%\' folder.
 
 ::Remove mappings
 del .\r2rml\mappings.ttl

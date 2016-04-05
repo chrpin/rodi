@@ -40,6 +40,10 @@ java -Xms2G -Xmx15G -DentityExpansionLimit=100000000 -jar RODI_benchmark.jar --s
 echo "...done"
 date
 
+
+echo "Results for '"$BOOTSTRAPPER_ID"' in scenario '"$SCENARIO_ID"' available in reports folder." 
+echo "Log files available in './"$TOOLS_FOLDER"/"$BOOTSTRAPPER_ID"/"$SCENARIO_ID"/' folder."
+
 #Remove mappings
 rm ./r2rml/mappings.ttl
 
