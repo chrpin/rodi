@@ -278,8 +278,8 @@ public class Main {
 					ReportWriter.materializeTextualReports(scenarios[0],
 							runTitle, reps);
 					//Only to generate tables
-					//ReportWriter.materializeTabularReports(scenarios[0],
-					//		runTitle, reps);
+					ReportWriter.materializeTabularReports(scenarios[0],
+							runTitle, reps);
 				}
 			}
 

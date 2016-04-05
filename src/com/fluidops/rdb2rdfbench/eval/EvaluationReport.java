@@ -104,6 +104,6 @@ public class EvaluationReport {
 	}
 
 	public String toTabularString() {
-		return title + f + "|" + precision + "|" + recall;
+		return title + "|" + f + "|" + precision + "|" + recall;
 	}
 }
