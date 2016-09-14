@@ -23,7 +23,9 @@ Try --help for command line options.
 
 For further usage documentation, please refer to the user's manual ([manual.pdf](https://github.com/chrpin/rodi/raw/master/manual.pdf)) included with the release distribution.
 
-## Related Publications
+## Related Publications and Resources
 <a name="rodi1">[1]</a> C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
 
-[2] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
+[2] RODI Introductory Presentation at ESWC 2015 (<a href="http://videolectures.net/eswc2015_pinkel_data_integration/">videolectures.net</a>)
+
+[3] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
