@@ -26,9 +26,9 @@ For further usage documentation, please refer to the user's manual ([manual.pdf]
 ## Related Publications and Resources
 <a name="rodi1">[1]</a>
 Christoph Pinkel, Carsten Binnig, Ernesto Jimenez-Ruiz, Evgeny Kharlamov, Wolfgang May, Andriy Nikolov, Martin G. Skj&aelig;veland, Alessandro Solimando, Mohsen Taheriyan, Christian Heupel, Ian Horrocks
-_RODI: Benchmarking Relational-to-Ontology Mapping Generation Quality_.  Semantic Web Journal. IOS Press. 2017 (in press). (<a href="http://www.semantic-web-journal.net/system/files/swj1439.pdf" target="_blank">[PDF]</a>)
+_RODI: Benchmarking Relational-to-Ontology Mapping Generation Quality_.  Semantic Web Journal. IOS Press. 2017 (in press). (<a href="http://www.semantic-web-journal.net/system/files/swj1439.pdf" target="_blank">PDF</a>)
 
-[2] C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
+<a name="rodi2">[2]</a> C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
 
 [3] RODI Introductory Presentation at ESWC 2015 (<a href="http://videolectures.net/eswc2015_pinkel_data_integration/">videolectures.net</a>)
 
