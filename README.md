@@ -2,7 +2,7 @@
 
 RODI is a benchmark suite for testing the quality of (semi-)automatically generated, RDB2RDF (relational database to RDF) mappings.  
 
-For an overview and previous results, please see [<a href="#rodi1">1</a>]. When referring to this work, please always cite as most current publication (currently [<a href="#rodi1">1</a>]).
+When referring to this work, please always cite our most recent publication (currently [<a href="#rodi1">1</a>]). For an overview of the first prototype, please see [<a href="#rodi2">2</a>]. 
 
 ## Requirements
 RODI is implemented in Java and requires JRE 1.8 or later.
@@ -24,8 +24,12 @@ Try --help for command line options.
 For further usage documentation, please refer to the user's manual ([manual.pdf](https://github.com/chrpin/rodi/raw/master/manual.pdf)) included with the release distribution.
 
 ## Related Publications and Resources
-<a name="rodi1">[1]</a> C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
+<a name="rodi1">[1]</a>
+Christoph Pinkel, Carsten Binnig, Ernesto Jimenez-Ruiz, Evgeny Kharlamov, Wolfgang May, Andriy Nikolov, Martin G. Skj&aelig;veland, Alessandro Solimando, Mohsen Taheriyan, Christian Heupel, Ian Horrocks
+_RODI: Benchmarking Relational-to-Ontology Mapping Generation Quality_.  Semantic Web Journal. IOS Press. 2017 (in press). (<a href="http://www.semantic-web-journal.net/system/files/swj1439.pdf" target="_blank">[PDF]</a>)
 
-[2] RODI Introductory Presentation at ESWC 2015 (<a href="http://videolectures.net/eswc2015_pinkel_data_integration/">videolectures.net</a>)
+[2] C. Pinkel et al. _RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration_. In: _ESWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7406/paperRDBRDFBench.pdf">PDF</a>)
 
-[3] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
+[3] RODI Introductory Presentation at ESWC 2015 (<a href="http://videolectures.net/eswc2015_pinkel_data_integration/">videolectures.net</a>)
+
+[4] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
