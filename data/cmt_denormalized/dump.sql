@@ -1619,858 +1619,858 @@ COPY "Document" ("ID", "writtenBy", "TYPE", "comment") FROM stdin;
 3075	\N	0	\N
 3077	\N	0	\N
 3081	\N	0	\N
-3	2	1	This is a test Review
-6	5	1	This is a test Review
-10	5	1	This is a test Review
-11	5	1	This is a test Review
-22	23	1	This is a test Review
-32	31	1	This is a test Review
-41	42	1	This is a test Review
-58	57	1	This is a test Review
-68	69	1	This is a test Review
-73	71	1	This is a test Review
-74	71	1	This is a test Review
-75	71	1	This is a test Review
-87	88	1	This is a test Review
-95	96	1	This is a test Review
-98	99	1	This is a test Review
-102	101	1	This is a test Review
-106	107	1	This is a test Review
-120	121	1	This is a test Review
-125	126	1	This is a test Review
-134	135	1	This is a test Review
-136	137	1	This is a test Review
-138	139	1	This is a test Review
-140	141	1	This is a test Review
-148	149	1	This is a test Review
-156	157	1	This is a test Review
-159	158	1	This is a test Review
-162	161	1	This is a test Review
-166	161	1	This is a test Review
-168	169	1	This is a test Review
-172	171	1	This is a test Review
-181	182	1	This is a test Review
-187	186	1	This is a test Review
-192	193	1	This is a test Review
-206	205	1	This is a test Review
-218	217	1	This is a test Review
-222	217	1	This is a test Review
-233	228	1	This is a test Review
-234	228	1	This is a test Review
-235	228	1	This is a test Review
-236	237	1	This is a test Review
-243	238	1	This is a test Review
-246	245	1	This is a test Review
-251	248	1	This is a test Review
-253	248	1	This is a test Review
-255	248	1	This is a test Review
-263	262	1	This is a test Review
-264	262	1	This is a test Review
-274	275	1	This is a test Review
-276	277	1	This is a test Review
-278	279	1	This is a test Review
-280	281	1	This is a test Review
-283	197	1	This is a test Review
-285	286	1	This is a test Review
-293	294	1	This is a test Review
-296	295	1	This is a test Review
-297	295	1	This is a test Review
-300	301	1	This is a test Review
-312	311	1	This is a test Review
-314	315	1	This is a test Review
-361	88	1	This is a test Review
-364	365	1	This is a test Review
-367	366	1	This is a test Review
-369	340	1	This is a test Review
-370	371	1	This is a test Review
-375	372	1	This is a test Review
-377	372	1	This is a test Review
-379	380	1	This is a test Review
-381	382	1	This is a test Review
-389	388	1	This is a test Review
-390	388	1	This is a test Review
-391	388	1	This is a test Review
-397	396	1	This is a test Review
-402	403	1	This is a test Review
-410	409	1	This is a test Review
-415	412	1	This is a test Review
-416	412	1	This is a test Review
-423	35	1	This is a test Review
-424	35	1	This is a test Review
-425	35	1	This is a test Review
-426	427	1	This is a test Review
-428	429	1	This is a test Review
-436	435	1	This is a test Review
-438	288	1	This is a test Review
-439	440	1	This is a test Review
-441	442	1	This is a test Review
-447	328	1	This is a test Review
-453	454	1	This is a test Review
-461	462	1	This is a test Review
-463	464	1	This is a test Review
-465	466	1	This is a test Review
-467	468	1	This is a test Review
-469	470	1	This is a test Review
-472	471	1	This is a test Review
-475	476	1	This is a test Review
-478	477	1	This is a test Review
-481	482	1	This is a test Review
-484	66	1	This is a test Review
-493	329	1	This is a test Review
-494	495	1	This is a test Review
-498	497	1	This is a test Review
-501	497	1	This is a test Review
-511	157	1	This is a test Review
-513	514	1	This is a test Review
-515	516	1	This is a test Review
-517	442	1	This is a test Review
-518	519	1	This is a test Review
-522	520	1	This is a test Review
-523	520	1	This is a test Review
-525	524	1	This is a test Review
-528	529	1	This is a test Review
-531	177	1	This is a test Review
-532	177	1	This is a test Review
-534	177	1	This is a test Review
-538	537	1	This is a test Review
-540	541	1	This is a test Review
-543	544	1	This is a test Review
-546	545	1	This is a test Review
-548	279	1	This is a test Review
-553	30	1	This is a test Review
-554	555	1	This is a test Review
-563	50	1	This is a test Review
-564	261	1	This is a test Review
-565	566	1	This is a test Review
-574	387	1	This is a test Review
-576	577	1	This is a test Review
-580	581	1	This is a test Review
-583	88	1	This is a test Review
-588	589	1	This is a test Review
-590	325	1	This is a test Review
-593	592	1	This is a test Review
-596	597	1	This is a test Review
-599	600	1	This is a test Review
-610	99	1	This is a test Review
-612	99	1	This is a test Review
-613	143	1	This is a test Review
-614	345	1	This is a test Review
-616	615	1	This is a test Review
-631	632	1	This is a test Review
-634	633	1	This is a test Review
-636	633	1	This is a test Review
-638	633	1	This is a test Review
-648	647	1	This is a test Review
-649	647	1	This is a test Review
-653	652	1	This is a test Review
-657	652	1	This is a test Review
-658	652	1	This is a test Review
-665	666	1	This is a test Review
-668	514	1	This is a test Review
-670	514	1	This is a test Review
-677	676	1	This is a test Review
-680	681	1	This is a test Review
-683	682	1	This is a test Review
-690	691	1	This is a test Review
-692	693	1	This is a test Review
-695	694	1	This is a test Review
-698	697	1	This is a test Review
-714	715	1	This is a test Review
-722	723	1	This is a test Review
-724	725	1	This is a test Review
-726	727	1	This is a test Review
-728	729	1	This is a test Review
-737	335	1	This is a test Review
-741	214	1	This is a test Review
-744	743	1	This is a test Review
-752	753	1	This is a test Review
-762	761	1	This is a test Review
-769	322	1	This is a test Review
-779	115	1	This is a test Review
-792	791	1	This is a test Review
-796	797	1	This is a test Review
-804	110	1	This is a test Review
-812	813	1	This is a test Review
-814	688	1	This is a test Review
-825	826	1	This is a test Review
-831	830	1	This is a test Review
-832	833	1	This is a test Review
-841	17	1	This is a test Review
-842	843	1	This is a test Review
-845	844	1	This is a test Review
-846	844	1	This is a test Review
-852	317	1	This is a test Review
-861	584	1	This is a test Review
-862	863	1	This is a test Review
-865	866	1	This is a test Review
-869	544	1	This is a test Review
-872	544	1	This is a test Review
-885	886	1	This is a test Review
-890	891	1	This is a test Review
-892	893	1	This is a test Review
-897	898	1	This is a test Review
-899	339	1	This is a test Review
-900	176	1	This is a test Review
-903	902	1	This is a test Review
-912	557	1	This is a test Review
-918	919	1	This is a test Review
-930	929	1	This is a test Review
-932	584	1	This is a test Review
-945	946	1	This is a test Review
-948	947	1	This is a test Review
-950	951	1	This is a test Review
-953	86	1	This is a test Review
-959	958	1	This is a test Review
-966	626	1	This is a test Review
-968	967	1	This is a test Review
-970	971	1	This is a test Review
-975	972	1	This is a test Review
-976	972	1	This is a test Review
-977	972	1	This is a test Review
-981	980	1	This is a test Review
-988	642	1	This is a test Review
-989	937	1	This is a test Review
-990	937	1	This is a test Review
-993	992	1	This is a test Review
-997	998	1	This is a test Review
-999	1000	1	This is a test Review
-1001	777	1	This is a test Review
-1002	1003	1	This is a test Review
-1007	348	1	This is a test Review
-1008	571	1	This is a test Review
-1010	1009	1	This is a test Review
-1012	1011	1	This is a test Review
-1016	1015	1	This is a test Review
-1023	876	1	This is a test Review
-1024	1025	1	This is a test Review
-1027	1026	1	This is a test Review
-1030	1029	1	This is a test Review
-1032	271	1	This is a test Review
-1036	691	1	This is a test Review
-1037	691	1	This is a test Review
-1040	1039	1	This is a test Review
-1041	1039	1	This is a test Review
-1072	1073	1	This is a test Review
-1074	464	1	This is a test Review
-1077	128	1	This is a test Review
-1079	1078	1	This is a test Review
-1080	1078	1	This is a test Review
-1083	1084	1	This is a test Review
-1088	1089	1	This is a test Review
-1091	1092	1	This is a test Review
-1095	875	1	This is a test Review
-1096	875	1	This is a test Review
-1097	1098	1	This is a test Review
-1099	759	1	This is a test Review
-1100	1101	1	This is a test Review
-1105	1106	1	This is a test Review
-1107	320	1	This is a test Review
-1109	1108	1	This is a test Review
-1110	281	1	This is a test Review
-1111	605	1	This is a test Review
-1113	1112	1	This is a test Review
-1116	1057	1	This is a test Review
-1118	135	1	This is a test Review
-1119	135	1	This is a test Review
-1124	1125	1	This is a test Review
-1127	1126	1	This is a test Review
-1128	909	1	This is a test Review
-1131	1129	1	This is a test Review
-1133	324	1	This is a test Review
-1135	719	1	This is a test Review
-1137	1136	1	This is a test Review
-1139	1060	1	This is a test Review
-1141	1142	1	This is a test Review
-1144	1143	1	This is a test Review
-1146	1145	1	This is a test Review
-1149	38	1	This is a test Review
-1150	38	1	This is a test Review
-1151	38	1	This is a test Review
-1154	516	1	This is a test Review
-1161	1160	1	This is a test Review
-1163	107	1	This is a test Review
-1167	1166	1	This is a test Review
-1170	1171	1	This is a test Review
-1172	1173	1	This is a test Review
-1175	1174	1	This is a test Review
-1178	1179	1	This is a test Review
-1183	126	1	This is a test Review
-1184	1044	1	This is a test Review
-1185	1186	1	This is a test Review
-1187	1188	1	This is a test Review
-1197	1196	1	This is a test Review
-1201	116	1	This is a test Review
-1205	946	1	This is a test Review
-1206	460	1	This is a test Review
-1208	1209	1	This is a test Review
-1210	45	1	This is a test Review
-1212	1213	1	This is a test Review
-1215	1214	1	This is a test Review
-1222	1223	1	This is a test Review
-1224	1225	1	This is a test Review
-1230	1055	1	This is a test Review
-1234	1235	1	This is a test Review
-1236	199	1	This is a test Review
-1237	199	1	This is a test Review
-1239	199	1	This is a test Review
-1246	1245	1	This is a test Review
-1247	1245	1	This is a test Review
-1250	1249	1	This is a test Review
-1259	1260	1	This is a test Review
-1261	1262	1	This is a test Review
-1263	719	1	This is a test Review
-1270	1269	1	This is a test Review
-1272	1219	1	This is a test Review
-1278	1279	1	This is a test Review
-1283	1282	1	This is a test Review
-1284	1282	1	This is a test Review
-1285	482	1	This is a test Review
-1286	1287	1	This is a test Review
-1291	279	1	This is a test Review
-1292	1061	1	This is a test Review
-1294	1293	1	This is a test Review
-1309	1310	1	This is a test Review
-1316	1317	1	This is a test Review
-1318	1319	1	This is a test Review
-1327	927	1	This is a test Review
-1328	1329	1	This is a test Review
-1330	64	1	This is a test Review
-1336	1335	1	This is a test Review
-1338	1192	1	This is a test Review
-1340	1339	1	This is a test Review
-1342	371	1	This is a test Review
-1345	1257	1	This is a test Review
-1347	1348	1	This is a test Review
-1354	1355	1	This is a test Review
-1361	1360	1	This is a test Review
-1363	1364	1	This is a test Review
-1373	1071	1	This is a test Review
-1374	1321	1	This is a test Review
-1375	1376	1	This is a test Review
-1379	1380	1	This is a test Review
-1381	1382	1	This is a test Review
-1384	143	1	This is a test Review
-1385	139	1	This is a test Review
-1386	139	1	This is a test Review
-1391	1390	1	This is a test Review
-1400	946	1	This is a test Review
-1406	1405	1	This is a test Review
-1423	597	1	This is a test Review
-1424	1425	1	This is a test Review
-1428	1429	1	This is a test Review
-1430	876	1	This is a test Review
-1432	876	1	This is a test Review
-1433	464	1	This is a test Review
-1440	96	1	This is a test Review
-1442	338	1	This is a test Review
-1445	1446	1	This is a test Review
-1447	462	1	This is a test Review
-1449	1448	1	This is a test Review
-1454	319	1	This is a test Review
-1456	1418	1	This is a test Review
-1460	908	1	This is a test Review
-1461	1462	1	This is a test Review
-1463	817	1	This is a test Review
-1470	27	1	This is a test Review
-1471	1472	1	This is a test Review
-1481	1476	1	This is a test Review
-1484	1485	1	This is a test Review
-1489	1242	1	This is a test Review
-1490	1242	1	This is a test Review
-1491	1242	1	This is a test Review
-1500	1073	1	This is a test Review
-1508	1507	1	This is a test Review
-1509	1507	1	This is a test Review
-1510	1507	1	This is a test Review
-1511	458	1	This is a test Review
-1513	458	1	This is a test Review
-1514	458	1	This is a test Review
-1521	1520	1	This is a test Review
-1523	817	1	This is a test Review
-1525	1056	1	This is a test Review
-1532	1413	1	This is a test Review
-1533	1046	1	This is a test Review
-1537	1046	1	This is a test Review
-1538	1046	1	This is a test Review
-1544	1543	1	This is a test Review
-1546	1056	1	This is a test Review
-1547	1056	1	This is a test Review
-1549	1550	1	This is a test Review
-1551	316	1	This is a test Review
-1552	1553	1	This is a test Review
-1555	1106	1	This is a test Review
-1556	1557	1	This is a test Review
-1558	944	1	This is a test Review
-1559	688	1	This is a test Review
-1560	180	1	This is a test Review
-1564	597	1	This is a test Review
-1569	1570	1	This is a test Review
-1571	304	1	This is a test Review
-1572	304	1	This is a test Review
-1574	1315	1	This is a test Review
-1575	1315	1	This is a test Review
-1576	1568	1	This is a test Review
-1584	881	1	This is a test Review
-1585	1304	1	This is a test Review
-1586	153	1	This is a test Review
-1592	1593	1	This is a test Review
-1597	784	1	This is a test Review
-1598	1226	1	This is a test Review
-1601	1602	1	This is a test Review
-1606	1059	1	This is a test Review
-1607	725	1	This is a test Review
-1609	971	1	This is a test Review
-1610	725	1	This is a test Review
-1613	710	1	This is a test Review
-1614	1156	1	This is a test Review
-1617	1618	1	This is a test Review
-1621	1620	1	This is a test Review
-1622	1620	1	This is a test Review
-1623	1620	1	This is a test Review
-1626	753	1	This is a test Review
-1627	1047	1	This is a test Review
-1628	1629	1	This is a test Review
-1631	1632	1	This is a test Review
-1633	1351	1	This is a test Review
-1635	1634	1	This is a test Review
-1638	64	1	This is a test Review
-1641	119	1	This is a test Review
-1644	757	1	This is a test Review
-1646	1226	1	This is a test Review
-1650	1000	1	This is a test Review
-1653	693	1	This is a test Review
-1654	200	1	This is a test Review
-1655	1583	1	This is a test Review
-1657	1658	1	This is a test Review
-1660	839	1	This is a test Review
-1661	843	1	This is a test Review
-1667	729	1	This is a test Review
-1671	710	1	This is a test Review
-1673	1672	1	This is a test Review
-1674	1672	1	This is a test Review
-1679	1419	1	This is a test Review
-1682	1681	1	This is a test Review
-1685	759	1	This is a test Review
-1689	1690	1	This is a test Review
-1691	921	1	This is a test Review
-1692	82	1	This is a test Review
-1693	1244	1	This is a test Review
-1695	1696	1	This is a test Review
-1697	1473	1	This is a test Review
-1699	137	1	This is a test Review
-1701	176	1	This is a test Review
-1703	1702	1	This is a test Review
-1704	1705	1	This is a test Review
-1710	1711	1	This is a test Review
-1714	63	1	This is a test Review
-1715	63	1	This is a test Review
-1717	1209	1	This is a test Review
-1721	39	1	This is a test Review
-1723	1420	1	This is a test Review
-1724	645	1	This is a test Review
-1731	1730	1	This is a test Review
-1736	1737	1	This is a test Review
-1740	1739	1	This is a test Review
-1743	1744	1	This is a test Review
-1754	1753	1	This is a test Review
-1755	1753	1	This is a test Review
-1756	808	1	This is a test Review
-1771	1658	1	This is a test Review
-1772	1773	1	This is a test Review
-1776	731	1	This is a test Review
-1779	1025	1	This is a test Review
-1780	1781	1	This is a test Review
-1782	1220	1	This is a test Review
-1783	1370	1	This is a test Review
-1784	645	1	This is a test Review
-1792	289	1	This is a test Review
-1808	835	1	This is a test Review
-1814	1813	1	This is a test Review
-1822	1101	1	This is a test Review
-1824	552	1	This is a test Review
-1825	674	1	This is a test Review
-1826	286	1	This is a test Review
-1833	1414	1	This is a test Review
-1834	809	1	This is a test Review
-1838	1839	1	This is a test Review
-1840	176	1	This is a test Review
-1845	1350	1	This is a test Review
-1846	660	1	This is a test Review
-1847	1356	1	This is a test Review
-1849	1356	1	This is a test Review
-1851	702	1	This is a test Review
-1857	1709	1	This is a test Review
-1858	516	1	This is a test Review
-1860	581	1	This is a test Review
-1861	1191	1	This is a test Review
-1863	1862	1	This is a test Review
-1874	664	1	This is a test Review
-1880	1568	1	This is a test Review
-1883	874	1	This is a test Review
-1885	1225	1	This is a test Review
-1886	90	1	This is a test Review
-1889	1319	1	This is a test Review
-1890	1891	1	This is a test Review
-1892	27	1	This is a test Review
-1893	998	1	This is a test Review
-1894	1266	1	This is a test Review
-1896	1895	1	This is a test Review
-1899	1260	1	This is a test Review
-1901	1902	1	This is a test Review
-1903	1904	1	This is a test Review
-1906	1905	1	This is a test Review
-1912	1768	1	This is a test Review
-1915	1397	1	This is a test Review
-1919	1918	1	This is a test Review
-1923	1003	1	This is a test Review
-1924	321	1	This is a test Review
-1926	64	1	This is a test Review
-1927	1928	1	This is a test Review
-1929	1191	1	This is a test Review
-1931	1191	1	This is a test Review
-1935	1775	1	This is a test Review
-1937	1775	1	This is a test Review
-1938	1939	1	This is a test Review
-1940	1412	1	This is a test Review
-1942	144	1	This is a test Review
-1943	144	1	This is a test Review
-1945	1696	1	This is a test Review
-1947	1092	1	This is a test Review
-1949	1334	1	This is a test Review
-1950	986	1	This is a test Review
-1951	1952	1	This is a test Review
-1953	810	1	This is a test Review
-1956	675	1	This is a test Review
-1957	746	1	This is a test Review
-1958	260	1	This is a test Review
-1961	782	1	This is a test Review
-1962	129	1	This is a test Review
-1963	129	1	This is a test Review
-1966	1965	1	This is a test Review
-1970	306	1	This is a test Review
-1974	434	1	This is a test Review
-1975	434	1	This is a test Review
-1976	434	1	This is a test Review
-1985	828	1	This is a test Review
-1994	449	1	This is a test Review
-2001	27	1	This is a test Review
-2013	349	1	This is a test Review
-2014	92	1	This is a test Review
-2018	1767	1	This is a test Review
-2021	957	1	This is a test Review
-2022	1329	1	This is a test Review
-2029	1159	1	This is a test Review
-2030	1159	1	This is a test Review
-2031	1159	1	This is a test Review
-2033	2032	1	This is a test Review
-2036	1355	1	This is a test Review
-2040	895	1	This is a test Review
-2058	1055	1	This is a test Review
-2067	450	1	This is a test Review
-2071	306	1	This is a test Review
-2074	552	1	This is a test Review
-2075	2076	1	This is a test Review
-2078	1415	1	This is a test Review
-2079	113	1	This is a test Review
-2083	2082	1	This is a test Review
-2084	2082	1	This is a test Review
-2085	2082	1	This is a test Review
-2086	1262	1	This is a test Review
-2093	107	1	This is a test Review
-2097	2096	1	This is a test Review
-2099	2096	1	This is a test Review
-2100	2096	1	This is a test Review
-2109	347	1	This is a test Review
-2116	2117	1	This is a test Review
-2124	2123	1	This is a test Review
-2130	2129	1	This is a test Review
-2131	1305	1	This is a test Review
-2138	333	1	This is a test Review
-2140	454	1	This is a test Review
-2148	2147	1	This is a test Review
-2149	39	1	This is a test Review
-2153	1473	1	This is a test Review
-2154	1473	1	This is a test Review
-2156	768	1	This is a test Review
-2166	2167	1	This is a test Review
-2168	2117	1	This is a test Review
-2172	128	1	This is a test Review
-2176	1398	1	This is a test Review
-2180	382	1	This is a test Review
-2182	1193	1	This is a test Review
-2184	1193	1	This is a test Review
-2185	1427	1	This is a test Review
-2186	1427	1	This is a test Review
-2187	1427	1	This is a test Review
-2190	326	1	This is a test Review
-2192	822	1	This is a test Review
-2193	822	1	This is a test Review
-2195	1054	1	This is a test Review
-2196	555	1	This is a test Review
-2203	2204	1	This is a test Review
-2206	2205	1	This is a test Review
-2207	343	1	This is a test Review
-2209	821	1	This is a test Review
-2210	1370	1	This is a test Review
-2211	1370	1	This is a test Review
-2214	942	1	This is a test Review
-2218	1867	1	This is a test Review
-2221	2061	1	This is a test Review
-2222	893	1	This is a test Review
-2224	1855	1	This is a test Review
-2225	259	1	This is a test Review
-2230	1581	1	This is a test Review
-2232	623	1	This is a test Review
-2233	1568	1	This is a test Review
-2234	146	1	This is a test Review
-2236	1050	1	This is a test Review
-2237	1819	1	This is a test Review
-2238	323	1	This is a test Review
-2239	1300	1	This is a test Review
-2243	2244	1	This is a test Review
-2250	2251	1	This is a test Review
-2254	1409	1	This is a test Review
-2258	327	1	This is a test Review
-2259	1678	1	This is a test Review
-2267	180	1	This is a test Review
-2268	1142	1	This is a test Review
-2274	2272	1	This is a test Review
-2275	2272	1	This is a test Review
-2278	587	1	This is a test Review
-2280	2279	1	This is a test Review
-2290	1466	1	This is a test Review
-2293	332	1	This is a test Review
-2294	555	1	This is a test Review
-2297	1274	1	This is a test Review
-2301	2302	1	This is a test Review
-2303	720	1	This is a test Review
-2304	720	1	This is a test Review
-2305	720	1	This is a test Review
-2308	1352	1	This is a test Review
-2311	2312	1	This is a test Review
-2314	449	1	This is a test Review
-2317	131	1	This is a test Review
-2318	155	1	This is a test Review
-2322	2323	1	This is a test Review
-2325	2202	1	This is a test Review
-2332	604	1	This is a test Review
-2344	2345	1	This is a test Review
-2347	1711	1	This is a test Review
-2348	1602	1	This is a test Review
-2353	20	1	This is a test Review
-2357	51	1	This is a test Review
-2362	289	1	This is a test Review
-2363	289	1	This is a test Review
-2368	2066	1	This is a test Review
-2372	468	1	This is a test Review
-2373	2374	1	This is a test Review
-2375	2270	1	This is a test Review
-2379	1466	1	This is a test Review
-2381	2382	1	This is a test Review
-2387	2360	1	This is a test Review
-2392	451	1	This is a test Review
-2393	113	1	This is a test Review
-2394	113	1	This is a test Review
-2396	1310	1	This is a test Review
-2400	261	1	This is a test Review
-2403	2404	1	This is a test Review
-2407	2408	1	This is a test Review
-2410	30	1	This is a test Review
-2411	2118	1	This is a test Review
-2413	2159	1	This is a test Review
-2414	813	1	This is a test Review
-2415	2416	1	This is a test Review
-2417	1829	1	This is a test Review
-2421	2420	1	This is a test Review
-2422	2423	1	This is a test Review
-2429	1186	1	This is a test Review
-2432	2431	1	This is a test Review
-2435	466	1	This is a test Review
-2437	1053	1	This is a test Review
-2439	1726	1	This is a test Review
-2440	702	1	This is a test Review
-2441	46	1	This is a test Review
-2442	1968	1	This is a test Review
-2444	585	1	This is a test Review
-2445	2026	1	This is a test Review
-2446	2026	1	This is a test Review
-2448	2449	1	This is a test Review
-2450	2425	1	This is a test Review
-2454	2453	1	This is a test Review
-2455	1517	1	This is a test Review
-2456	629	1	This is a test Review
-2459	1416	1	This is a test Review
-2461	2043	1	This is a test Review
-2462	1055	1	This is a test Review
-2463	1475	1	This is a test Review
-2464	1417	1	This is a test Review
-2465	341	1	This is a test Review
-2467	1179	1	This is a test Review
-2470	2469	1	This is a test Review
-2475	1382	1	This is a test Review
-2478	196	1	This is a test Review
-2482	727	1	This is a test Review
-2485	2173	1	This is a test Review
-2488	342	1	This is a test Review
-2493	1993	1	This is a test Review
-2496	451	1	This is a test Review
-2499	2341	1	This is a test Review
-2502	2142	1	This is a test Review
-2506	1472	1	This is a test Review
-2516	1048	1	This is a test Review
-2522	51	1	This is a test Review
-2523	203	1	This is a test Review
-2526	1343	1	This is a test Review
-2530	336	1	This is a test Review
-2537	2178	1	This is a test Review
-2539	629	1	This is a test Review
-2540	629	1	This is a test Review
-2545	1068	1	This is a test Review
-2559	1156	1	This is a test Review
-2561	2330	1	This is a test Review
-2564	821	1	This is a test Review
-2569	1058	1	This is a test Review
-2573	225	1	This is a test Review
-2575	2408	1	This is a test Review
-2576	1664	1	This is a test Review
-2577	331	1	This is a test Review
-2578	344	1	This is a test Review
-2580	29	1	This is a test Review
-2582	735	1	This is a test Review
-2596	330	1	This is a test Review
-2597	819	1	This is a test Review
-2599	2350	1	This is a test Review
-2601	1300	1	This is a test Review
-2604	2065	1	This is a test Review
-2605	291	1	This is a test Review
-2608	2060	1	This is a test Review
-2610	1192	1	This is a test Review
-2611	2227	1	This is a test Review
-2615	337	1	This is a test Review
-2616	1225	1	This is a test Review
-2621	883	1	This is a test Review
-2625	1993	1	This is a test Review
-2627	303	1	This is a test Review
-2629	819	1	This is a test Review
-2630	701	1	This is a test Review
-2631	701	1	This is a test Review
-2632	701	1	This is a test Review
-2633	1690	1	This is a test Review
-2634	2159	1	This is a test Review
-2635	1274	1	This is a test Review
-2637	2638	1	This is a test Review
-2639	2341	1	This is a test Review
-2640	196	1	This is a test Review
-2642	711	1	This is a test Review
-2643	2300	1	This is a test Review
-2645	1429	1	This is a test Review
-2646	2491	1	This is a test Review
-2647	449	1	This is a test Review
-2649	1052	1	This is a test Review
-2652	1666	1	This is a test Review
-2653	50	1	This is a test Review
-2656	2655	1	This is a test Review
-2658	20	1	This is a test Review
-2664	777	1	This is a test Review
-2667	51	1	This is a test Review
-2668	2669	1	This is a test Review
-2672	1503	1	This is a test Review
-2673	777	1	This is a test Review
-2675	1737	1	This is a test Review
-2676	606	1	This is a test Review
-2680	2679	1	This is a test Review
-2681	2008	1	This is a test Review
-2688	642	1	This is a test Review
-2694	908	1	This is a test Review
-2695	908	1	This is a test Review
-2698	1260	1	This is a test Review
-2702	2051	1	This is a test Review
-2703	2491	1	This is a test Review
-2707	1049	1	This is a test Review
-2710	809	1	This is a test Review
-2713	196	1	This is a test Review
-2718	212	1	This is a test Review
-2724	1098	1	This is a test Review
-2727	1813	1	This is a test Review
-2734	585	1	This is a test Review
-2744	689	1	This is a test Review
-2745	1419	1	This is a test Review
-2748	1410	1	This is a test Review
-2752	2753	1	This is a test Review
-2755	20	1	This is a test Review
-2757	2004	1	This is a test Review
-2760	1459	1	This is a test Review
-2767	468	1	This is a test Review
-2768	2158	1	This is a test Review
-2771	560	1	This is a test Review
-2775	2145	1	This is a test Review
-2778	1475	1	This is a test Review
-2780	84	1	This is a test Review
-2784	1561	1	This is a test Review
-2786	1352	1	This is a test Review
-2787	1092	1	This is a test Review
-2790	1301	1	This is a test Review
-2791	47	1	This is a test Review
-2792	1759	1	This is a test Review
-2793	1045	1	This is a test Review
-2795	2228	1	This is a test Review
-2796	1759	1	This is a test Review
-2801	1411	1	This is a test Review
-2803	334	1	This is a test Review
-2807	2398	1	This is a test Review
-2808	2662	1	This is a test Review
-2810	2145	1	This is a test Review
-2811	1530	1	This is a test Review
-2813	1351	1	This is a test Review
-2814	874	1	This is a test Review
-2815	459	1	This is a test Review
-2826	1254	1	This is a test Review
-2827	1254	1	This is a test Review
-2830	2831	1	This is a test Review
-2833	29	1	This is a test Review
-2837	2137	1	This is a test Review
-2838	2229	1	This is a test Review
-2864	454	1	This is a test Review
-2869	1437	1	This is a test Review
-2873	584	1	This is a test Review
-2874	1419	1	This is a test Review
-2893	821	1	This is a test Review
-2894	2070	1	This is a test Review
-2896	2063	1	This is a test Review
-2898	47	1	This is a test Review
-2900	355	1	This is a test Review
-2902	272	1	This is a test Review
-2907	1322	1	This is a test Review
-2912	290	1	This is a test Review
-2914	778	1	This is a test Review
-2916	459	1	This is a test Review
-2917	2055	1	This is a test Review
-2918	2244	1	This is a test Review
-2919	1025	1	This is a test Review
-2923	1719	1	This is a test Review
-2932	642	1	This is a test Review
-2936	433	1	This is a test Review
-2939	1098	1	This is a test Review
-2943	936	1	This is a test Review
-2944	936	1	This is a test Review
-2947	1602	1	This is a test Review
-2950	2160	1	This is a test Review
-2956	2282	1	This is a test Review
-2957	1591	1	This is a test Review
-2958	2091	1	This is a test Review
-2965	1467	1	This is a test Review
-2967	21	1	This is a test Review
-2969	2064	1	This is a test Review
-2970	2612	1	This is a test Review
-2983	1106	1	This is a test Review
-3001	2160	1	This is a test Review
-3003	2926	1	This is a test Review
-3015	1467	1	This is a test Review
-3018	2587	1	This is a test Review
-3026	808	1	This is a test Review
-3034	346	1	This is a test Review
-3035	2160	1	This is a test Review
-3038	1051	1	This is a test Review
+3	2	1	The paper "AAAA-2014" is mainly about AAAA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAA-2014 in particular
+6	5	1	The paper "AAAB-2014" is mainly about AAAB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAB-2014 in particular
+10	5	1	The paper "AAAC-2014" is mainly about AAAC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAC-2014 in particular
+11	5	1	The paper "AAAD-2014" is mainly about AAAD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAD-2014 in particular
+22	23	1	The paper "AAAE-2014" is mainly about AAAE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAE-2014 in particular
+32	31	1	The paper "AAAF-2014" is mainly about AAAF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAF-2014 in particular
+41	42	1	The paper "AAAG-2014" is mainly about AAAG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAG-2014 in particular
+58	57	1	The paper "AAAH-2014" is mainly about AAAH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAH-2014 in particular
+68	69	1	The paper "AAAI-2014" is mainly about AAAI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAI-2014 in particular
+73	71	1	The paper "AAAJ-2014" is mainly about AAAJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAJ-2014 in particular
+74	71	1	The paper "AAAK-2014" is mainly about AAAK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAK-2014 in particular
+75	71	1	The paper "AAAL-2014" is mainly about AAAL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAL-2014 in particular
+87	88	1	The paper "AAAM-2014" is mainly about AAAM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAM-2014 in particular
+95	96	1	The paper "AAAN-2014" is mainly about AAAN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAN-2014 in particular
+98	99	1	The paper "AAAO-2014" is mainly about AAAO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAO-2014 in particular
+102	101	1	The paper "AAAP-2014" is mainly about AAAP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAP-2014 in particular
+106	107	1	The paper "AAAQ-2014" is mainly about AAAQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAQ-2014 in particular
+120	121	1	The paper "AAAR-2014" is mainly about AAAR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAR-2014 in particular
+125	126	1	The paper "AAAS-2014" is mainly about AAAS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAS-2014 in particular
+134	135	1	The paper "AAAT-2014" is mainly about AAAT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAT-2014 in particular
+136	137	1	The paper "AAAU-2014" is mainly about AAAU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAU-2014 in particular
+138	139	1	The paper "AAAV-2014" is mainly about AAAV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAV-2014 in particular
+140	141	1	The paper "AAAW-2014" is mainly about AAAW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAW-2014 in particular
+148	149	1	The paper "AAAX-2014" is mainly about AAAX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAX-2014 in particular
+156	157	1	The paper "AAAY-2014" is mainly about AAAY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAY-2014 in particular
+159	158	1	The paper "AAAZ-2014" is mainly about AAAZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAAZ-2014 in particular
+162	161	1	The paper "AABA-2014" is mainly about AABA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABA-2014 in particular
+166	161	1	The paper "AABB-2014" is mainly about AABB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABB-2014 in particular
+168	169	1	The paper "AABC-2014" is mainly about AABC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABC-2014 in particular
+172	171	1	The paper "AABD-2014" is mainly about AABD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABD-2014 in particular
+181	182	1	The paper "AABE-2014" is mainly about AABE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABE-2014 in particular
+187	186	1	The paper "AABF-2014" is mainly about AABF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABF-2014 in particular
+192	193	1	The paper "AABG-2014" is mainly about AABG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABG-2014 in particular
+206	205	1	The paper "AABH-2014" is mainly about AABH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABH-2014 in particular
+218	217	1	The paper "AABI-2014" is mainly about AABI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABI-2014 in particular
+222	217	1	The paper "AABJ-2014" is mainly about AABJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABJ-2014 in particular
+233	228	1	The paper "AABK-2014" is mainly about AABK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABK-2014 in particular
+234	228	1	The paper "AABL-2014" is mainly about AABL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABL-2014 in particular
+235	228	1	The paper "AABM-2014" is mainly about AABM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABM-2014 in particular
+236	237	1	The paper "AABN-2014" is mainly about AABN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABN-2014 in particular
+243	238	1	The paper "AABO-2014" is mainly about AABO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABO-2014 in particular
+246	245	1	The paper "AABP-2014" is mainly about AABP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABP-2014 in particular
+251	248	1	The paper "AABQ-2014" is mainly about AABQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABQ-2014 in particular
+253	248	1	The paper "AABR-2014" is mainly about AABR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABR-2014 in particular
+255	248	1	The paper "AABS-2014" is mainly about AABS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABS-2014 in particular
+263	262	1	The paper "AABT-2014" is mainly about AABT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABT-2014 in particular
+264	262	1	The paper "AABU-2014" is mainly about AABU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABU-2014 in particular
+274	275	1	The paper "AABV-2014" is mainly about AABV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABV-2014 in particular
+276	277	1	The paper "AABW-2014" is mainly about AABW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABW-2014 in particular
+278	279	1	The paper "AABX-2014" is mainly about AABX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABX-2014 in particular
+280	281	1	The paper "AABY-2014" is mainly about AABY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABY-2014 in particular
+283	197	1	The paper "AABZ-2014" is mainly about AABZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AABZ-2014 in particular
+285	286	1	The paper "AACA-2014" is mainly about AACA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACA-2014 in particular
+293	294	1	The paper "AACB-2014" is mainly about AACB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACB-2014 in particular
+296	295	1	The paper "AACC-2014" is mainly about AACC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACC-2014 in particular
+297	295	1	The paper "AACD-2014" is mainly about AACD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACD-2014 in particular
+300	301	1	The paper "AACE-2014" is mainly about AACE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACE-2014 in particular
+312	311	1	The paper "AACF-2014" is mainly about AACF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACF-2014 in particular
+314	315	1	The paper "AACG-2014" is mainly about AACG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACG-2014 in particular
+361	88	1	The paper "AACH-2014" is mainly about AACH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACH-2014 in particular
+364	365	1	The paper "AACI-2014" is mainly about AACI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACI-2014 in particular
+367	366	1	The paper "AACJ-2014" is mainly about AACJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACJ-2014 in particular
+369	340	1	The paper "AACK-2014" is mainly about AACK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACK-2014 in particular
+370	371	1	The paper "AACL-2014" is mainly about AACL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACL-2014 in particular
+375	372	1	The paper "AACM-2014" is mainly about AACM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACM-2014 in particular
+377	372	1	The paper "AACN-2014" is mainly about AACN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACN-2014 in particular
+379	380	1	The paper "AACO-2014" is mainly about AACO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACO-2014 in particular
+381	382	1	The paper "AACP-2014" is mainly about AACP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACP-2014 in particular
+389	388	1	The paper "AACQ-2014" is mainly about AACQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACQ-2014 in particular
+390	388	1	The paper "AACR-2014" is mainly about AACR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACR-2014 in particular
+391	388	1	The paper "AACS-2014" is mainly about AACS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACS-2014 in particular
+397	396	1	The paper "AACT-2014" is mainly about AACT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACT-2014 in particular
+402	403	1	The paper "AACU-2014" is mainly about AACU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACU-2014 in particular
+410	409	1	The paper "AACV-2014" is mainly about AACV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACV-2014 in particular
+415	412	1	The paper "AACW-2014" is mainly about AACW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACW-2014 in particular
+416	412	1	The paper "AACX-2014" is mainly about AACX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACX-2014 in particular
+423	35	1	The paper "AACY-2014" is mainly about AACY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACY-2014 in particular
+424	35	1	The paper "AACZ-2014" is mainly about AACZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AACZ-2014 in particular
+425	35	1	The paper "AADA-2014" is mainly about AADA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADA-2014 in particular
+426	427	1	The paper "AADB-2014" is mainly about AADB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADB-2014 in particular
+428	429	1	The paper "AADC-2014" is mainly about AADC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADC-2014 in particular
+436	435	1	The paper "AADD-2014" is mainly about AADD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADD-2014 in particular
+438	288	1	The paper "AADE-2014" is mainly about AADE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADE-2014 in particular
+439	440	1	The paper "AADF-2014" is mainly about AADF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADF-2014 in particular
+441	442	1	The paper "AADG-2014" is mainly about AADG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADG-2014 in particular
+447	328	1	The paper "AADH-2014" is mainly about AADH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADH-2014 in particular
+453	454	1	The paper "AADI-2014" is mainly about AADI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADI-2014 in particular
+461	462	1	The paper "AADJ-2014" is mainly about AADJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADJ-2014 in particular
+463	464	1	The paper "AADK-2014" is mainly about AADK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADK-2014 in particular
+465	466	1	The paper "AADL-2014" is mainly about AADL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADL-2014 in particular
+467	468	1	The paper "AADM-2014" is mainly about AADM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADM-2014 in particular
+469	470	1	The paper "AADN-2014" is mainly about AADN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADN-2014 in particular
+472	471	1	The paper "AADO-2014" is mainly about AADO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADO-2014 in particular
+475	476	1	The paper "AADP-2014" is mainly about AADP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADP-2014 in particular
+478	477	1	The paper "AADQ-2014" is mainly about AADQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADQ-2014 in particular
+481	482	1	The paper "AADR-2014" is mainly about AADR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADR-2014 in particular
+484	66	1	The paper "AADS-2014" is mainly about AADS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADS-2014 in particular
+493	329	1	The paper "AADT-2014" is mainly about AADT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADT-2014 in particular
+494	495	1	The paper "AADU-2014" is mainly about AADU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADU-2014 in particular
+498	497	1	The paper "AADV-2014" is mainly about AADV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADV-2014 in particular
+501	497	1	The paper "AADW-2014" is mainly about AADW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADW-2014 in particular
+511	157	1	The paper "AADX-2014" is mainly about AADX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADX-2014 in particular
+513	514	1	The paper "AADY-2014" is mainly about AADY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADY-2014 in particular
+515	516	1	The paper "AADZ-2014" is mainly about AADZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AADZ-2014 in particular
+517	442	1	The paper "AAEA-2014" is mainly about AAEA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEA-2014 in particular
+518	519	1	The paper "AAEB-2014" is mainly about AAEB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEB-2014 in particular
+522	520	1	The paper "AAEC-2014" is mainly about AAEC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEC-2014 in particular
+523	520	1	The paper "AAED-2014" is mainly about AAED-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAED-2014 in particular
+525	524	1	The paper "AAEE-2014" is mainly about AAEE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEE-2014 in particular
+528	529	1	The paper "AAEF-2014" is mainly about AAEF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEF-2014 in particular
+531	177	1	The paper "AAEG-2014" is mainly about AAEG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEG-2014 in particular
+532	177	1	The paper "AAEH-2014" is mainly about AAEH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEH-2014 in particular
+534	177	1	The paper "AAEI-2014" is mainly about AAEI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEI-2014 in particular
+538	537	1	The paper "AAEJ-2014" is mainly about AAEJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEJ-2014 in particular
+540	541	1	The paper "AAEK-2014" is mainly about AAEK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEK-2014 in particular
+543	544	1	The paper "AAEL-2014" is mainly about AAEL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEL-2014 in particular
+546	545	1	The paper "AAEM-2014" is mainly about AAEM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEM-2014 in particular
+548	279	1	The paper "AAEN-2014" is mainly about AAEN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEN-2014 in particular
+553	30	1	The paper "AAEO-2014" is mainly about AAEO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEO-2014 in particular
+554	555	1	The paper "AAEP-2014" is mainly about AAEP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEP-2014 in particular
+563	50	1	The paper "AAEQ-2014" is mainly about AAEQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEQ-2014 in particular
+564	261	1	The paper "AAER-2014" is mainly about AAER-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAER-2014 in particular
+565	566	1	The paper "AAES-2014" is mainly about AAES-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAES-2014 in particular
+574	387	1	The paper "AAET-2014" is mainly about AAET-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAET-2014 in particular
+576	577	1	The paper "AAEU-2014" is mainly about AAEU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEU-2014 in particular
+580	581	1	The paper "AAEV-2014" is mainly about AAEV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEV-2014 in particular
+583	88	1	The paper "AAEW-2014" is mainly about AAEW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEW-2014 in particular
+588	589	1	The paper "AAEX-2014" is mainly about AAEX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEX-2014 in particular
+590	325	1	The paper "AAEY-2014" is mainly about AAEY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEY-2014 in particular
+593	592	1	The paper "AAEZ-2014" is mainly about AAEZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAEZ-2014 in particular
+596	597	1	The paper "AAFA-2014" is mainly about AAFA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFA-2014 in particular
+599	600	1	The paper "AAFB-2014" is mainly about AAFB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFB-2014 in particular
+610	99	1	The paper "AAFC-2014" is mainly about AAFC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFC-2014 in particular
+612	99	1	The paper "AAFD-2014" is mainly about AAFD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFD-2014 in particular
+613	143	1	The paper "AAFE-2014" is mainly about AAFE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFE-2014 in particular
+614	345	1	The paper "AAFF-2014" is mainly about AAFF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFF-2014 in particular
+616	615	1	The paper "AAFG-2014" is mainly about AAFG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFG-2014 in particular
+631	632	1	The paper "AAFH-2014" is mainly about AAFH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFH-2014 in particular
+634	633	1	The paper "AAFI-2014" is mainly about AAFI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFI-2014 in particular
+636	633	1	The paper "AAFJ-2014" is mainly about AAFJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFJ-2014 in particular
+638	633	1	The paper "AAFK-2014" is mainly about AAFK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFK-2014 in particular
+648	647	1	The paper "AAFL-2014" is mainly about AAFL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFL-2014 in particular
+649	647	1	The paper "AAFM-2014" is mainly about AAFM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFM-2014 in particular
+653	652	1	The paper "AAFN-2014" is mainly about AAFN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFN-2014 in particular
+657	652	1	The paper "AAFO-2014" is mainly about AAFO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFO-2014 in particular
+658	652	1	The paper "AAFP-2014" is mainly about AAFP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFP-2014 in particular
+665	666	1	The paper "AAFQ-2014" is mainly about AAFQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFQ-2014 in particular
+668	514	1	The paper "AAFR-2014" is mainly about AAFR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFR-2014 in particular
+670	514	1	The paper "AAFS-2014" is mainly about AAFS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFS-2014 in particular
+677	676	1	The paper "AAFT-2014" is mainly about AAFT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFT-2014 in particular
+680	681	1	The paper "AAFU-2014" is mainly about AAFU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFU-2014 in particular
+683	682	1	The paper "AAFV-2014" is mainly about AAFV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFV-2014 in particular
+690	691	1	The paper "AAFW-2014" is mainly about AAFW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFW-2014 in particular
+692	693	1	The paper "AAFX-2014" is mainly about AAFX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFX-2014 in particular
+695	694	1	The paper "AAFY-2014" is mainly about AAFY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFY-2014 in particular
+698	697	1	The paper "AAFZ-2014" is mainly about AAFZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAFZ-2014 in particular
+714	715	1	The paper "AAGA-2014" is mainly about AAGA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGA-2014 in particular
+722	723	1	The paper "AAGB-2014" is mainly about AAGB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGB-2014 in particular
+724	725	1	The paper "AAGC-2014" is mainly about AAGC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGC-2014 in particular
+726	727	1	The paper "AAGD-2014" is mainly about AAGD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGD-2014 in particular
+728	729	1	The paper "AAGE-2014" is mainly about AAGE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGE-2014 in particular
+737	335	1	The paper "AAGF-2014" is mainly about AAGF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGF-2014 in particular
+741	214	1	The paper "AAGG-2014" is mainly about AAGG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGG-2014 in particular
+744	743	1	The paper "AAGH-2014" is mainly about AAGH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGH-2014 in particular
+752	753	1	The paper "AAGI-2014" is mainly about AAGI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGI-2014 in particular
+762	761	1	The paper "AAGJ-2014" is mainly about AAGJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGJ-2014 in particular
+769	322	1	The paper "AAGK-2014" is mainly about AAGK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGK-2014 in particular
+779	115	1	The paper "AAGL-2014" is mainly about AAGL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGL-2014 in particular
+792	791	1	The paper "AAGM-2014" is mainly about AAGM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGM-2014 in particular
+796	797	1	The paper "AAGN-2014" is mainly about AAGN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGN-2014 in particular
+804	110	1	The paper "AAGO-2014" is mainly about AAGO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGO-2014 in particular
+812	813	1	The paper "AAGP-2014" is mainly about AAGP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGP-2014 in particular
+814	688	1	The paper "AAGQ-2014" is mainly about AAGQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGQ-2014 in particular
+825	826	1	The paper "AAGR-2014" is mainly about AAGR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGR-2014 in particular
+831	830	1	The paper "AAGS-2014" is mainly about AAGS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGS-2014 in particular
+832	833	1	The paper "AAGT-2014" is mainly about AAGT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGT-2014 in particular
+841	17	1	The paper "AAGU-2014" is mainly about AAGU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGU-2014 in particular
+842	843	1	The paper "AAGV-2014" is mainly about AAGV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGV-2014 in particular
+845	844	1	The paper "AAGW-2014" is mainly about AAGW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGW-2014 in particular
+846	844	1	The paper "AAGX-2014" is mainly about AAGX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGX-2014 in particular
+852	317	1	The paper "AAGY-2014" is mainly about AAGY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGY-2014 in particular
+861	584	1	The paper "AAGZ-2014" is mainly about AAGZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAGZ-2014 in particular
+862	863	1	The paper "AAHA-2014" is mainly about AAHA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHA-2014 in particular
+865	866	1	The paper "AAHB-2014" is mainly about AAHB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHB-2014 in particular
+869	544	1	The paper "AAHC-2014" is mainly about AAHC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHC-2014 in particular
+872	544	1	The paper "AAHD-2014" is mainly about AAHD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHD-2014 in particular
+885	886	1	The paper "AAHE-2014" is mainly about AAHE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHE-2014 in particular
+890	891	1	The paper "AAHF-2014" is mainly about AAHF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHF-2014 in particular
+892	893	1	The paper "AAHG-2014" is mainly about AAHG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHG-2014 in particular
+897	898	1	The paper "AAHH-2014" is mainly about AAHH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHH-2014 in particular
+899	339	1	The paper "AAHI-2014" is mainly about AAHI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHI-2014 in particular
+900	176	1	The paper "AAHJ-2014" is mainly about AAHJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHJ-2014 in particular
+903	902	1	The paper "AAHK-2014" is mainly about AAHK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHK-2014 in particular
+912	557	1	The paper "AAHL-2014" is mainly about AAHL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHL-2014 in particular
+918	919	1	The paper "AAHM-2014" is mainly about AAHM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHM-2014 in particular
+930	929	1	The paper "AAHN-2014" is mainly about AAHN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHN-2014 in particular
+932	584	1	The paper "AAHO-2014" is mainly about AAHO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHO-2014 in particular
+945	946	1	The paper "AAHP-2014" is mainly about AAHP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHP-2014 in particular
+948	947	1	The paper "AAHQ-2014" is mainly about AAHQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHQ-2014 in particular
+950	951	1	The paper "AAHR-2014" is mainly about AAHR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHR-2014 in particular
+953	86	1	The paper "AAHS-2014" is mainly about AAHS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHS-2014 in particular
+959	958	1	The paper "AAHT-2014" is mainly about AAHT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHT-2014 in particular
+966	626	1	The paper "AAHU-2014" is mainly about AAHU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHU-2014 in particular
+968	967	1	The paper "AAHV-2014" is mainly about AAHV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHV-2014 in particular
+970	971	1	The paper "AAHW-2014" is mainly about AAHW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHW-2014 in particular
+975	972	1	The paper "AAHX-2014" is mainly about AAHX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHX-2014 in particular
+976	972	1	The paper "AAHY-2014" is mainly about AAHY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHY-2014 in particular
+977	972	1	The paper "AAHZ-2014" is mainly about AAHZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAHZ-2014 in particular
+981	980	1	The paper "AAIA-2014" is mainly about AAIA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIA-2014 in particular
+988	642	1	The paper "AAIB-2014" is mainly about AAIB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIB-2014 in particular
+989	937	1	The paper "AAIC-2014" is mainly about AAIC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIC-2014 in particular
+990	937	1	The paper "AAID-2014" is mainly about AAID-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAID-2014 in particular
+993	992	1	The paper "AAIE-2014" is mainly about AAIE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIE-2014 in particular
+997	998	1	The paper "AAIF-2014" is mainly about AAIF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIF-2014 in particular
+999	1000	1	The paper "AAIG-2014" is mainly about AAIG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIG-2014 in particular
+1001	777	1	The paper "AAIH-2014" is mainly about AAIH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIH-2014 in particular
+1002	1003	1	The paper "AAII-2014" is mainly about AAII-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAII-2014 in particular
+1007	348	1	The paper "AAIJ-2014" is mainly about AAIJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIJ-2014 in particular
+1008	571	1	The paper "AAIK-2014" is mainly about AAIK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIK-2014 in particular
+1010	1009	1	The paper "AAIL-2014" is mainly about AAIL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIL-2014 in particular
+1012	1011	1	The paper "AAIM-2014" is mainly about AAIM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIM-2014 in particular
+1016	1015	1	The paper "AAIN-2014" is mainly about AAIN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIN-2014 in particular
+1023	876	1	The paper "AAIO-2014" is mainly about AAIO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIO-2014 in particular
+1024	1025	1	The paper "AAIP-2014" is mainly about AAIP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIP-2014 in particular
+1027	1026	1	The paper "AAIQ-2014" is mainly about AAIQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIQ-2014 in particular
+1030	1029	1	The paper "AAIR-2014" is mainly about AAIR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIR-2014 in particular
+1032	271	1	The paper "AAIS-2014" is mainly about AAIS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIS-2014 in particular
+1036	691	1	The paper "AAIT-2014" is mainly about AAIT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIT-2014 in particular
+1037	691	1	The paper "AAIU-2014" is mainly about AAIU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIU-2014 in particular
+1040	1039	1	The paper "AAIV-2014" is mainly about AAIV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIV-2014 in particular
+1041	1039	1	The paper "AAIW-2014" is mainly about AAIW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIW-2014 in particular
+1072	1073	1	The paper "AAIX-2014" is mainly about AAIX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIX-2014 in particular
+1074	464	1	The paper "AAIY-2014" is mainly about AAIY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIY-2014 in particular
+1077	128	1	The paper "AAIZ-2014" is mainly about AAIZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAIZ-2014 in particular
+1079	1078	1	The paper "AAJA-2014" is mainly about AAJA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJA-2014 in particular
+1080	1078	1	The paper "AAJB-2014" is mainly about AAJB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJB-2014 in particular
+1083	1084	1	The paper "AAJC-2014" is mainly about AAJC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJC-2014 in particular
+1088	1089	1	The paper "AAJD-2014" is mainly about AAJD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJD-2014 in particular
+1091	1092	1	The paper "AAJE-2014" is mainly about AAJE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJE-2014 in particular
+1095	875	1	The paper "AAJF-2014" is mainly about AAJF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJF-2014 in particular
+1096	875	1	The paper "AAJG-2014" is mainly about AAJG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJG-2014 in particular
+1097	1098	1	The paper "AAJH-2014" is mainly about AAJH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJH-2014 in particular
+1099	759	1	The paper "AAJI-2014" is mainly about AAJI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJI-2014 in particular
+1100	1101	1	The paper "AAJJ-2014" is mainly about AAJJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJJ-2014 in particular
+1105	1106	1	The paper "AAJK-2014" is mainly about AAJK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJK-2014 in particular
+1107	320	1	The paper "AAJL-2014" is mainly about AAJL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJL-2014 in particular
+1109	1108	1	The paper "AAJM-2014" is mainly about AAJM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJM-2014 in particular
+1110	281	1	The paper "AAJN-2014" is mainly about AAJN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJN-2014 in particular
+1111	605	1	The paper "AAJO-2014" is mainly about AAJO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJO-2014 in particular
+1113	1112	1	The paper "AAJP-2014" is mainly about AAJP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJP-2014 in particular
+1116	1057	1	The paper "AAJQ-2014" is mainly about AAJQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJQ-2014 in particular
+1118	135	1	The paper "AAJR-2014" is mainly about AAJR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJR-2014 in particular
+1119	135	1	The paper "AAJS-2014" is mainly about AAJS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJS-2014 in particular
+1124	1125	1	The paper "AAJT-2014" is mainly about AAJT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJT-2014 in particular
+1127	1126	1	The paper "AAJU-2014" is mainly about AAJU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJU-2014 in particular
+1128	909	1	The paper "AAJV-2014" is mainly about AAJV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJV-2014 in particular
+1131	1129	1	The paper "AAJW-2014" is mainly about AAJW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJW-2014 in particular
+1133	324	1	The paper "AAJX-2014" is mainly about AAJX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJX-2014 in particular
+1135	719	1	The paper "AAJY-2014" is mainly about AAJY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJY-2014 in particular
+1137	1136	1	The paper "AAJZ-2014" is mainly about AAJZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAJZ-2014 in particular
+1139	1060	1	The paper "AAKA-2014" is mainly about AAKA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKA-2014 in particular
+1141	1142	1	The paper "AAKB-2014" is mainly about AAKB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKB-2014 in particular
+1144	1143	1	The paper "AAKC-2014" is mainly about AAKC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKC-2014 in particular
+1146	1145	1	The paper "AAKD-2014" is mainly about AAKD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKD-2014 in particular
+1149	38	1	The paper "AAKE-2014" is mainly about AAKE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKE-2014 in particular
+1150	38	1	The paper "AAKF-2014" is mainly about AAKF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKF-2014 in particular
+1151	38	1	The paper "AAKG-2014" is mainly about AAKG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKG-2014 in particular
+1154	516	1	The paper "AAKH-2014" is mainly about AAKH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKH-2014 in particular
+1161	1160	1	The paper "AAKI-2014" is mainly about AAKI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKI-2014 in particular
+1163	107	1	The paper "AAKJ-2014" is mainly about AAKJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKJ-2014 in particular
+1167	1166	1	The paper "AAKK-2014" is mainly about AAKK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKK-2014 in particular
+1170	1171	1	The paper "AAKL-2014" is mainly about AAKL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKL-2014 in particular
+1172	1173	1	The paper "AAKM-2014" is mainly about AAKM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKM-2014 in particular
+1175	1174	1	The paper "AAKN-2014" is mainly about AAKN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKN-2014 in particular
+1178	1179	1	The paper "AAKO-2014" is mainly about AAKO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKO-2014 in particular
+1183	126	1	The paper "AAKP-2014" is mainly about AAKP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKP-2014 in particular
+1184	1044	1	The paper "AAKQ-2014" is mainly about AAKQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKQ-2014 in particular
+1185	1186	1	The paper "AAKR-2014" is mainly about AAKR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKR-2014 in particular
+1187	1188	1	The paper "AAKS-2014" is mainly about AAKS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKS-2014 in particular
+1197	1196	1	The paper "AAKT-2014" is mainly about AAKT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKT-2014 in particular
+1201	116	1	The paper "AAKU-2014" is mainly about AAKU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKU-2014 in particular
+1205	946	1	The paper "AAKV-2014" is mainly about AAKV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKV-2014 in particular
+1206	460	1	The paper "AAKW-2014" is mainly about AAKW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKW-2014 in particular
+1208	1209	1	The paper "AAKX-2014" is mainly about AAKX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKX-2014 in particular
+1210	45	1	The paper "AAKY-2014" is mainly about AAKY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKY-2014 in particular
+1212	1213	1	The paper "AAKZ-2014" is mainly about AAKZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAKZ-2014 in particular
+1215	1214	1	The paper "AALA-2014" is mainly about AALA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALA-2014 in particular
+1222	1223	1	The paper "AALB-2014" is mainly about AALB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALB-2014 in particular
+1224	1225	1	The paper "AALC-2014" is mainly about AALC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALC-2014 in particular
+1230	1055	1	The paper "AALD-2014" is mainly about AALD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALD-2014 in particular
+1234	1235	1	The paper "AALE-2014" is mainly about AALE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALE-2014 in particular
+1236	199	1	The paper "AALF-2014" is mainly about AALF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALF-2014 in particular
+1237	199	1	The paper "AALG-2014" is mainly about AALG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALG-2014 in particular
+1239	199	1	The paper "AALH-2014" is mainly about AALH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALH-2014 in particular
+1246	1245	1	The paper "AALI-2014" is mainly about AALI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALI-2014 in particular
+1247	1245	1	The paper "AALJ-2014" is mainly about AALJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALJ-2014 in particular
+1250	1249	1	The paper "AALK-2014" is mainly about AALK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALK-2014 in particular
+1259	1260	1	The paper "AALL-2014" is mainly about AALL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALL-2014 in particular
+1261	1262	1	The paper "AALM-2014" is mainly about AALM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALM-2014 in particular
+1263	719	1	The paper "AALN-2014" is mainly about AALN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALN-2014 in particular
+1270	1269	1	The paper "AALO-2014" is mainly about AALO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALO-2014 in particular
+1272	1219	1	The paper "AALP-2014" is mainly about AALP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALP-2014 in particular
+1278	1279	1	The paper "AALQ-2014" is mainly about AALQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALQ-2014 in particular
+1283	1282	1	The paper "AALR-2014" is mainly about AALR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALR-2014 in particular
+1284	1282	1	The paper "AALS-2014" is mainly about AALS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALS-2014 in particular
+1285	482	1	The paper "AALT-2014" is mainly about AALT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALT-2014 in particular
+1286	1287	1	The paper "AALU-2014" is mainly about AALU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALU-2014 in particular
+1291	279	1	The paper "AALV-2014" is mainly about AALV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALV-2014 in particular
+1292	1061	1	The paper "AALW-2014" is mainly about AALW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALW-2014 in particular
+1294	1293	1	The paper "AALX-2014" is mainly about AALX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALX-2014 in particular
+1309	1310	1	The paper "AALY-2014" is mainly about AALY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALY-2014 in particular
+1316	1317	1	The paper "AALZ-2014" is mainly about AALZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AALZ-2014 in particular
+1318	1319	1	The paper "AAMA-2014" is mainly about AAMA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMA-2014 in particular
+1327	927	1	The paper "AAMB-2014" is mainly about AAMB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMB-2014 in particular
+1328	1329	1	The paper "AAMC-2014" is mainly about AAMC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMC-2014 in particular
+1330	64	1	The paper "AAMD-2014" is mainly about AAMD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMD-2014 in particular
+1336	1335	1	The paper "AAME-2014" is mainly about AAME-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAME-2014 in particular
+1338	1192	1	The paper "AAMF-2014" is mainly about AAMF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMF-2014 in particular
+1340	1339	1	The paper "AAMG-2014" is mainly about AAMG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMG-2014 in particular
+1342	371	1	The paper "AAMH-2014" is mainly about AAMH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMH-2014 in particular
+1345	1257	1	The paper "AAMI-2014" is mainly about AAMI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMI-2014 in particular
+1347	1348	1	The paper "AAMJ-2014" is mainly about AAMJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMJ-2014 in particular
+1354	1355	1	The paper "AAMK-2014" is mainly about AAMK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMK-2014 in particular
+1361	1360	1	The paper "AAML-2014" is mainly about AAML-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAML-2014 in particular
+1363	1364	1	The paper "AAMM-2014" is mainly about AAMM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMM-2014 in particular
+1373	1071	1	The paper "AAMN-2014" is mainly about AAMN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMN-2014 in particular
+1374	1321	1	The paper "AAMO-2014" is mainly about AAMO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMO-2014 in particular
+1375	1376	1	The paper "AAMP-2014" is mainly about AAMP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMP-2014 in particular
+1379	1380	1	The paper "AAMQ-2014" is mainly about AAMQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMQ-2014 in particular
+1381	1382	1	The paper "AAMR-2014" is mainly about AAMR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMR-2014 in particular
+1384	143	1	The paper "AAMS-2014" is mainly about AAMS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMS-2014 in particular
+1385	139	1	The paper "AAMT-2014" is mainly about AAMT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMT-2014 in particular
+1386	139	1	The paper "AAMU-2014" is mainly about AAMU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMU-2014 in particular
+1391	1390	1	The paper "AAMV-2014" is mainly about AAMV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMV-2014 in particular
+1400	946	1	The paper "AAMW-2014" is mainly about AAMW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMW-2014 in particular
+1406	1405	1	The paper "AAMX-2014" is mainly about AAMX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMX-2014 in particular
+1423	597	1	The paper "AAMY-2014" is mainly about AAMY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMY-2014 in particular
+1424	1425	1	The paper "AAMZ-2014" is mainly about AAMZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAMZ-2014 in particular
+1428	1429	1	The paper "AANA-2014" is mainly about AANA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANA-2014 in particular
+1430	876	1	The paper "AANB-2014" is mainly about AANB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANB-2014 in particular
+1432	876	1	The paper "AANC-2014" is mainly about AANC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANC-2014 in particular
+1433	464	1	The paper "AAND-2014" is mainly about AAND-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAND-2014 in particular
+1440	96	1	The paper "AANE-2014" is mainly about AANE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANE-2014 in particular
+1442	338	1	The paper "AANF-2014" is mainly about AANF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANF-2014 in particular
+1445	1446	1	The paper "AANG-2014" is mainly about AANG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANG-2014 in particular
+1447	462	1	The paper "AANH-2014" is mainly about AANH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANH-2014 in particular
+1449	1448	1	The paper "AANI-2014" is mainly about AANI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANI-2014 in particular
+1454	319	1	The paper "AANJ-2014" is mainly about AANJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANJ-2014 in particular
+1456	1418	1	The paper "AANK-2014" is mainly about AANK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANK-2014 in particular
+1460	908	1	The paper "AANL-2014" is mainly about AANL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANL-2014 in particular
+1461	1462	1	The paper "AANM-2014" is mainly about AANM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANM-2014 in particular
+1463	817	1	The paper "AANN-2014" is mainly about AANN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANN-2014 in particular
+1470	27	1	The paper "AANO-2014" is mainly about AANO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANO-2014 in particular
+1471	1472	1	The paper "AANP-2014" is mainly about AANP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANP-2014 in particular
+1481	1476	1	The paper "AANQ-2014" is mainly about AANQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANQ-2014 in particular
+1484	1485	1	The paper "AANR-2014" is mainly about AANR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANR-2014 in particular
+1489	1242	1	The paper "AANS-2014" is mainly about AANS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANS-2014 in particular
+1490	1242	1	The paper "AANT-2014" is mainly about AANT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANT-2014 in particular
+1491	1242	1	The paper "AANU-2014" is mainly about AANU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANU-2014 in particular
+1500	1073	1	The paper "AANV-2014" is mainly about AANV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANV-2014 in particular
+1508	1507	1	The paper "AANW-2014" is mainly about AANW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANW-2014 in particular
+1509	1507	1	The paper "AANX-2014" is mainly about AANX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANX-2014 in particular
+1510	1507	1	The paper "AANY-2014" is mainly about AANY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANY-2014 in particular
+1511	458	1	The paper "AANZ-2014" is mainly about AANZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AANZ-2014 in particular
+1513	458	1	The paper "AAOA-2014" is mainly about AAOA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOA-2014 in particular
+1514	458	1	The paper "AAOB-2014" is mainly about AAOB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOB-2014 in particular
+1521	1520	1	The paper "AAOC-2014" is mainly about AAOC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOC-2014 in particular
+1523	817	1	The paper "AAOD-2014" is mainly about AAOD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOD-2014 in particular
+1525	1056	1	The paper "AAOE-2014" is mainly about AAOE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOE-2014 in particular
+1532	1413	1	The paper "AAOF-2014" is mainly about AAOF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOF-2014 in particular
+1533	1046	1	The paper "AAOG-2014" is mainly about AAOG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOG-2014 in particular
+1537	1046	1	The paper "AAOH-2014" is mainly about AAOH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOH-2014 in particular
+1538	1046	1	The paper "AAOI-2014" is mainly about AAOI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOI-2014 in particular
+1544	1543	1	The paper "AAOJ-2014" is mainly about AAOJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOJ-2014 in particular
+1546	1056	1	The paper "AAOK-2014" is mainly about AAOK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOK-2014 in particular
+1547	1056	1	The paper "AAOL-2014" is mainly about AAOL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOL-2014 in particular
+1549	1550	1	The paper "AAOM-2014" is mainly about AAOM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOM-2014 in particular
+1551	316	1	The paper "AAON-2014" is mainly about AAON-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAON-2014 in particular
+1552	1553	1	The paper "AAOO-2014" is mainly about AAOO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOO-2014 in particular
+1555	1106	1	The paper "AAOP-2014" is mainly about AAOP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOP-2014 in particular
+1556	1557	1	The paper "AAOQ-2014" is mainly about AAOQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOQ-2014 in particular
+1558	944	1	The paper "AAOR-2014" is mainly about AAOR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOR-2014 in particular
+1559	688	1	The paper "AAOS-2014" is mainly about AAOS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOS-2014 in particular
+1560	180	1	The paper "AAOT-2014" is mainly about AAOT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOT-2014 in particular
+1564	597	1	The paper "AAOU-2014" is mainly about AAOU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOU-2014 in particular
+1569	1570	1	The paper "AAOV-2014" is mainly about AAOV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOV-2014 in particular
+1571	304	1	The paper "AAOW-2014" is mainly about AAOW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOW-2014 in particular
+1572	304	1	The paper "AAOX-2014" is mainly about AAOX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOX-2014 in particular
+1574	1315	1	The paper "AAOY-2014" is mainly about AAOY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOY-2014 in particular
+1575	1315	1	The paper "AAOZ-2014" is mainly about AAOZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAOZ-2014 in particular
+1576	1568	1	The paper "AAPA-2014" is mainly about AAPA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPA-2014 in particular
+1584	881	1	The paper "AAPB-2014" is mainly about AAPB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPB-2014 in particular
+1585	1304	1	The paper "AAPC-2014" is mainly about AAPC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPC-2014 in particular
+1586	153	1	The paper "AAPD-2014" is mainly about AAPD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPD-2014 in particular
+1592	1593	1	The paper "AAPE-2014" is mainly about AAPE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPE-2014 in particular
+1597	784	1	The paper "AAPF-2014" is mainly about AAPF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPF-2014 in particular
+1598	1226	1	The paper "AAPG-2014" is mainly about AAPG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPG-2014 in particular
+1601	1602	1	The paper "AAPH-2014" is mainly about AAPH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPH-2014 in particular
+1606	1059	1	The paper "AAPI-2014" is mainly about AAPI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPI-2014 in particular
+1607	725	1	The paper "AAPJ-2014" is mainly about AAPJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPJ-2014 in particular
+1609	971	1	The paper "AAPK-2014" is mainly about AAPK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPK-2014 in particular
+1610	725	1	The paper "AAPL-2014" is mainly about AAPL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPL-2014 in particular
+1613	710	1	The paper "AAPM-2014" is mainly about AAPM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPM-2014 in particular
+1614	1156	1	The paper "AAPN-2014" is mainly about AAPN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPN-2014 in particular
+1617	1618	1	The paper "AAPO-2014" is mainly about AAPO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPO-2014 in particular
+1621	1620	1	The paper "AAPP-2014" is mainly about AAPP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPP-2014 in particular
+1622	1620	1	The paper "AAPQ-2014" is mainly about AAPQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPQ-2014 in particular
+1623	1620	1	The paper "AAPR-2014" is mainly about AAPR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPR-2014 in particular
+1626	753	1	The paper "AAPS-2014" is mainly about AAPS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPS-2014 in particular
+1627	1047	1	The paper "AAPT-2014" is mainly about AAPT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPT-2014 in particular
+1628	1629	1	The paper "AAPU-2014" is mainly about AAPU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPU-2014 in particular
+1631	1632	1	The paper "AAPV-2014" is mainly about AAPV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPV-2014 in particular
+1633	1351	1	The paper "AAPW-2014" is mainly about AAPW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPW-2014 in particular
+1635	1634	1	The paper "AAPX-2014" is mainly about AAPX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPX-2014 in particular
+1638	64	1	The paper "AAPY-2014" is mainly about AAPY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPY-2014 in particular
+1641	119	1	The paper "AAPZ-2014" is mainly about AAPZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAPZ-2014 in particular
+1644	757	1	The paper "AAQA-2014" is mainly about AAQA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQA-2014 in particular
+1646	1226	1	The paper "AAQB-2014" is mainly about AAQB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQB-2014 in particular
+1650	1000	1	The paper "AAQC-2014" is mainly about AAQC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQC-2014 in particular
+1653	693	1	The paper "AAQD-2014" is mainly about AAQD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQD-2014 in particular
+1654	200	1	The paper "AAQE-2014" is mainly about AAQE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQE-2014 in particular
+1655	1583	1	The paper "AAQF-2014" is mainly about AAQF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQF-2014 in particular
+1657	1658	1	The paper "AAQG-2014" is mainly about AAQG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQG-2014 in particular
+1660	839	1	The paper "AAQH-2014" is mainly about AAQH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQH-2014 in particular
+1661	843	1	The paper "AAQI-2014" is mainly about AAQI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQI-2014 in particular
+1667	729	1	The paper "AAQJ-2014" is mainly about AAQJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQJ-2014 in particular
+1671	710	1	The paper "AAQK-2014" is mainly about AAQK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQK-2014 in particular
+1673	1672	1	The paper "AAQL-2014" is mainly about AAQL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQL-2014 in particular
+1674	1672	1	The paper "AAQM-2014" is mainly about AAQM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQM-2014 in particular
+1679	1419	1	The paper "AAQN-2014" is mainly about AAQN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQN-2014 in particular
+1682	1681	1	The paper "AAQO-2014" is mainly about AAQO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQO-2014 in particular
+1685	759	1	The paper "AAQP-2014" is mainly about AAQP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQP-2014 in particular
+1689	1690	1	The paper "AAQQ-2014" is mainly about AAQQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQQ-2014 in particular
+1691	921	1	The paper "AAQR-2014" is mainly about AAQR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQR-2014 in particular
+1692	82	1	The paper "AAQS-2014" is mainly about AAQS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQS-2014 in particular
+1693	1244	1	The paper "AAQT-2014" is mainly about AAQT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQT-2014 in particular
+1695	1696	1	The paper "AAQU-2014" is mainly about AAQU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQU-2014 in particular
+1697	1473	1	The paper "AAQV-2014" is mainly about AAQV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQV-2014 in particular
+1699	137	1	The paper "AAQW-2014" is mainly about AAQW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQW-2014 in particular
+1701	176	1	The paper "AAQX-2014" is mainly about AAQX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQX-2014 in particular
+1703	1702	1	The paper "AAQY-2014" is mainly about AAQY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQY-2014 in particular
+1704	1705	1	The paper "AAQZ-2014" is mainly about AAQZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAQZ-2014 in particular
+1710	1711	1	The paper "AARA-2014" is mainly about AARA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARA-2014 in particular
+1714	63	1	The paper "AARB-2014" is mainly about AARB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARB-2014 in particular
+1715	63	1	The paper "AARC-2014" is mainly about AARC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARC-2014 in particular
+1717	1209	1	The paper "AARD-2014" is mainly about AARD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARD-2014 in particular
+1721	39	1	The paper "AARE-2014" is mainly about AARE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARE-2014 in particular
+1723	1420	1	The paper "AARF-2014" is mainly about AARF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARF-2014 in particular
+1724	645	1	The paper "AARG-2014" is mainly about AARG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARG-2014 in particular
+1731	1730	1	The paper "AARH-2014" is mainly about AARH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARH-2014 in particular
+1736	1737	1	The paper "AARI-2014" is mainly about AARI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARI-2014 in particular
+1740	1739	1	The paper "AARJ-2014" is mainly about AARJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARJ-2014 in particular
+1743	1744	1	The paper "AARK-2014" is mainly about AARK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARK-2014 in particular
+1754	1753	1	The paper "AARL-2014" is mainly about AARL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARL-2014 in particular
+1755	1753	1	The paper "AARM-2014" is mainly about AARM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARM-2014 in particular
+1756	808	1	The paper "AARN-2014" is mainly about AARN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARN-2014 in particular
+1771	1658	1	The paper "AARO-2014" is mainly about AARO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARO-2014 in particular
+1772	1773	1	The paper "AARP-2014" is mainly about AARP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARP-2014 in particular
+1776	731	1	The paper "AARQ-2014" is mainly about AARQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARQ-2014 in particular
+1779	1025	1	The paper "AARR-2014" is mainly about AARR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARR-2014 in particular
+1780	1781	1	The paper "AARS-2014" is mainly about AARS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARS-2014 in particular
+1782	1220	1	The paper "AART-2014" is mainly about AART-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AART-2014 in particular
+1783	1370	1	The paper "AARU-2014" is mainly about AARU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARU-2014 in particular
+1784	645	1	The paper "AARV-2014" is mainly about AARV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARV-2014 in particular
+1792	289	1	The paper "AARW-2014" is mainly about AARW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARW-2014 in particular
+1808	835	1	The paper "AARX-2014" is mainly about AARX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARX-2014 in particular
+1814	1813	1	The paper "AARY-2014" is mainly about AARY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARY-2014 in particular
+1822	1101	1	The paper "AARZ-2014" is mainly about AARZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AARZ-2014 in particular
+1824	552	1	The paper "AASA-2014" is mainly about AASA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASA-2014 in particular
+1825	674	1	The paper "AASB-2014" is mainly about AASB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASB-2014 in particular
+1826	286	1	The paper "AASC-2014" is mainly about AASC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASC-2014 in particular
+1833	1414	1	The paper "AASD-2014" is mainly about AASD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASD-2014 in particular
+1834	809	1	The paper "AASE-2014" is mainly about AASE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASE-2014 in particular
+1838	1839	1	The paper "AASF-2014" is mainly about AASF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASF-2014 in particular
+1840	176	1	The paper "AASG-2014" is mainly about AASG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASG-2014 in particular
+1845	1350	1	The paper "AASH-2014" is mainly about AASH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASH-2014 in particular
+1846	660	1	The paper "AASI-2014" is mainly about AASI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASI-2014 in particular
+1847	1356	1	The paper "AASJ-2014" is mainly about AASJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASJ-2014 in particular
+1849	1356	1	The paper "AASK-2014" is mainly about AASK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASK-2014 in particular
+1851	702	1	The paper "AASL-2014" is mainly about AASL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASL-2014 in particular
+1857	1709	1	The paper "AASM-2014" is mainly about AASM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASM-2014 in particular
+1858	516	1	The paper "AASN-2014" is mainly about AASN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASN-2014 in particular
+1860	581	1	The paper "AASO-2014" is mainly about AASO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASO-2014 in particular
+1861	1191	1	The paper "AASP-2014" is mainly about AASP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASP-2014 in particular
+1863	1862	1	The paper "AASQ-2014" is mainly about AASQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASQ-2014 in particular
+1874	664	1	The paper "AASR-2014" is mainly about AASR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASR-2014 in particular
+1880	1568	1	The paper "AASS-2014" is mainly about AASS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASS-2014 in particular
+1883	874	1	The paper "AAST-2014" is mainly about AAST-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAST-2014 in particular
+1885	1225	1	The paper "AASU-2014" is mainly about AASU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASU-2014 in particular
+1886	90	1	The paper "AASV-2014" is mainly about AASV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASV-2014 in particular
+1889	1319	1	The paper "AASW-2014" is mainly about AASW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASW-2014 in particular
+1890	1891	1	The paper "AASX-2014" is mainly about AASX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASX-2014 in particular
+1892	27	1	The paper "AASY-2014" is mainly about AASY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASY-2014 in particular
+1893	998	1	The paper "AASZ-2014" is mainly about AASZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AASZ-2014 in particular
+1894	1266	1	The paper "AATA-2014" is mainly about AATA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATA-2014 in particular
+1896	1895	1	The paper "AATB-2014" is mainly about AATB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATB-2014 in particular
+1899	1260	1	The paper "AATC-2014" is mainly about AATC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATC-2014 in particular
+1901	1902	1	The paper "AATD-2014" is mainly about AATD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATD-2014 in particular
+1903	1904	1	The paper "AATE-2014" is mainly about AATE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATE-2014 in particular
+1906	1905	1	The paper "AATF-2014" is mainly about AATF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATF-2014 in particular
+1912	1768	1	The paper "AATG-2014" is mainly about AATG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATG-2014 in particular
+1915	1397	1	The paper "AATH-2014" is mainly about AATH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATH-2014 in particular
+1919	1918	1	The paper "AATI-2014" is mainly about AATI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATI-2014 in particular
+1923	1003	1	The paper "AATJ-2014" is mainly about AATJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATJ-2014 in particular
+1924	321	1	The paper "AATK-2014" is mainly about AATK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATK-2014 in particular
+1926	64	1	The paper "AATL-2014" is mainly about AATL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATL-2014 in particular
+1927	1928	1	The paper "AATM-2014" is mainly about AATM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATM-2014 in particular
+1929	1191	1	The paper "AATN-2014" is mainly about AATN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATN-2014 in particular
+1931	1191	1	The paper "AATO-2014" is mainly about AATO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATO-2014 in particular
+1935	1775	1	The paper "AATP-2014" is mainly about AATP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATP-2014 in particular
+1937	1775	1	The paper "AATQ-2014" is mainly about AATQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATQ-2014 in particular
+1938	1939	1	The paper "AATR-2014" is mainly about AATR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATR-2014 in particular
+1940	1412	1	The paper "AATS-2014" is mainly about AATS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATS-2014 in particular
+1942	144	1	The paper "AATT-2014" is mainly about AATT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATT-2014 in particular
+1943	144	1	The paper "AATU-2014" is mainly about AATU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATU-2014 in particular
+1945	1696	1	The paper "AATV-2014" is mainly about AATV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATV-2014 in particular
+1947	1092	1	The paper "AATW-2014" is mainly about AATW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATW-2014 in particular
+1949	1334	1	The paper "AATX-2014" is mainly about AATX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATX-2014 in particular
+1950	986	1	The paper "AATY-2014" is mainly about AATY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATY-2014 in particular
+1951	1952	1	The paper "AATZ-2014" is mainly about AATZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AATZ-2014 in particular
+1953	810	1	The paper "AAUA-2014" is mainly about AAUA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUA-2014 in particular
+1956	675	1	The paper "AAUB-2014" is mainly about AAUB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUB-2014 in particular
+1957	746	1	The paper "AAUC-2014" is mainly about AAUC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUC-2014 in particular
+1958	260	1	The paper "AAUD-2014" is mainly about AAUD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUD-2014 in particular
+1961	782	1	The paper "AAUE-2014" is mainly about AAUE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUE-2014 in particular
+1962	129	1	The paper "AAUF-2014" is mainly about AAUF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUF-2014 in particular
+1963	129	1	The paper "AAUG-2014" is mainly about AAUG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUG-2014 in particular
+1966	1965	1	The paper "AAUH-2014" is mainly about AAUH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUH-2014 in particular
+1970	306	1	The paper "AAUI-2014" is mainly about AAUI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUI-2014 in particular
+1974	434	1	The paper "AAUJ-2014" is mainly about AAUJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUJ-2014 in particular
+1975	434	1	The paper "AAUK-2014" is mainly about AAUK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUK-2014 in particular
+1976	434	1	The paper "AAUL-2014" is mainly about AAUL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUL-2014 in particular
+1985	828	1	The paper "AAUM-2014" is mainly about AAUM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUM-2014 in particular
+1994	449	1	The paper "AAUN-2014" is mainly about AAUN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUN-2014 in particular
+2001	27	1	The paper "AAUO-2014" is mainly about AAUO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUO-2014 in particular
+2013	349	1	The paper "AAUP-2014" is mainly about AAUP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUP-2014 in particular
+2014	92	1	The paper "AAUQ-2014" is mainly about AAUQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUQ-2014 in particular
+2018	1767	1	The paper "AAUR-2014" is mainly about AAUR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUR-2014 in particular
+2021	957	1	The paper "AAUS-2014" is mainly about AAUS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUS-2014 in particular
+2022	1329	1	The paper "AAUT-2014" is mainly about AAUT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUT-2014 in particular
+2029	1159	1	The paper "AAUU-2014" is mainly about AAUU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUU-2014 in particular
+2030	1159	1	The paper "AAUV-2014" is mainly about AAUV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUV-2014 in particular
+2031	1159	1	The paper "AAUW-2014" is mainly about AAUW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUW-2014 in particular
+2033	2032	1	The paper "AAUX-2014" is mainly about AAUX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUX-2014 in particular
+2036	1355	1	The paper "AAUY-2014" is mainly about AAUY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUY-2014 in particular
+2040	895	1	The paper "AAUZ-2014" is mainly about AAUZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAUZ-2014 in particular
+2058	1055	1	The paper "AAVA-2014" is mainly about AAVA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVA-2014 in particular
+2067	450	1	The paper "AAVB-2014" is mainly about AAVB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVB-2014 in particular
+2071	306	1	The paper "AAVC-2014" is mainly about AAVC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVC-2014 in particular
+2074	552	1	The paper "AAVD-2014" is mainly about AAVD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVD-2014 in particular
+2075	2076	1	The paper "AAVE-2014" is mainly about AAVE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVE-2014 in particular
+2078	1415	1	The paper "AAVF-2014" is mainly about AAVF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVF-2014 in particular
+2079	113	1	The paper "AAVG-2014" is mainly about AAVG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVG-2014 in particular
+2083	2082	1	The paper "AAVH-2014" is mainly about AAVH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVH-2014 in particular
+2084	2082	1	The paper "AAVI-2014" is mainly about AAVI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVI-2014 in particular
+2085	2082	1	The paper "AAVJ-2014" is mainly about AAVJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVJ-2014 in particular
+2086	1262	1	The paper "AAVK-2014" is mainly about AAVK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVK-2014 in particular
+2093	107	1	The paper "AAVL-2014" is mainly about AAVL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVL-2014 in particular
+2097	2096	1	The paper "AAVM-2014" is mainly about AAVM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVM-2014 in particular
+2099	2096	1	The paper "AAVN-2014" is mainly about AAVN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVN-2014 in particular
+2100	2096	1	The paper "AAVO-2014" is mainly about AAVO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVO-2014 in particular
+2109	347	1	The paper "AAVP-2014" is mainly about AAVP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVP-2014 in particular
+2116	2117	1	The paper "AAVQ-2014" is mainly about AAVQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVQ-2014 in particular
+2124	2123	1	The paper "AAVR-2014" is mainly about AAVR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVR-2014 in particular
+2130	2129	1	The paper "AAVS-2014" is mainly about AAVS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVS-2014 in particular
+2131	1305	1	The paper "AAVT-2014" is mainly about AAVT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVT-2014 in particular
+2138	333	1	The paper "AAVU-2014" is mainly about AAVU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVU-2014 in particular
+2140	454	1	The paper "AAVV-2014" is mainly about AAVV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVV-2014 in particular
+2148	2147	1	The paper "AAVW-2014" is mainly about AAVW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVW-2014 in particular
+2149	39	1	The paper "AAVX-2014" is mainly about AAVX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVX-2014 in particular
+2153	1473	1	The paper "AAVY-2014" is mainly about AAVY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVY-2014 in particular
+2154	1473	1	The paper "AAVZ-2014" is mainly about AAVZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAVZ-2014 in particular
+2156	768	1	The paper "AAWA-2014" is mainly about AAWA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWA-2014 in particular
+2166	2167	1	The paper "AAWB-2014" is mainly about AAWB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWB-2014 in particular
+2168	2117	1	The paper "AAWC-2014" is mainly about AAWC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWC-2014 in particular
+2172	128	1	The paper "AAWD-2014" is mainly about AAWD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWD-2014 in particular
+2176	1398	1	The paper "AAWE-2014" is mainly about AAWE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWE-2014 in particular
+2180	382	1	The paper "AAWF-2014" is mainly about AAWF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWF-2014 in particular
+2182	1193	1	The paper "AAWG-2014" is mainly about AAWG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWG-2014 in particular
+2184	1193	1	The paper "AAWH-2014" is mainly about AAWH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWH-2014 in particular
+2185	1427	1	The paper "AAWI-2014" is mainly about AAWI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWI-2014 in particular
+2186	1427	1	The paper "AAWJ-2014" is mainly about AAWJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWJ-2014 in particular
+2187	1427	1	The paper "AAWK-2014" is mainly about AAWK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWK-2014 in particular
+2190	326	1	The paper "AAWL-2014" is mainly about AAWL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWL-2014 in particular
+2192	822	1	The paper "AAWM-2014" is mainly about AAWM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWM-2014 in particular
+2193	822	1	The paper "AAWN-2014" is mainly about AAWN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWN-2014 in particular
+2195	1054	1	The paper "AAWO-2014" is mainly about AAWO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWO-2014 in particular
+2196	555	1	The paper "AAWP-2014" is mainly about AAWP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWP-2014 in particular
+2203	2204	1	The paper "AAWQ-2014" is mainly about AAWQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWQ-2014 in particular
+2206	2205	1	The paper "AAWR-2014" is mainly about AAWR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWR-2014 in particular
+2207	343	1	The paper "AAWS-2014" is mainly about AAWS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWS-2014 in particular
+2209	821	1	The paper "AAWT-2014" is mainly about AAWT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWT-2014 in particular
+2210	1370	1	The paper "AAWU-2014" is mainly about AAWU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWU-2014 in particular
+2211	1370	1	The paper "AAWV-2014" is mainly about AAWV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWV-2014 in particular
+2214	942	1	The paper "AAWW-2014" is mainly about AAWW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWW-2014 in particular
+2218	1867	1	The paper "AAWX-2014" is mainly about AAWX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWX-2014 in particular
+2221	2061	1	The paper "AAWY-2014" is mainly about AAWY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWY-2014 in particular
+2222	893	1	The paper "AAWZ-2014" is mainly about AAWZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAWZ-2014 in particular
+2224	1855	1	The paper "AAXA-2014" is mainly about AAXA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXA-2014 in particular
+2225	259	1	The paper "AAXB-2014" is mainly about AAXB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXB-2014 in particular
+2230	1581	1	The paper "AAXC-2014" is mainly about AAXC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXC-2014 in particular
+2232	623	1	The paper "AAXD-2014" is mainly about AAXD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXD-2014 in particular
+2233	1568	1	The paper "AAXE-2014" is mainly about AAXE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXE-2014 in particular
+2234	146	1	The paper "AAXF-2014" is mainly about AAXF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXF-2014 in particular
+2236	1050	1	The paper "AAXG-2014" is mainly about AAXG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXG-2014 in particular
+2237	1819	1	The paper "AAXH-2014" is mainly about AAXH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXH-2014 in particular
+2238	323	1	The paper "AAXI-2014" is mainly about AAXI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXI-2014 in particular
+2239	1300	1	The paper "AAXJ-2014" is mainly about AAXJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXJ-2014 in particular
+2243	2244	1	The paper "AAXK-2014" is mainly about AAXK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXK-2014 in particular
+2250	2251	1	The paper "AAXL-2014" is mainly about AAXL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXL-2014 in particular
+2254	1409	1	The paper "AAXM-2014" is mainly about AAXM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXM-2014 in particular
+2258	327	1	The paper "AAXN-2014" is mainly about AAXN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXN-2014 in particular
+2259	1678	1	The paper "AAXO-2014" is mainly about AAXO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXO-2014 in particular
+2267	180	1	The paper "AAXP-2014" is mainly about AAXP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXP-2014 in particular
+2268	1142	1	The paper "AAXQ-2014" is mainly about AAXQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXQ-2014 in particular
+2274	2272	1	The paper "AAXR-2014" is mainly about AAXR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXR-2014 in particular
+2275	2272	1	The paper "AAXS-2014" is mainly about AAXS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXS-2014 in particular
+2278	587	1	The paper "AAXT-2014" is mainly about AAXT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXT-2014 in particular
+2280	2279	1	The paper "AAXU-2014" is mainly about AAXU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXU-2014 in particular
+2290	1466	1	The paper "AAXV-2014" is mainly about AAXV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXV-2014 in particular
+2293	332	1	The paper "AAXW-2014" is mainly about AAXW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXW-2014 in particular
+2294	555	1	The paper "AAXX-2014" is mainly about AAXX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXX-2014 in particular
+2297	1274	1	The paper "AAXY-2014" is mainly about AAXY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXY-2014 in particular
+2301	2302	1	The paper "AAXZ-2014" is mainly about AAXZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAXZ-2014 in particular
+2303	720	1	The paper "AAYA-2014" is mainly about AAYA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYA-2014 in particular
+2304	720	1	The paper "AAYB-2014" is mainly about AAYB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYB-2014 in particular
+2305	720	1	The paper "AAYC-2014" is mainly about AAYC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYC-2014 in particular
+2308	1352	1	The paper "AAYD-2014" is mainly about AAYD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYD-2014 in particular
+2311	2312	1	The paper "AAYE-2014" is mainly about AAYE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYE-2014 in particular
+2314	449	1	The paper "AAYF-2014" is mainly about AAYF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYF-2014 in particular
+2317	131	1	The paper "AAYG-2014" is mainly about AAYG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYG-2014 in particular
+2318	155	1	The paper "AAYH-2014" is mainly about AAYH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYH-2014 in particular
+2322	2323	1	The paper "AAYI-2014" is mainly about AAYI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYI-2014 in particular
+2325	2202	1	The paper "AAYJ-2014" is mainly about AAYJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYJ-2014 in particular
+2332	604	1	The paper "AAYK-2014" is mainly about AAYK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYK-2014 in particular
+2344	2345	1	The paper "AAYL-2014" is mainly about AAYL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYL-2014 in particular
+2347	1711	1	The paper "AAYM-2014" is mainly about AAYM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYM-2014 in particular
+2348	1602	1	The paper "AAYN-2014" is mainly about AAYN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYN-2014 in particular
+2353	20	1	The paper "AAYO-2014" is mainly about AAYO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYO-2014 in particular
+2357	51	1	The paper "AAYP-2014" is mainly about AAYP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYP-2014 in particular
+2362	289	1	The paper "AAYQ-2014" is mainly about AAYQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYQ-2014 in particular
+2363	289	1	The paper "AAYR-2014" is mainly about AAYR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYR-2014 in particular
+2368	2066	1	The paper "AAYS-2014" is mainly about AAYS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYS-2014 in particular
+2372	468	1	The paper "AAYT-2014" is mainly about AAYT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYT-2014 in particular
+2373	2374	1	The paper "AAYU-2014" is mainly about AAYU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYU-2014 in particular
+2375	2270	1	The paper "AAYV-2014" is mainly about AAYV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYV-2014 in particular
+2379	1466	1	The paper "AAYW-2014" is mainly about AAYW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYW-2014 in particular
+2381	2382	1	The paper "AAYX-2014" is mainly about AAYX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYX-2014 in particular
+2387	2360	1	The paper "AAYY-2014" is mainly about AAYY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYY-2014 in particular
+2392	451	1	The paper "AAYZ-2014" is mainly about AAYZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAYZ-2014 in particular
+2393	113	1	The paper "AAZA-2014" is mainly about AAZA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZA-2014 in particular
+2394	113	1	The paper "AAZB-2014" is mainly about AAZB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZB-2014 in particular
+2396	1310	1	The paper "AAZC-2014" is mainly about AAZC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZC-2014 in particular
+2400	261	1	The paper "AAZD-2014" is mainly about AAZD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZD-2014 in particular
+2403	2404	1	The paper "AAZE-2014" is mainly about AAZE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZE-2014 in particular
+2407	2408	1	The paper "AAZF-2014" is mainly about AAZF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZF-2014 in particular
+2410	30	1	The paper "AAZG-2014" is mainly about AAZG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZG-2014 in particular
+2411	2118	1	The paper "AAZH-2014" is mainly about AAZH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZH-2014 in particular
+2413	2159	1	The paper "AAZI-2014" is mainly about AAZI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZI-2014 in particular
+2414	813	1	The paper "AAZJ-2014" is mainly about AAZJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZJ-2014 in particular
+2415	2416	1	The paper "AAZK-2014" is mainly about AAZK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZK-2014 in particular
+2417	1829	1	The paper "AAZL-2014" is mainly about AAZL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZL-2014 in particular
+2421	2420	1	The paper "AAZM-2014" is mainly about AAZM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZM-2014 in particular
+2422	2423	1	The paper "AAZN-2014" is mainly about AAZN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZN-2014 in particular
+2429	1186	1	The paper "AAZO-2014" is mainly about AAZO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZO-2014 in particular
+2432	2431	1	The paper "AAZP-2014" is mainly about AAZP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZP-2014 in particular
+2435	466	1	The paper "AAZQ-2014" is mainly about AAZQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZQ-2014 in particular
+2437	1053	1	The paper "AAZR-2014" is mainly about AAZR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZR-2014 in particular
+2439	1726	1	The paper "AAZS-2014" is mainly about AAZS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZS-2014 in particular
+2440	702	1	The paper "AAZT-2014" is mainly about AAZT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZT-2014 in particular
+2441	46	1	The paper "AAZU-2014" is mainly about AAZU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZU-2014 in particular
+2442	1968	1	The paper "AAZV-2014" is mainly about AAZV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZV-2014 in particular
+2444	585	1	The paper "AAZW-2014" is mainly about AAZW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZW-2014 in particular
+2445	2026	1	The paper "AAZX-2014" is mainly about AAZX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZX-2014 in particular
+2446	2026	1	The paper "AAZY-2014" is mainly about AAZY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZY-2014 in particular
+2448	2449	1	The paper "AAZZ-2014" is mainly about AAZZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight AAZZ-2014 in particular
+2450	2425	1	The paper "ABAA-2014" is mainly about ABAA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAA-2014 in particular
+2454	2453	1	The paper "ABAB-2014" is mainly about ABAB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAB-2014 in particular
+2455	1517	1	The paper "ABAC-2014" is mainly about ABAC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAC-2014 in particular
+2456	629	1	The paper "ABAD-2014" is mainly about ABAD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAD-2014 in particular
+2459	1416	1	The paper "ABAE-2014" is mainly about ABAE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAE-2014 in particular
+2461	2043	1	The paper "ABAF-2014" is mainly about ABAF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAF-2014 in particular
+2462	1055	1	The paper "ABAG-2014" is mainly about ABAG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAG-2014 in particular
+2463	1475	1	The paper "ABAH-2014" is mainly about ABAH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAH-2014 in particular
+2464	1417	1	The paper "ABAI-2014" is mainly about ABAI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAI-2014 in particular
+2465	341	1	The paper "ABAJ-2014" is mainly about ABAJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAJ-2014 in particular
+2467	1179	1	The paper "ABAK-2014" is mainly about ABAK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAK-2014 in particular
+2470	2469	1	The paper "ABAL-2014" is mainly about ABAL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAL-2014 in particular
+2475	1382	1	The paper "ABAM-2014" is mainly about ABAM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAM-2014 in particular
+2478	196	1	The paper "ABAN-2014" is mainly about ABAN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAN-2014 in particular
+2482	727	1	The paper "ABAO-2014" is mainly about ABAO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAO-2014 in particular
+2485	2173	1	The paper "ABAP-2014" is mainly about ABAP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAP-2014 in particular
+2488	342	1	The paper "ABAQ-2014" is mainly about ABAQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAQ-2014 in particular
+2493	1993	1	The paper "ABAR-2014" is mainly about ABAR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAR-2014 in particular
+2496	451	1	The paper "ABAS-2014" is mainly about ABAS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAS-2014 in particular
+2499	2341	1	The paper "ABAT-2014" is mainly about ABAT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAT-2014 in particular
+2502	2142	1	The paper "ABAU-2014" is mainly about ABAU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAU-2014 in particular
+2506	1472	1	The paper "ABAV-2014" is mainly about ABAV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAV-2014 in particular
+2516	1048	1	The paper "ABAW-2014" is mainly about ABAW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAW-2014 in particular
+2522	51	1	The paper "ABAX-2014" is mainly about ABAX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAX-2014 in particular
+2523	203	1	The paper "ABAY-2014" is mainly about ABAY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAY-2014 in particular
+2526	1343	1	The paper "ABAZ-2014" is mainly about ABAZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABAZ-2014 in particular
+2530	336	1	The paper "ABBA-2014" is mainly about ABBA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBA-2014 in particular
+2537	2178	1	The paper "ABBB-2014" is mainly about ABBB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBB-2014 in particular
+2539	629	1	The paper "ABBC-2014" is mainly about ABBC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBC-2014 in particular
+2540	629	1	The paper "ABBD-2014" is mainly about ABBD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBD-2014 in particular
+2545	1068	1	The paper "ABBE-2014" is mainly about ABBE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBE-2014 in particular
+2559	1156	1	The paper "ABBF-2014" is mainly about ABBF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBF-2014 in particular
+2561	2330	1	The paper "ABBG-2014" is mainly about ABBG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBG-2014 in particular
+2564	821	1	The paper "ABBH-2014" is mainly about ABBH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBH-2014 in particular
+2569	1058	1	The paper "ABBI-2014" is mainly about ABBI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBI-2014 in particular
+2573	225	1	The paper "ABBJ-2014" is mainly about ABBJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBJ-2014 in particular
+2575	2408	1	The paper "ABBK-2014" is mainly about ABBK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBK-2014 in particular
+2576	1664	1	The paper "ABBL-2014" is mainly about ABBL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBL-2014 in particular
+2577	331	1	The paper "ABBM-2014" is mainly about ABBM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBM-2014 in particular
+2578	344	1	The paper "ABBN-2014" is mainly about ABBN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBN-2014 in particular
+2580	29	1	The paper "ABBO-2014" is mainly about ABBO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBO-2014 in particular
+2582	735	1	The paper "ABBP-2014" is mainly about ABBP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBP-2014 in particular
+2596	330	1	The paper "ABBQ-2014" is mainly about ABBQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBQ-2014 in particular
+2597	819	1	The paper "ABBR-2014" is mainly about ABBR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBR-2014 in particular
+2599	2350	1	The paper "ABBS-2014" is mainly about ABBS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBS-2014 in particular
+2601	1300	1	The paper "ABBT-2014" is mainly about ABBT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBT-2014 in particular
+2604	2065	1	The paper "ABBU-2014" is mainly about ABBU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBU-2014 in particular
+2605	291	1	The paper "ABBV-2014" is mainly about ABBV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBV-2014 in particular
+2608	2060	1	The paper "ABBW-2014" is mainly about ABBW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBW-2014 in particular
+2610	1192	1	The paper "ABBX-2014" is mainly about ABBX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBX-2014 in particular
+2611	2227	1	The paper "ABBY-2014" is mainly about ABBY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBY-2014 in particular
+2615	337	1	The paper "ABBZ-2014" is mainly about ABBZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABBZ-2014 in particular
+2616	1225	1	The paper "ABCA-2014" is mainly about ABCA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCA-2014 in particular
+2621	883	1	The paper "ABCB-2014" is mainly about ABCB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCB-2014 in particular
+2625	1993	1	The paper "ABCC-2014" is mainly about ABCC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCC-2014 in particular
+2627	303	1	The paper "ABCD-2014" is mainly about ABCD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCD-2014 in particular
+2629	819	1	The paper "ABCE-2014" is mainly about ABCE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCE-2014 in particular
+2630	701	1	The paper "ABCF-2014" is mainly about ABCF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCF-2014 in particular
+2631	701	1	The paper "ABCG-2014" is mainly about ABCG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCG-2014 in particular
+2632	701	1	The paper "ABCH-2014" is mainly about ABCH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCH-2014 in particular
+2633	1690	1	The paper "ABCI-2014" is mainly about ABCI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCI-2014 in particular
+2634	2159	1	The paper "ABCJ-2014" is mainly about ABCJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCJ-2014 in particular
+2635	1274	1	The paper "ABCK-2014" is mainly about ABCK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCK-2014 in particular
+2637	2638	1	The paper "ABCL-2014" is mainly about ABCL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCL-2014 in particular
+2639	2341	1	The paper "ABCM-2014" is mainly about ABCM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCM-2014 in particular
+2640	196	1	The paper "ABCN-2014" is mainly about ABCN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCN-2014 in particular
+2642	711	1	The paper "ABCO-2014" is mainly about ABCO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCO-2014 in particular
+2643	2300	1	The paper "ABCP-2014" is mainly about ABCP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCP-2014 in particular
+2645	1429	1	The paper "ABCQ-2014" is mainly about ABCQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCQ-2014 in particular
+2646	2491	1	The paper "ABCR-2014" is mainly about ABCR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCR-2014 in particular
+2647	449	1	The paper "ABCS-2014" is mainly about ABCS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCS-2014 in particular
+2649	1052	1	The paper "ABCT-2014" is mainly about ABCT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCT-2014 in particular
+2652	1666	1	The paper "ABCU-2014" is mainly about ABCU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCU-2014 in particular
+2653	50	1	The paper "ABCV-2014" is mainly about ABCV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCV-2014 in particular
+2656	2655	1	The paper "ABCW-2014" is mainly about ABCW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCW-2014 in particular
+2658	20	1	The paper "ABCX-2014" is mainly about ABCX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCX-2014 in particular
+2664	777	1	The paper "ABCY-2014" is mainly about ABCY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCY-2014 in particular
+2667	51	1	The paper "ABCZ-2014" is mainly about ABCZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABCZ-2014 in particular
+2668	2669	1	The paper "ABDA-2014" is mainly about ABDA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDA-2014 in particular
+2672	1503	1	The paper "ABDB-2014" is mainly about ABDB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDB-2014 in particular
+2673	777	1	The paper "ABDC-2014" is mainly about ABDC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDC-2014 in particular
+2675	1737	1	The paper "ABDD-2014" is mainly about ABDD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDD-2014 in particular
+2676	606	1	The paper "ABDE-2014" is mainly about ABDE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDE-2014 in particular
+2680	2679	1	The paper "ABDF-2014" is mainly about ABDF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDF-2014 in particular
+2681	2008	1	The paper "ABDG-2014" is mainly about ABDG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDG-2014 in particular
+2688	642	1	The paper "ABDH-2014" is mainly about ABDH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDH-2014 in particular
+2694	908	1	The paper "ABDI-2014" is mainly about ABDI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDI-2014 in particular
+2695	908	1	The paper "ABDJ-2014" is mainly about ABDJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDJ-2014 in particular
+2698	1260	1	The paper "ABDK-2014" is mainly about ABDK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDK-2014 in particular
+2702	2051	1	The paper "ABDL-2014" is mainly about ABDL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDL-2014 in particular
+2703	2491	1	The paper "ABDM-2014" is mainly about ABDM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDM-2014 in particular
+2707	1049	1	The paper "ABDN-2014" is mainly about ABDN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDN-2014 in particular
+2710	809	1	The paper "ABDO-2014" is mainly about ABDO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDO-2014 in particular
+2713	196	1	The paper "ABDP-2014" is mainly about ABDP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDP-2014 in particular
+2718	212	1	The paper "ABDQ-2014" is mainly about ABDQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDQ-2014 in particular
+2724	1098	1	The paper "ABDR-2014" is mainly about ABDR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDR-2014 in particular
+2727	1813	1	The paper "ABDS-2014" is mainly about ABDS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDS-2014 in particular
+2734	585	1	The paper "ABDT-2014" is mainly about ABDT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDT-2014 in particular
+2744	689	1	The paper "ABDU-2014" is mainly about ABDU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDU-2014 in particular
+2745	1419	1	The paper "ABDV-2014" is mainly about ABDV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDV-2014 in particular
+2748	1410	1	The paper "ABDW-2014" is mainly about ABDW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDW-2014 in particular
+2752	2753	1	The paper "ABDX-2014" is mainly about ABDX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDX-2014 in particular
+2755	20	1	The paper "ABDY-2014" is mainly about ABDY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDY-2014 in particular
+2757	2004	1	The paper "ABDZ-2014" is mainly about ABDZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABDZ-2014 in particular
+2760	1459	1	The paper "ABEA-2014" is mainly about ABEA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEA-2014 in particular
+2767	468	1	The paper "ABEB-2014" is mainly about ABEB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEB-2014 in particular
+2768	2158	1	The paper "ABEC-2014" is mainly about ABEC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEC-2014 in particular
+2771	560	1	The paper "ABED-2014" is mainly about ABED-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABED-2014 in particular
+2775	2145	1	The paper "ABEE-2014" is mainly about ABEE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEE-2014 in particular
+2778	1475	1	The paper "ABEF-2014" is mainly about ABEF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEF-2014 in particular
+2780	84	1	The paper "ABEG-2014" is mainly about ABEG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEG-2014 in particular
+2784	1561	1	The paper "ABEH-2014" is mainly about ABEH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEH-2014 in particular
+2786	1352	1	The paper "ABEI-2014" is mainly about ABEI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEI-2014 in particular
+2787	1092	1	The paper "ABEJ-2014" is mainly about ABEJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEJ-2014 in particular
+2790	1301	1	The paper "ABEK-2014" is mainly about ABEK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEK-2014 in particular
+2791	47	1	The paper "ABEL-2014" is mainly about ABEL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEL-2014 in particular
+2792	1759	1	The paper "ABEM-2014" is mainly about ABEM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEM-2014 in particular
+2793	1045	1	The paper "ABEN-2014" is mainly about ABEN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEN-2014 in particular
+2795	2228	1	The paper "ABEO-2014" is mainly about ABEO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEO-2014 in particular
+2796	1759	1	The paper "ABEP-2014" is mainly about ABEP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEP-2014 in particular
+2801	1411	1	The paper "ABEQ-2014" is mainly about ABEQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEQ-2014 in particular
+2803	334	1	The paper "ABER-2014" is mainly about ABER-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABER-2014 in particular
+2807	2398	1	The paper "ABES-2014" is mainly about ABES-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABES-2014 in particular
+2808	2662	1	The paper "ABET-2014" is mainly about ABET-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABET-2014 in particular
+2810	2145	1	The paper "ABEU-2014" is mainly about ABEU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEU-2014 in particular
+2811	1530	1	The paper "ABEV-2014" is mainly about ABEV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEV-2014 in particular
+2813	1351	1	The paper "ABEW-2014" is mainly about ABEW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEW-2014 in particular
+2814	874	1	The paper "ABEX-2014" is mainly about ABEX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEX-2014 in particular
+2815	459	1	The paper "ABEY-2014" is mainly about ABEY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEY-2014 in particular
+2826	1254	1	The paper "ABEZ-2014" is mainly about ABEZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABEZ-2014 in particular
+2827	1254	1	The paper "ABFA-2014" is mainly about ABFA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFA-2014 in particular
+2830	2831	1	The paper "ABFB-2014" is mainly about ABFB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFB-2014 in particular
+2833	29	1	The paper "ABFC-2014" is mainly about ABFC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFC-2014 in particular
+2837	2137	1	The paper "ABFD-2014" is mainly about ABFD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFD-2014 in particular
+2838	2229	1	The paper "ABFE-2014" is mainly about ABFE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFE-2014 in particular
+2864	454	1	The paper "ABFF-2014" is mainly about ABFF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFF-2014 in particular
+2869	1437	1	The paper "ABFG-2014" is mainly about ABFG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFG-2014 in particular
+2873	584	1	The paper "ABFH-2014" is mainly about ABFH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFH-2014 in particular
+2874	1419	1	The paper "ABFI-2014" is mainly about ABFI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFI-2014 in particular
+2893	821	1	The paper "ABFJ-2014" is mainly about ABFJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFJ-2014 in particular
+2894	2070	1	The paper "ABFK-2014" is mainly about ABFK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFK-2014 in particular
+2896	2063	1	The paper "ABFL-2014" is mainly about ABFL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFL-2014 in particular
+2898	47	1	The paper "ABFM-2014" is mainly about ABFM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFM-2014 in particular
+2900	355	1	The paper "ABFN-2014" is mainly about ABFN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFN-2014 in particular
+2902	272	1	The paper "ABFO-2014" is mainly about ABFO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFO-2014 in particular
+2907	1322	1	The paper "ABFP-2014" is mainly about ABFP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFP-2014 in particular
+2912	290	1	The paper "ABFQ-2014" is mainly about ABFQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFQ-2014 in particular
+2914	778	1	The paper "ABFR-2014" is mainly about ABFR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFR-2014 in particular
+2916	459	1	The paper "ABFS-2014" is mainly about ABFS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFS-2014 in particular
+2917	2055	1	The paper "ABFT-2014" is mainly about ABFT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFT-2014 in particular
+2918	2244	1	The paper "ABFU-2014" is mainly about ABFU-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFU-2014 in particular
+2919	1025	1	The paper "ABFV-2014" is mainly about ABFV-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFV-2014 in particular
+2923	1719	1	The paper "ABFW-2014" is mainly about ABFW-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFW-2014 in particular
+2932	642	1	The paper "ABFX-2014" is mainly about ABFX-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFX-2014 in particular
+2936	433	1	The paper "ABFY-2014" is mainly about ABFY-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFY-2014 in particular
+2939	1098	1	The paper "ABFZ-2014" is mainly about ABFZ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABFZ-2014 in particular
+2943	936	1	The paper "ABGA-2014" is mainly about ABGA-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGA-2014 in particular
+2944	936	1	The paper "ABGB-2014" is mainly about ABGB-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGB-2014 in particular
+2947	1602	1	The paper "ABGC-2014" is mainly about ABGC-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGC-2014 in particular
+2950	2160	1	The paper "ABGD-2014" is mainly about ABGD-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGD-2014 in particular
+2956	2282	1	The paper "ABGE-2014" is mainly about ABGE-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGE-2014 in particular
+2957	1591	1	The paper "ABGF-2014" is mainly about ABGF-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGF-2014 in particular
+2958	2091	1	The paper "ABGG-2014" is mainly about ABGG-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGG-2014 in particular
+2965	1467	1	The paper "ABGH-2014" is mainly about ABGH-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGH-2014 in particular
+2967	21	1	The paper "ABGI-2014" is mainly about ABGI-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGI-2014 in particular
+2969	2064	1	The paper "ABGJ-2014" is mainly about ABGJ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGJ-2014 in particular
+2970	2612	1	The paper "ABGK-2014" is mainly about ABGK-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGK-2014 in particular
+2983	1106	1	The paper "ABGL-2014" is mainly about ABGL-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGL-2014 in particular
+3001	2160	1	The paper "ABGM-2014" is mainly about ABGM-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGM-2014 in particular
+3003	2926	1	The paper "ABGN-2014" is mainly about ABGN-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGN-2014 in particular
+3015	1467	1	The paper "ABGO-2014" is mainly about ABGO-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGO-2014 in particular
+3018	2587	1	The paper "ABGP-2014" is mainly about ABGP-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGP-2014 in particular
+3026	808	1	The paper "ABGQ-2014" is mainly about ABGQ-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGQ-2014 in particular
+3034	346	1	The paper "ABGR-2014" is mainly about ABGR-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGR-2014 in particular
+3035	2160	1	The paper "ABGS-2014" is mainly about ABGS-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGS-2014 in particular
+3038	1051	1	The paper "ABGT-2014" is mainly about ABGT-2014.\nThis says about all about both its strong and weak suits.\nHowever, the reviewer would like to highlight ABGT-2014 in particular
 \.
 
 
