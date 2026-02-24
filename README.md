@@ -33,3 +33,14 @@ _RODI: Benchmarking Relational-to-Ontology Mapping Generation Quality_.  Semanti
 [3] RODI Introductory Presentation at ESWC 2015 (<a href="http://videolectures.net/eswc2015_pinkel_data_integration/">videolectures.net</a>)
 
 [4] E. Jimenez et al. _BOOTOX: Practical Mapping of RDBs to OWL 2_. In: _ISWC_ 2015. (<a href="http://www.cs.ox.ac.uk/files/7411/main-bootox-iswc-15.pdf">PDF</a>)
+
+## Version Notes
+
+As of version 2.1 (February 2026), some scenario files have been updated to fix small
+inconsistencies and to better align SQL schemas, SPARQL queries, and ontology terms.
+Some naming differences and denormalization details were adjusted so that all evaluation
+queries run correctly across scenarios.
+
+These fixes improve the accuracy of the scenarios and may lead to slightly different 
+evaluation results compared to earlier releases (≤ 2.0). Users aiming to reproduce previously 
+published results should use the corresponding benchmark version.

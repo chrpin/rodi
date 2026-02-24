@@ -2,7 +2,7 @@ name=Q10 (Reviews)
 orderNum=80
 
 sql=SELECT COUNT(*) \n\
-FROM "Review"
+FROM "Document" WHERE "Document"."TYPE" = 1
 
 sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
 prefix : <http://cmt#> \n\

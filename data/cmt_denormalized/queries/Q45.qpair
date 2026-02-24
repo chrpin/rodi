@@ -2,8 +2,8 @@ name=Q45 (Reviewers <-> Reviews)
 orderNum=500
 
 sql=SELECT COUNT(*) \n\
-FROM "Review" \n\
-	JOIN "Person" ON "Review"."writtenBy" = "Person"."ID"
+FROM "Document" \n\
+	JOIN "Person" ON "Document"."writtenBy" = "Person"."ID" WHERE "Document"."TYPE" = 1;
 
 sparql=prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n\
 prefix : <http://cmt#> \n\

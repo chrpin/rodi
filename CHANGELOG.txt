@@ -1,5 +1,22 @@
-RODI benchmark distribution, version 2.0
+RODI benchmark distribution, version 2.1
 ========================================
+
+2.1 (community update, Feb 2026)
+--------------------------------
++ fixed several small inconsistencies across scenario files to align SQL schemas, SPARQL queries, ontology terms, and initialization data
+  - cmt_denormalized:
+    * Q10/Q38/Q45 referred to non-existent SQL table "Review" → denormalized into "Document" table
+      - extended "Document" table with a denormalized "comment" field (Review column)
+      - updated init data and related queries accordingly
+    * Q28 used SPARQL object :Program_committee (non-existent) and queried SQL column "ProgramCommittee"."label" (non-existent)
+      - corrected SPARQL object to :ProgramCommittee
+      - added missing "label" column to ProgramCommittee SQL table and updated init data
+  - cmt_structured:
+    * Q28: corrected :Program_committee → :ProgramCommittee
+  - conferences_noFks / conferences_renamed / conferences_structured:
+    * Q30: used :has_an_isbn but ontology defines :has_an_ISBN (case mismatch) → fixed
++ added a note that evaluation results may differ slightly from earlier versions (≤ 2.0)
+
 
 2.0 (second public release, Mar 2016)
 -------------------------------------
