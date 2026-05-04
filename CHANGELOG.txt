@@ -1,6 +1,15 @@
 RODI benchmark distribution, version 2.1
 ========================================
 
+2.1 (community update, May 2026)
+--------------------------------
++ fixed additional inconsistencies in query definitions and initialization data
+  - conferences_noFks / conferences_renamed / conferences_structured:
+    * corrected query pairs where SQL COUNT(*) was compared with SPARQL value lists
+  - cmt_structured:
+    * added missing data tuples to satisfy inclusion dependencies required for query Q12
+
+
 2.1 (community update, Feb 2026)
 --------------------------------
 + fixed several small inconsistencies across scenario files to align SQL schemas, SPARQL queries, ontology terms, and initialization data

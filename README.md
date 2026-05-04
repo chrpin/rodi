@@ -36,7 +36,7 @@ _RODI: Benchmarking Relational-to-Ontology Mapping Generation Quality_.  Semanti
 
 ## Version Notes
 
-As of version 2.1 (February 2026), some scenario files have been updated to fix small
+As of version 2.1 (February–May 2026), some scenario files have been updated to fix small
 inconsistencies and to better align SQL schemas, SPARQL queries, and ontology terms.
 Some naming differences and denormalization details were adjusted so that all evaluation
 queries run correctly across scenarios.
