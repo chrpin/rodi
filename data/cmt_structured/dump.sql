@@ -3304,6 +3304,12 @@ COPY "ProgramCommitteeMember" ("ID", "maxPapers", "addedBy") FROM stdin;
 637	\N	\N
 393	\N	\N
 1089	\N	\N
+1034	\N	\N
+678	\N	\N
+535	\N	\N
+24	\N	\N
+473	\N	\N
+200	\N	\N
 \.
 
 
